@@ -270,8 +270,8 @@ $app_list_strings = array (
   'payment_terms' =>
   array (
     '' => '',
-    'Net 15' => 'Tròn 15',
-    'Net 30' => 'Tròn 30',
+    'Net 15' => 'Vòng 15',
+    'Net 30' => 'Vòng 30',
   ),
   'sales_stage_default_key' => 'Triển vọng',
   'sales_stage_dom' =>
