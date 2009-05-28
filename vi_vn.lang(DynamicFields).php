@@ -44,16 +44,16 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 
 $mod_strings = array (
-  'LNK_NEW_CALL' => 'L?ch H?i Tho?i',
-  'LNK_NEW_MEETING' => 'L?ch H?p',
-  'LNK_NEW_TASK' => 'Nhi?m v?',
-  'LNK_NEW_NOTE' => 'K�m g?i file',
-  'LNK_NEW_EMAIL' => 'H?at d?ng Mail',
-  'LNK_CALL_LIST' => 'G?i',
-  'LNK_MEETING_LIST' => 'Hop.',
-  'LNK_TASK_LIST' => 'Nhi?m v?',
-  'LNK_NOTE_LIST' => 'Ghi Ch�',
-  'LNK_EMAIL_LIST' => 'Mail',
+  'LNK_NEW_CALL' => 'Lịch hội thoại',
+  'LNK_NEW_MEETING' => 'Lịch họp',
+  'LNK_NEW_TASK' => 'Nhiệm vụ',
+  'LNK_NEW_NOTE' => 'Gửi kèm file',
+  'LNK_NEW_EMAIL' => 'Email hoạt động',
+  'LNK_CALL_LIST' => 'Gửi',
+  'LNK_MEETING_LIST' => 'Họp',
+  'LNK_TASK_LIST' => 'Nhiệm vụ',
+  'LNK_NOTE_LIST' => 'Ghi Chú',
+  'LNK_EMAIL_LIST' => 'Email',
 
 );
 
