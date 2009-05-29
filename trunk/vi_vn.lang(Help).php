@@ -43,21 +43,21 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'T�i kho?n',
-  'LBL_MODULE_TITLE' => 'T�i kho?n: Home',
-  'LBL_SEARCH_FORM_TITLE' => 'T�m ki?m t�i kho?n',
-  'LBL_LIST_FORM_TITLE' => 'Danh s�ch t�i kho?n',
-  'LBL_NEW_FORM_TITLE' => 'T?o t�i kho?n',
-  'LNK_NEW_CONTACT' => 'T?o m?i li�n h?',
-  'LNK_NEW_ACCOUNT' => 'T?o t�i kho?n',
-  'LNK_NEW_OPPORTUNITY' => 'T?o co h?i ngh? nghi?p',
-  'LNK_NEW_CASE' => 'T?o Case',
-  'LNK_NEW_NOTE' => 'T?o ra luu � ho?c g?i k�m',
-  'LNK_NEW_CALL' => 'L?ch cu?c g?i',
-  'LNK_NEW_EMAIL' => 'Archive Email',
-  'LNK_NEW_MEETING' => 'Schedule Meeting',
-  'LNK_NEW_TASK' => 'Create Task',
-  'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
+  'LBL_MODULE_NAME' => 'Hồ sơ',
+  'LBL_MODULE_TITLE' => 'Hồ sơ: Trang',
+  'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm hồ sơ',
+  'LBL_LIST_FORM_TITLE' => 'Danh sách hồ sơ ',
+  'LBL_NEW_FORM_TITLE' => 'Tạo hồ sơ',
+  'LNK_NEW_CONTACT' => 'Tạo liên lạc',
+  'LNK_NEW_ACCOUNT' => 'Tạo hồ sơ',
+  'LNK_NEW_OPPORTUNITY' => 'Tạo cơ hội nghề nghiệp',
+  'LNK_NEW_CASE' => 'Tạo tình huốn',
+  'LNK_NEW_NOTE' => 'Lưu ý tạo ra hoặc gửi kèm',
+  'LNK_NEW_CALL' => 'Lịch cuộc gọi',
+  'LNK_NEW_EMAIL' => 'Lưu trữ mail',
+  'LNK_NEW_MEETING' => 'Lịch họp',
+  'LNK_NEW_TASK' => 'Tạo ra các tác vụ',
+  'ERR_DELETE_RECORD' => 'Một số hồ sơ phải được chỉ định để xóa tài khoản.',
 );
 
 
