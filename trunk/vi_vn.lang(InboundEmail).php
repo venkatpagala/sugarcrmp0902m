@@ -163,7 +163,7 @@ $mod_strings = array(
 	'LBL_TLS'				=> 'Sử dụng TLS',
 	'LBL_WARN_IMAP_TITLE'	=> 'Tạm dừng Inbound Email',
 	'LBL_WARN_IMAP'			=> 'Cảnh báo:',
-	'LBL_WARN_NO_IMAP'		=> 'Inbound Email <b>không thể</b> function cùng với IMAP c-thư viện cho phép khách hàng/PHP biên soạn với các modul. Xin vui lòng liên hệ với quản trị viên của bạn để giải quyết vấn đề này.',
+	'LBL_WARN_NO_IMAP'		=> 'Inbound Email <b>không thể</b> có cùng chức năng với IMAP c-thư viện cho phép khách hàng/PHP biên soạn với các modul. Xin vui lòng liên hệ với quản trị viên của bạn để giải quyết vấn đề này.',
 
 	'LNK_CREATE_GROUP'		=> 'Tạo một nhóm mới',
 	'LNK_LIST_CREATE_NEW'	=> 'Giao diện tài khoản Email mới',
