@@ -35,9 +35,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * "Powered by SugarCRM".
  ********************************************************************************/
 $mod_strings = array(
-'LBL_MODULE_NAME'=>'Label Editor',
-'LBL_KEY'=>'Key:',
-'LBL_VALUE'=>'Value:',
+'LBL_MODULE_NAME'=>'Chỉnh nhãn',
+'LBL_KEY'=>'Khóa:',
+'LBL_VALUE'=>'Giá trị:',
 );
 
 ?>
