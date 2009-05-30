@@ -179,8 +179,8 @@ $mod_strings = array(
 
     'LBL_STATUS_ACTIVE'     => 'Hoạt động',
     'LBL_STATUS_INACTIVE'   => 'Không hoạt động',
-    'LBL_IS_PERSONAL' => 'cá nhân',
-    'LBL_IS_GROUP' => 'nhóm',
+    'LBL_IS_PERSONAL' => 'Cá nhân',
+    'LBL_IS_GROUP' => 'Nhóm',
 );
 
 ?>
