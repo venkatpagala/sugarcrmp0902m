@@ -151,7 +151,7 @@ $app_list_strings = array (
 
 
 
-    'Users' => 'Ngừoi sử dụng'
+    'Users' => 'Người sử dụng'
         ),
 
   'checkbox_dom'=> array(
@@ -214,7 +214,7 @@ $app_list_strings = array (
   'lead_source_dom' =>
   array (
     '' => '',
-    'Cold Call' => 'Mờii chào',
+    'Cold Call' => 'Mời chào',
     'Existing Customer' => 'Khách hàng cũ',
     'Self Generated' => 'Tự tạo',
     'Employee' => 'Nhân viên',

@@ -47,10 +47,10 @@ $mod_strings = array (
 // OOTB Scheduler Job Names:
 'LBL_OOTB_WORKFLOW'		=> 'Quy trình xử lý luồng công việc',
 'LBL_OOTB_REPORTS'		=> 'Chạy báo cáo lập biểu đồ công việc',
-'LBL_OOTB_IE'			=> 'Check Inbound Mailboxes',
+'LBL_OOTB_IE'			=> 'Kiểm tra hộp thư nội bộ',
 'LBL_OOTB_BOUNCE'		=> 'Run Nightly Process Bounced Campaign Emails',
 'LBL_OOTB_CAMPAIGN'		=> 'Run Nightly Mass Email Campaigns',
-'LBL_OOTB_PRUNE'		=> 'Prune Database on 1st of Month',
+'LBL_OOTB_PRUNE'		=> 'Sửa dữ liệu vào ngày đầu tiên của tháng',
 'LBL_OOTB_TRACKER'		=> 'Prune tracker tables',
 'LBL_UPDATE_TRACKER_SESSIONS' => 'Update tracker_sessions table',
 
@@ -136,17 +136,17 @@ $mod_strings = array (
 
 
 // Messages
-'SOCK_GREETING' => "\nThis is the interface for SugarCRM Schedulers Service. \n[ Available daemon commands: start|restart|shutdown|status ]\nTo quit, type 'quit'.  To shutdown the service 'shutdown'.\n",
-'ERR_DELETE_RECORD' => 'You must specify a record number to delete the schedule.',
-'ERR_CRON_SYNTAX' => 'Invalid Cron syntax',
-'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+'SOCK_GREETING' => "\nĐây là giao diện cho dịch vụ lập lịch trình của SugarCRM. \n[ Những lệnh tiện ích có sẵn: start|restart|shutdown|status ]\nĐể thoát, gõ 'quit'.  Để tắt dịch vụ 'shutdown'.\n",
+'ERR_DELETE_RECORD' => 'Bạn phải chỉ định số bản ghi để xóa lịch trình.',
+'ERR_CRON_SYNTAX' => ' Cron syntax không hợp lệ',
+'NTC_DELETE_CONFIRMATION' => 'Bạn có chắc là bạn muốn xóa bản ghi này không?',
 'NTC_STATUS' => 'Set status to Inactive to remove this schedule from the Scheduler dropdown lists',
 'NTC_LIST_ORDER' => 'Set the order this schedule will appear in the Scheduler dropdown lists',
-'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'To Setup Windows Scheduler',
-'LBL_CRON_INSTRUCTIONS_LINUX' => 'To Setup Crontab',
-'LBL_CRON_LINUX_DESC' => 'Add this line to your crontab: ',
-'LBL_CRON_WINDOWS_DESC' => 'Create a batch file with the following commands: ',
-'LBL_NO_PHP_CLI' => 'If your host does not have the PHP binary available, you can use wget or curl to launch your Jobs.<br>for wget: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;wget --quiet --non-verbose '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1</b><br>for curl: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;curl --silent '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1', 
+'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Để cài đặt lịch trình cho Windows',
+'LBL_CRON_INSTRUCTIONS_LINUX' => 'Để cài đặt Crontab',
+'LBL_CRON_LINUX_DESC' => 'Cho thêm dòng này vào crontab của bạn: ',
+'LBL_CRON_WINDOWS_DESC' => 'Tạo một tệp bó với những lệnh sau: ',
+'LBL_NO_PHP_CLI' => 'Nếu máy chủ của bạn không có sẵn PHP nhị phân, bạn có thể sử dụng wget hoặc curl để bắt đầu chạy your Jobs.<br>cho wget: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;wget --quiet --non-verbose '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1</b><br>for curl: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;curl --silent '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1', 
 // Subpanels
 'LBL_JOBS_SUBPANEL_TITLE'	=> 'Job Log',
 'LBL_EXECUTE_TIME'			=> 'Execute Time',
