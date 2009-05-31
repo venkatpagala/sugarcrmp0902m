@@ -214,7 +214,7 @@ $app_list_strings = array (
   'lead_source_dom' =>
   array (
     '' => '',
-    'Cold Call' => 'Mờii chào',
+    'Cold Call' => 'Mời chào',
     'Existing Customer' => 'Khách hàng cũ',
     'Self Generated' => 'Tự tạo',
     'Employee' => 'Nhân viên',
@@ -434,7 +434,7 @@ $app_list_strings = array (
     'project_task_priority_default' => 'Trung bình',
 
     'project_task_status_options' => array (
-        'Not Started' => 'Chưa băt đầu',
+        'Not Started' => 'Chưa bắt đầu',
         'In Progress' => 'Ðang tiến hành',
         'Completed' => 'Kết thúc',
         'Pending Input' => 'Trì hoãn',

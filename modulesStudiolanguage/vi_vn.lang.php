@@ -56,13 +56,13 @@ $mod_strings = array (
 'LBL_STAGING_AREA' => 'Vùng để (kéo và thả các bản ghi ở đây)',
 'LBL_SUGAR_FIELDS_STAGE' => 'Các trường của Sugar (kéo và thả các bản ghi ở đây)',
 'LBL_SUGAR_BIN_STAGE' => 'Thùng của Sugar(Chọn bản ghi ở đây để cho vào vùng để)',
-'LBL_VIEW_SUGAR_FIELDS' => 'View Sugar Fields',
+'LBL_VIEW_SUGAR_FIELDS' => 'Xem các trường của Sugar',
 'LBL_VIEW_SUGAR_BIN' => 'Xem thùng Sugar', 
 'LBL_FAILED_TO_SAVE' => 'Không thể lưu',
 'LBL_CONFIRM_UNSAVE' => 'Bất kỳ sự thay đổi nào cũng dẫn đến không thể lưu. Bạn có chắc là bạn muốn tiếp tục?',
-'LBL_PUBLISHING' => 'Publishing ...',
-'LBL_PUBLISHED' => 'Published',
-'LBL_FAILED_PUBLISHED' => 'Không thể Publish',
+'LBL_PUBLISHING' => 'Đang xuất ...',
+'LBL_PUBLISHED' => 'Đã xuất xong',
+'LBL_FAILED_PUBLISHED' => 'Không thể xuất',
 'LBL_DROP_HERE' => '[Thả vào đây]',
 
 //CUSTOM FIELDS
@@ -82,12 +82,12 @@ $mod_strings = array (
 //STUDIO WIZARD
 'LBL_SW_WELCOME'=>'<h2>Chào mừng đến với Studio!</h2><br> Bạn muốn làm gì hôm nay?<br><b> XIn hãy lựa chọn từ tùy chọn dưới đây.</b>',
 'LBL_SW_EDIT_MODULE'=>'Chỉnh sửa một Module',
-'LBL_SW_EDIT_DROPDOWNS'=>'Edit Drop Downs',
+'LBL_SW_EDIT_DROPDOWNS'=>'Chỉnh sửa Drop Downs(nút thả)',
 'LBL_SW_EDIT_TABS'=>'Cấu hình Tab',
 'LBL_SW_RENAME_TABS'=>'Đổi tên Tab',
 'LBL_SW_EDIT_GROUPTABS'=>'Cấu hình nhóm Tabs',
 'LBL_SW_EDIT_PORTAL'=>'Chỉnh sửa cổng',
-'LBL_SW_EDIT_WORKFLOW'=>'Chỉnh sửa Workflow',
+'LBL_SW_EDIT_WORKFLOW'=>'Chỉnh sửa dòng công việc',
 'LBL_SW_REPAIR_CUSTOMFIELDS'=>'Sửa trường khách hàng',
 'LBL_SW_MIGRATE_CUSTOMFIELDS'=>'Di chuyển trường khách hàng',
 
@@ -109,7 +109,7 @@ $mod_strings = array (
 'LBL_MB_WELCOME'=> '<h2>Lịch sử</h2><br> Mục lịch sử cho phép bạn xem những phien bản được triển khai từ trước của tập tin bạn đang làm việc cùng. Bạn có thể so sánh và khôi phục phiên bản trước. Nếu bạn khôi phục lại tập tin tập tin đó sẽ trở thành tập tin bạn đang làm việc.Bạn cần triển khai nó trước khi mọi người có thể xem..<br> Bạn muốn làm gì hôm nay?<br><b> Xin hãy chọn ở bên dưới.</b>',
 
 //EDIT DROP DOWNS
-'LBL_ED_CREATE_DROPDOWN'=> 'Tạo một Drop Down',
+'LBL_ED_CREATE_DROPDOWN'=> 'Tạo một Drop Down(nút thả)',
 'LBL_ED_WELCOME'=>'<h2>Chỉnh sửa Drop Down</h2><br><b>.',
 'LBL_DROPDOWN_NAME' => 'Tên Dropdown:',
 'LBL_DROPDOWN_LANGUAGE' => 'Ngôn ngữ Dropdown:',
@@ -140,7 +140,7 @@ $mod_strings = array (
 'LBL_BTN_UNDO'=>'Hủy bỏ',
 'LBL_BTN_REDO'=>'Làm lại',
 'LBL_BTN_ADDCUSTOMFIELD'=>'Thêm trường người dùng',
-'LBL_BTN_TABINDEX'=>'Edit Tabbing Order',
+'LBL_BTN_TABINDEX'=>'Chỉnh sửa thứ tự các tab',
 
 //TABS
 'LBL_TAB_SUBTABS'=>'Các tab con',
@@ -160,8 +160,8 @@ $mod_strings = array (
 'LBL_DEFAULT'=>'Mặc định',
 'LBL_ADDITIONAL'=>'Bổ sung',
 'LBL_AVAILABLE'=>'Có sẵn',
-'LBL_LISTVIEW_DESCRIPTION'=>'There are three columns displayed below. The default column contains the fields that are displayed in a list view by default, the additional column contains fields that a user may choose to use for creating a custom view, and the available columns are columns availabe for you as an admin to either add to the default or additional columns for use by users but are currently not used.', 
-'LBL_LISTVIEW_EDIT'=>'List View Editor',
+'LBL_LISTVIEW_DESCRIPTION'=>'Có ba cột hiện dưới đây. Trong đó cột mặc định bao gồm các trường được hiển thị trong một danh sách đã định sẵn. Cột thứ hai là cột thêm bao gồm các trường mà người dùng có thể chọn để chỉnh sửa. Cột thứ ba dành cho người quản trị có thể thêm các cột mặc định và cột thêm cho người dùng khi hiện thời người dùng không sử dụng chúng.', 
+'LBL_LISTVIEW_EDIT'=>'Danh sách các trình soạn thảo',
 
 //ERRORS
 'ERROR_ALREADY_EXISTS'=> 'Lỗi: Trường nãy đã có sẵn',
@@ -170,15 +170,15 @@ $mod_strings = array (
 //SUGAR PORTAL
 'LBL_SW_SUGARPORTAL'=>'Cổng Sugar',
 'LBL_SMP_WELCOME'=>' Xin hãy chọn một module bạn muốn chỉnh sửa ở bên dưới',
-'LBL_SP_WELCOME'=>'Welcome to Studio for Sugar Portal. You can either choose to edit modules here or sync to a portal instance.<br> Please choose from the list below.',
+'LBL_SP_WELCOME'=>'Xin chào mừng đến với Studio của cổng Sugar. Bạn có thể chỉnh sửa module tại đây hoặc sync to a portal instance.<br> Làm ơn hãy chọn từ danh sách dưới đây.',
 'LBL_SP_SYNC'=>'Portal Sync',
-'LBL_SYNCP_WELCOME'=>'Please enter the url to the portal instance you wish to update then press the Go button.<br> This will bring up a prompt for your user name and password.<br> Please enter your Sugar user name and password and press the Begin Sync button.',
-'LBL_LISTVIEWP_DESCRIPTION'=>'There are two columns below: Default which are the fields that will be displayed and Available which are the fields that are not displayed, but are available for displaying. Just drag the fields between the two columns. You can also reorder the items in a column by dragging and dropping them.',
-'LBL_SP_STYLESHEET'=>'Upload a Style Sheet',
-'LBL_SP_UPLOADSTYLE'=>'Click on the browse button and select a style sheet from your computer to upload.<br> The next time you sync down to portal it will bring down the style sheet along with it.',
-'LBL_SP_UPLOADED'=> 'Uploaded',
-'ERROR_SP_UPLOADED'=>'Please ensure that you are uploading a css style sheet.',
-'LBL_SP_PREVIEW'=>'Here is a preview of what your style sheet will look like',
+'LBL_SYNCP_WELCOME'=>'Hãy nhập url dẫn tới portal instance mà bạn mong muốn cập nhật, sau đó ấn nút Đến.<br> Việc này sẽ đưa ra yêu cầu về tên và mật khẩu người dùng của bạn. <br> Hãy nhập tên và mật khẩu, sau đó nhấn nút Bắt đầu Sync.',
+'LBL_LISTVIEWP_DESCRIPTION'=>'Có hai cột dười đây: Cột mặc định gồm những trường không được hiển thị và cột còn lại gồm những trường không được hiển thị, nhưng có giá trị để hiển thị. Chỉ cần kéo các trường giữa hai cột. Bạn cũng có thể sắp xếp lại các mục trong một cột bằng cách kéo và thả chúng.',
+'LBL_SP_STYLESHEET'=>'Tải lên tờ mẫu',
+'LBL_SP_UPLOADSTYLE'=>'Nhấp chuột lên nút Mở rộng và chọn một tờ mẫu từ máy tính của bạn để tải lên.<br> Lần tiếp theo The next time you sync down to portal it will bring down the style sheet along with it.',
+'LBL_SP_UPLOADED'=> 'Đã tải lên',
+'ERROR_SP_UPLOADED'=>'Hãy chắc chắn rằng bạn đang tải lên một tờ mẫu có dạng css.',
+'LBL_SP_PREVIEW'=>'Xem trước tờ mẫu của bạn trông như thế nào',
 
 );
 ?>

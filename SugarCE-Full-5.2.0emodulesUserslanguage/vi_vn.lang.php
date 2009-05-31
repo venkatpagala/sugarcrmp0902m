@@ -99,7 +99,7 @@ $mod_strings = array (
 	'LBL_CHANGE_PASSWORD_BUTTON_KEY'	=> 'P',
 	'LBL_CHANGE_PASSWORD_BUTTON_LABEL'	=> 'Thay đổi mật khẩu',
 	'LBL_CHANGE_PASSWORD_BUTTON_TITLE'	=> 'Thay đỏi mật khẩu [Alt+P]',
-	'LBL_CHANGE_PASSWORD'				=> 'Change Password',
+	'LBL_CHANGE_PASSWORD'				=> 'Thay đổi mật khẩu',
 	'LBL_CHOOSE_A_KEY'					=> 'Choose a key to prevent unauthorized publishing of your calendar',
 	'LBL_CHOOSE_WHICH'					=> 'Chọn tab để',
 	'LBL_CITY'							=> 'Thành phố',
@@ -395,15 +395,15 @@ Người sử dụng này có thể không đăng nhập được thông qua gia
 	'LBL_TLS'							=> 'Sử dụng TLS',
 	'LBL_TOGGLE_ADV'					=> 'Cao cấp',
     'LBL_OWN_OPPS'                      => 'Không có cơ hội',
-    'LBL_OWN_OPPS_DESC'                 => 'Lựa chọn nếu người dùng không được chỉ định cơ hội. Sử dụng cài đặt này cho người quản lý nhưng không bao gồm quản lý bán hàng. The setting is used for the forecasting module.',
+    'LBL_OWN_OPPS_DESC'                 => 'Lựa chọn nếu người dùng không được chỉ định cơ hội. Sử dụng cài đặt này cho người quản lý nhưng không bao gồm quản lý bán hàng. Cài đặt được sử dụng cho dự báo module.',
 // END INBOUND EMAIL STRINGS
 	'LBL_LDAP_ERROR' => 'Lỗi LDAP: Xin hãy liên lạc người quản trị',
-	'LBL_LDAP_EXTENSION_ERROR' => 'LDAP Error: Extensions not loaded',
+	'LBL_LDAP_EXTENSION_ERROR' => 'Lỗi LDAP: Phần mở rộng không tải được',
 
 // PROJECT RESOURCES STRINGS	
-	'LBL_USER_HOLIDAY_SUBPANEL_TITLE' => 'User Holidays',
-	'LBL_RESOURCE_NAME' => 'Name',
-	'LBL_RESOURCE_TYPE' => 'Type',
+	'LBL_USER_HOLIDAY_SUBPANEL_TITLE' => 'Những ngày nghỉ của người dùng',
+	'LBL_RESOURCE_NAME' => 'Tên',
+	'LBL_RESOURCE_TYPE' => 'Dạng',
 
 
 

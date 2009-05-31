@@ -53,15 +53,15 @@ $mod_strings = array (
   'LBL_NAME' => 'Tên cơ hội',
   'LBL_INVITEE' => 'Liên lạc',
   'LBL_CURRENCIES' => 'Tiền tệ',
-  'LBL_LIST_OPPORTUNITY_NAME' => 'Name',
-  'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-  'LBL_LIST_AMOUNT' => 'Amount',
-  'LBL_LIST_DATE_CLOSED' => 'Close',
-  'LBL_LIST_SALES_STAGE' => 'Sales Stage',
-  'LBL_ACCOUNT_ID'=>'Account ID',
+  'LBL_LIST_OPPORTUNITY_NAME' => 'Tên',
+  'LBL_LIST_ACCOUNT_NAME' => 'Tên tài khoản',
+  'LBL_LIST_AMOUNT' => 'Lượng',
+  'LBL_LIST_DATE_CLOSED' => 'Đóng',
+  'LBL_LIST_SALES_STAGE' => 'Giai đoạn bán hàng',
+  'LBL_ACCOUNT_ID'=>'Tài khoản ID',
   'LBL_CURRENCY_ID'=>'Currency ID',
-  'LBL_CURRENCY_NAME'=>'Currency Name',
-  'LBL_CURRENCY_SYMBOL'=>'Currency Symbol',
+  'LBL_CURRENCY_NAME'=>'Tên tiền tệ',
+  'LBL_CURRENCY_SYMBOL'=>'Ký hiệu tiền tệ',
 
 
 
