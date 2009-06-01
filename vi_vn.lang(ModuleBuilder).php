@@ -143,101 +143,103 @@ Sử dụng mẫu này để tạo ra mô-đun tương tự với những tiêu 
 
 	),
 	'dropdowns'=>array(
-		'default' => 'All of the <b>Dropdowns</b> for the application are listed here.<br>
+		'default' => 'Tất cả các <b> Dropdowns </ b> cho các ứng dụng được liệt kê ở đây.<br>
 <br>
-The dropdowns can be used for dropdown fields in any module.<br>
+Các dropdowns có thể được sử dụng cho các lĩnh vực dropdown trong bất kỳ mô-đun.<br>
 <br>
-To make changes to an existing dropdown, click on the dropdown name.<br>
+Để thực hiện thay đổi cho một dropdown hiện tại, bấm vào tên dropdown.<br>
 <br>
-Click <b>Add Dropdown</b> to create a new dropdown.',
-		'editdropdown'=>'Dropdown lists can be used for standard or custom dropdown fields in any module.<br>
+Nhấp vào <b> Thêm Dropdown </ b> để tạo một dropdown mới.',
+		'editdropdown'=>'Danh sách Dropdown có thể được sử dụng cho các tiêu chuẩn hay tùy chỉnh dropdown trong lĩnh vực bất kỳ của mô-đun.<br>
 <br>
-Provide a <b>Name</b> for the dropdown list.<br>
+Cung cấp một <b> Tên </ b> cho các danh sách dropdown.<br>
 <br>
-If any language packs are installed in the application, you can select the <b>Language</b> to use for the list items.<br>
+Nếu bất cứ ngôn ngữ nào được cài đặt trong gói ứng dụng, bạn có thể chọn <b> ngôn ngữ </ b> để sử dụng cho các bản ghi trong danh sách.<br>
 <br>
-In the <b>Item Name</b> field, provide a name for the option in the dropdown list.  This name will not appear in the dropdown list that is visible to users.<br>
+Trong những khoản <b> Tên </ b>, cung cấp một tên cho các tùy chọn trong danh sách dropdown. Tên gọi này sẽ không xuất hiện trong danh sách dropdown có thể nhìn thấy cho những người sử dụng.<br>
 <br>
-In the <b>Display Label</b> field, provide a label that will be visible to users.<br>
+Trong <b> Hiển thị Nhãn </ b>, cung cấp cho một nhãn sẽ được hiển thị cho người sử dụng.<br>
 <br>
-After providing the item name and display label, click <b>Add</b> to add the item to the dropdown list.<br>
+Sau khi cung cấp các sản phẩm và hiển thị tên nhãn, nhấp vào <b> Thêm </ b> để thêm các mục vào danh sách dropdown.<br>
 <br>
-To reorder the items in the list, drag and drop items into the desired positions.<br>
+Để sắp xếp lại các bản ghi trong danh sách, kéo và thả các bản ghi vào vị trí mong muốn.<br>
 <br>
-To edit the display label of an item, click the <b>Edit icon</b>, and enter a new label. To delete an item from the dropdown list, click the <b>Delete icon</b>.<br>
+Để chỉnh sửa hiển thị nhãn hiệu của một mục, hãy nhấp vào biểu tượng <b> Hiệu chỉnh </ b>, và nhập một nhãn mới. Để xóa một mục từ danh sách dropdown, hãy nhấp vào biểu tượng <b> Xoá</b>.<br>
 <br>
-To undo a change made to a display label, click <b>Undo</b>.  To redo a change that was undone, click <b>Redo</b>.<br>
+Để hủy bước thay đổi được thực hiện cho một nhãn hiển thị, hãy nhấp vào Hoàn tác <b> </ b>. Để lại một thay đổi mà bạn đã được hoàn tác, nhấp vào <b>Làm lại </ b>.<br>
 <br>
-Click <b>Save</b> to save the dropdown list.',
+Nhấp vào <b>Lưu </ b> để lưu danh sách các dropdown.',
 
 	),
 	'subPanelEditor'=>array(
-		'modify'	=> 'All of the fields that can be displayed in the <b>Subpanel</b> appear here.<br>
+		'modify'	=> 'Tất cả các lĩnh vực mà có thể được hiển thị trong khi <b> Subpanel </ b> xuất hiện ở đây.<br>
 <br>
-The <b>Default</b> column contains the fields that are displayed in the Subpanel.<br/>
+	<b> Mặc định </ b> cột chứa các lĩnh vực được hiển thị trong khi Subpanel.<br/>
 <br/>
-The <b>Hidden</b> column contains fields that can be added to the Default column.',
-		'savebtn'	=> 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
-		'historyBtn'=> 'Click <b>View History</b> to view and restore a previously saved layout from the history.',
-		'Hidden' 	=> '<b>Hidden</b> fields do not appear in the subpanel.',
-		'Default'	=> '<b>Default</b> fields appear in the subpanel.',
+	<b> Hidden </ b> cột chứa các lĩnh vực mà có thể được thêm vào các cột mặc định.',
+		'savebtn'	=> 'Nhấp vào Lưu & Triển khai <b> </ b> để lưu các thay đổi bạn đã thực hiện và để làm cho chúng hoạt động trong các mô-đun.',
+		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử của trang.',
+		'Hidden' 	=> '<b> Hidden </ b> lĩnh vực không xuất hiện trong các subpanel.',
+		'Default'	=> '<b> mặc định </ b> xuất hiện trong các lĩnh vực subpanel.',
 
 	),
 	'listViewEditor'=>array(
-		'modify'	=> 'All of the fields that can be displayed in the <b>ListView</b> appear here.<br>
+		'modify'	=> 'Tất cả các lĩnh vực mà có thể được hiển thị trong <b> ListView </ b> xuất hiện ở đây.<br>
 <br>
-The <b>Default</b> column contains the fields that are displayed in the ListView by default.<br/>
+	<b> Mặc định </ b> cột chứa các lĩnh vực được hiển thị trong ListView theo mặc định.<br/>
 <br/>
-The <b>Available</b> column contains fields that a user can select in the Search to create a custom ListView. <br/>
+<b>Có sẵn </ b> các cột chứa các lĩnh vực mà một người dùng có thể lựa chọn trong tìm kiếm để tạo một ListView. <br/>
 <br/>
-The <b>Hidden</b> column contains fields that can be added to the Default or Available column.',
-		'savebtn'	=> 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
-		'historyBtn'=> 'Click <b>View History</b> to view and restore a previously saved layout from the history.',
-		'Hidden' 	=> '<b>Hidden</b> fields not currently available for users to see in ListViews.',
-		'Available' => '<b>Available</b> fields are not shown by default, but can be added to ListViews by users.',
-		'Default'	=> '<b>Default</b> fields appear in ListViews that are not customized by users.'
+<b> Hidden </ b> cột chứa các lĩnh vực mà có thể được thêm vào mặc định sẵn có hoặc cột.',
+		'savebtn'	=>'Nhấp vào <b> Lưu & Triển khai </ b> để lưu các thay đổi bạn đã thực hiện và để làm cho chúng hoạt động trong các mô-đun.',
+		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử của trang.',
+		'Hidden' 	=> '<b> Hidden </ b> trường hiện không có sẵn cho người dùng để xem trong ListViews.',
+		'Available' => '<b>Available</ b> không phải là lĩnh vực được hiển thị theo mặc định, nhưng có thể được thêm vào ListViews của người dùng.',
+		'Default'	=> '<b> mặc định </ b> xuất hiện trong lĩnh vực ListViews không được tùy chỉnh của người sử dụng.'
 	),
 	'searchViewEditor'=>array(
-		'modify'	=> 'All of the fields that can be displayed in the <b>Search</b> form appear here.<br>
+		'modify'	=> 'Tất cả các lĩnh vực mà có thể được hiển thị trong khi <b> Tìm kiếm </ b> hình thức xuất hiện ở đây.<br>
 <br>
-The <b>Default</b> column contains the fields that will be displayed in the Search form.<br/>
+	<b> Mặc định </ b> cột chứa các lĩnh vực mà sẽ được hiển thị trong khi tìm kiếm hình thức.<br/>
 <br/>
-The <b>Hidden</b> column contains fields available for you as an admin to add to the Search form.',
-		'savebtn'	=> 'Clicking <b>Save & Deploy</b> will save all changes and make them active',
-		'Hidden' 	=> '<b>Hidden</b> fields do not appear in the Search.',
-		'historyBtn'=> 'Click <b>View History</b> to view and restore a previously saved layout from the history.',
-		'Default'	=> '<b>Default</b> fields appear in the Search.'
+	<b> Hidden </ b> cột chứa các lĩnh vực có sẵn cho bạn như là một admin để thêm vào các mẫu đơn tìm kiếm.',
+		'savebtn'	=> 'Bấm vào <b> Lưu & Triển khai </ b> sẽ lưu tất cả các thay đổi và làm cho họ hoạt động',
+		'Hidden' 	=> '<b> Hidden </ b> lĩnh vực không xuất hiện trong các tìm kiếm.',
+		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử của trang.',
+		'Default'	=> '<b> mặc định </ b> xuất hiện trong các lĩnh vực tìm kiếm.'
 	),
 	'layoutEditor'=>array(
-		'defaultdetailview'=>'The <b>Layout</b> area contains the fields that are currently displayed within the <b>DetailView</b>.<br/>
+		'defaultdetailview'=>'	
+<b> Bố trí </ b> khu vực chứa các lĩnh vực mà hiện đang được hiển thị trong vòng <b> DetailView</b>.<br/>
 <br/>
-The <b>Toolbox</b> contains the <b>Recycle Bin</b> and the fields and layout elements that can be added to the layout.<br>
+	<b>Công cụ</ b> chứa các <b> Recycle Bin </ b> và các bố trí lĩnh vực và yếu tố có thể được thêm vào bố trí.<br>
 <br>
-Make changes to the layout by dragging and dropping elements and fields between the <b>Toolbox</b> and the <b>Layout</b> and within the layout itself.<br>
+	Thực hiện các thay đổi cho bố trí bằng cách kéo và thả yếu tố và các lĩnh vực giữa các <b> Công cụ </ b> và <b> Bố cục </ b> và bố trí trong chính nó.<br>
 <br>
-To remove a field from the layout, drag the field to the <b>Recycle Bin</b>. The field will then be available in the Toolbox to add to the layout.',
-		'defaultquickcreate'=>'The <b>Layout</b> area contains the fields that are currently displayed within the <b>QuickCreate</b> form.<br>
+Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí.',
+		'defaultquickcreate'=>'<b> Bố trí </ b> khu vực chứa các lĩnh vực mà hiện đang được hiển thị trong vòng <b> QuickCreate </ b> hình thức.<br>
 <br>
-The QuickCreate form appears in the subpanels for the module when the Create button is clicked.<br/>
+	Các QuickCreate hình thức xuất hiện trong subpanels cho các mô-đun khi được bấm vào nút Tạo.<br/>
 <br/>
-The <b>Toolbox</b> contains the <b>Recycle Bin</b> and the fields and layout elements that can be added to the layout.<br>
+	<b> Công cụ </ b> chứa các <b> Recycle Bin </ b> và các lĩnh vực bố trí và yếu tố có thể được thêm vào bố trí.<br>
 <br>
-Make changes to the layout by dragging and dropping elements and fields between the <b>Toolbox</b> and the <b>Layout</b> and within the layout itself.<br>
+	Thực hiện các thay đổi cho bố trí bằng cách kéo và thả yếu tố và các lĩnh vực giữa các <b> Công cụ </ b> và <b> Bố cục </ b> và bố trí trong chính nó.<br>
 <br>
-To remove a field from the layout, drag the field to the <b>Recycle Bin</b>. The field will then be available in the Toolbox to add to the layout.',
+Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào sự bố trí.',
 		//this defualt will be used for edit view
-		'default'	=> 'The <b>Layout</b> area contains the fields that are currently displayed within the <b>EditView</b>.<br/>
+		'default'	=> '<b> Bố trí </ b> khu vực chứa các lĩnh vực mà hiện đang được hiển thị trong vòng <b> EditView </ b>.<br/>
 <br/>
-The <b>Toolbox</b> contains the <b>Recycle Bin</b> and the fields and layout elements that can be added to the layout.<br>
+	<b> Công cụ </ b> chứa các <b> Recycle Bin </ b> và các trường lĩnh vực và yếu tố có thể được thêm vào các trường.<br>
 <br>
-Make changes to the layout by dragging and dropping elements and fields between the <b>Toolbox</b> and the <b>Layout</b> and within the layout itself.<br>
+	Thực hiện các thay đổi cho trường bằng cách kéo và thả yếu tố và các lĩnh vực giữa các <b> Công cụ </ b> và <b> Bố cục </ b> và bố trí trong chính nó.<br>
 <br>
-To remove a field from the layout, drag the field to the <b>Recycle Bin</b>. The field will then be available in the Toolbox to add to the layout.',
-		'saveBtn'	=> 'Click <b>Save</b> to preserve the changes you made to the layout since the last time you saved it.<br>
+	Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí		'saveBtn'	=> 'Nhấp vào <b>Lưu </ b> để lưu giữ những thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó.<br>
 <br>
-The changes will not be displayed in the module until you Deploy the saved changes.',
-		'historyBtn'=> 'Click <b>View History</b> to view and restore a previously saved layout from the history.',
-		'publishBtn'=> 'Click <b>Save & Deploy</b> to save all changes you made to the layout since the last time you saved it, and to make the changes active in the module.<br>
+Những thay đổi sẽ không được hiển thị trong mô-đun, cho đến khi bạn lưu triển khai những thay đổi.',
+		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử
+> hoán đổi
+		.',
+		'publishBtn'=> 'Nhấp vào <b>Lưu & Triển khai</ b> để lưu tất cả các thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó, và để thực hiện những thay đổi tích cực trong các mô-đun.<br>
 <br>
 The layout will immediately be displayed in the module.',
 		'toolbox'	=> 'The <b>Toolbox</b> contains the <b>Recycle Bin</b>, additional layout elements and the set of available fields to add to the layout.<br/>
