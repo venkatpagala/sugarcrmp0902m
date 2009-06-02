@@ -7,9 +7,9 @@ Em bắt đầu trước:
 *Headings
  Ngày 2-6-2009:
 
-* File sẽ dịch thành tập tin.
-* URL, module, html,ID giữ nguyên.
-* Mass dịch là khối.
+*lists File sẽ dịch thành tập tin.
+*lists URL, module, html,ID giữ nguyên.
+*lists Mass dịch là khối.
 * Email sẽ giữ nguyên không dịch.
 * Portal nên dịch là Cổng điện tử.
 * Home nên dịch là trang chủ.
