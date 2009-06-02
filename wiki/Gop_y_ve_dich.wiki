@@ -6,8 +6,9 @@ Em bắt đầu trước:
 = Details =
 *Headings
  Ngày 2-6-2009:
-*lists
+*paragraphs
 - File sẽ dịch thành tập tin.
+*paragraphs
 - URL, module, html,ID giữ nguyên.
 - Mass dịch là khối.
 - Email sẽ giữ nguyên không dịch.
