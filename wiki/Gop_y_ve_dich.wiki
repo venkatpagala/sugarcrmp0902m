@@ -1,5 +1,9 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
 Chào các anh. Em đã xem qua của anh Giáp dịch em thấy bài của anh em mình dịch cũng khá rùi. He. Bây giờ anh em mình vào phần này để góp ý cho nhau.
 Em bắt đầu trước:
+= Details =
 * Ngày 2-6-2009:
 - File sẽ dịch thành tập tin.
 - URL, module, html,ID giữ nguyên.
