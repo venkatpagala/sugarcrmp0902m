@@ -239,89 +239,89 @@ Những thay đổi sẽ không được hiển thị trong mô-đun, cho đến
 		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử
 > hoán đổi
 		.',
-		'publishBtn'=> 'Nhấp vào <b>Lưu & Triển khai</ b> để lưu tất cả các thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó, và để thực hiện những thay đổi tích cực trong các mô-đun.<br>
+		'publishBtn'=> 'Nhấp vào <b>Lưu & Triển khai</ b> để lưu tất cả các thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó, và để   thực hiện những thay đổi tích cực trong các mô-đun.<br>
 <br>
-The layout will immediately be displayed in the module.',
-		'toolbox'	=> 'The <b>Toolbox</b> contains the <b>Recycle Bin</b>, additional layout elements and the set of available fields to add to the layout.<br/>
+	
+Việc bố trí ngay lập tức sẽ được hiển thị trong các mô-đun.',
+		'toolbox'	=> '<b> Công cụ </ b> chứa các <b> Recycle Bin </ b>, thêm các yếu tố bố trí và thiết lập các lĩnh vực có sẵn để thêm vào việc bố trí.<br/>
 <br/>
-The layout elements and fields in the Toolbox can be dragged and dropped into the layout, and the layout elements and fields can be dragged and dropped from the layout into the Toolbox.<br>
+Các thành phần và các trường trong các lĩnh vực có thể được kéo và thả vào trong hộp công cụ.<br>
 <br>
-The layout elements are <b>Panels</b> and <b>Rows</b>. Adding a new row or a new panel to the layout provides additional locations in the layout for fields.<br/>
+	Các thành phần được bố trí <b> Panels </ b> và <b> Hàng </ b>. Thêm một hàng hoặc một bảng điều khiển mới cho bố trí thêm địa điểm cung cấp trong các lĩnh vực bố trí cho trường.<br/>
 <br/>
-Drag and drop any of the fields in the Toolbox or layout onto a occupied field position to swap the locations of the two fields.<br/>
+	Kéo và thả bất kỳ trường nào vào hộp công cụ hoặc bố trí vào một vị trí để trao đổi các địa điểm của cả hai trường.<br/>
 <br/>
-The <b>Filler</b> field creates blank space in the layout where it is placed.',
-		'panels'	=> 'The <b>Layout</b> area provides a view of how the layout will appear within the module when the changes made to the layout are deployed.<br/>
+	<b> Filler </ b> tạo ra không gian trống trong bố trí nơi mà nó được đặt.',
+		'panels'	=> '<b> Bố trí </ b> khu vực cung cấp một quan điểm về cách thức bố trí sẽ xuất hiện trong các mô-đun khi những thay đổi đã thực hiện bố trí được tuyển dụng.<br/>
 <br/>
-You can reposition fields, rows and panels by dragging and dropping them in the desired location.<br/>
+Bạn có thể reposition lĩnh vực, các hàng và bảng bằng cách kéo và thả chúng ở vị trí mong muốn .<br/>
 <br/>
-Remove elements by dragging and dropping them in the <b>Recycle Bin</b> in the Toolbox, or add new elements and fields by dragging them from the <b>Toolbox</b>s and dropping them in the desired location in the layout.',
-		'delete'	=> 'Drag and drop any element here to remove it from the layout',
-		'property'	=> 'Edit The label displayed for this field. <br/>
-<b>Tab Order</b> controls in what order the tab key switches between fields.',
+Hủy bỏ yếu tố bằng cách kéo và thả chúng ở trong <b> Recycle Bin </ b> trong việc đến đây, hoặc thêm các thành phần và các lĩnh vực mới bằng cách kéo chúng từ <b> hộp công cụ</ b> s và thả chúng ở vị trí mong muốn trong việc bố trí.',
+		'delete'	=> 'Kéo và thả bất kỳ thành phần nào ở đây để xoá bỏ nó từ người cài đặt',
+		'property'	=> 'Hiệu chỉnh các nhãn hiển thị cho trường này. <br/>
+<b>Tab Order</b> kiểm soát những tab yêu cầu key giữa các trường.',
 	),
 	'fieldsEditor'=>array(
-		'default'	=> 'The <b>Fields</b> that are available for the module are listed here by Field Name.<br>
+		'default'	=> '<b> Trường tên</ b> có sẵn cho các mô-đun được liệt kê ở đây<br>
 <br>
-Custom fields created for the module appear above the fields that are available for the module by default.<br>
+	Tuỳ chỉnh cho các trường tạo ra mô-đun xuất hiện ở trên các trường mà có sẵn cho các mô đun mặc định.<br>
 <br>
-To edit a field, click the <b>Field Name</b>.<br/>
+	Để chỉnh sửa một trường, bấm vào <b> Trường Tên </ b>.<br/>
 <br/>
-To create a new field, click <b>Add Field</b>.',
-		'mbDefault'=>'The <b>Fields</b> that are available for the module are listed here by Field Name.<br>
+	Để tạo một lĩnh vực mới, bấm vào <b> Thêm Trường </ b>.',
+		'mbDefault'=>'<b> Trường </ b> có sẵn cho các mô-đun được liệt kê ở đây bởi Trường Tên.<br>
 <br>
-To customize the label of the template field, click the Field Name.<br>
+ 	Để tùy chỉnh nhãn của các trường mẫu, hãy nhấp vào Trường Tên.<br>
 <br>
-To create a new field, click <b>Add Field</b>. The label along with the other properties of the new field can be edited after creation by clicking the Field Name.<br>
+Để tạo một lĩnh vực mới, bấm vào <b> Thêm Trường </ b>. Các nhãn cùng với các tài sản khác của các lĩnh vực mới có thể được sửa đổi sau khi tạo ra bằng cách nhấp vào trường Tên.<br>
 <br>
-After the module is deployed, the new fields created in Module Builder are regarded as standard fields in the deployed module in Studio.',
-        'addField'	=> 'Select a <b>Data Type</b> for the new field. The type you select determines what kind of characters can be entered for the field. For example, only numbers that are integers may be entered into fields that are of the Integer data type.<br>
+	Sau khi triển khai mô-đun là, các lĩnh vực mới tạo trong Module Builder được coi như là tiêu chuẩn trong các lĩnh vực triển khai mô-đun trong Studio',
+        'addField'	=> 'Chọn một <b>Loại Dữ liệu </ b> cho các lĩnh vực mới. Loại xác định những gì mà bạn chọn loại ký tự có thể được nhập vào cho các trường. Ví dụ, chỉ số điện thoại là số nguyên có thể được tham gia vào trường<br>
 <br>
-Provide a <b>Name</b> for the field.  The name must be alphanumeric and must not contain any spaces. Underscores are valid.<br>
+Cung cấp một <b> Tên </ b> cho các lĩnh vực. Tên phải được alphanumeric và phải không được chứa bất kỳ dấu cách. Dưới là hợp lệ.<br>
 <br>
-The <b>Display Label</b> is the label that will appear for the fields in the module layouts.  The <b>System Label</b> is used to refer to the field in the code.<br>
+	Hiển thị <b> Nhãn </ b> là các nhãn mà sẽ xuất hiện cho các trường bố trí trong các mô-đun. Các hệ thống <b> Nhãn </ b> được sử dụng để tham khảo các trường trong các mã.<br>
 <br>
-Depending on the data type selected for the field, some or all of the following properties can be set for the field:<br>
+	Tùy thuộc vào loại dữ liệu được lựa chọn cho các lĩnh vực, một số hoặc tất cả các tài sản sau đây có thể được thiết lập cho các lĩnh vực:<br>
 <br>
-<b>Help Text</b> appears temporarily while a user hovers over the field and can be used to prompt the user for the type of input desired.<br>
+<b> Văn bản trợ giúp</ b> sẽ xuất hiện tạm thời trong khi một người dùng hovers trên các lĩnh vực và có thể được sử dụng để nhắc nhở người sử dụng cho các loại hình nhập mong muốn.<br>
 <br>
-<b>Comment Text</b> is only seen within Studio &/or Module Builder, and can be used to describe the field for administrators.<br>
+<b> Văn bản thảo luận</ b> là chỉ nhìn thấy trong vòng Studio & / hoặc Module Builder, và có thể được dùng để mô tả các lĩnh vực cho các quản trị viên.<br>
 <br>
-<b>Default Value</b> will appear in the field.  Users can enter a new value in the field or use the default value.<br>
+<b> Giá trị mặc định </ b> sẽ xuất hiện trong cùng lĩnh vực. Người dùng có thể nhập một giá trị mới trong các lĩnh vực hoặc sử dụng các giá trị mặc định.<br>
 <br>
-Select the <b>Mass Update</b> checkbox in order to be able to use the Mass Update feature for the field.<br>
+Chọn <b> Mass Cập nhật </ b> ô trống để có thể sử dụng Mass Cập nhật tính năng cho các trường.<br>
 <br>
-The <b>Max Size</b> value determines the maximum number of characters that can be entered in the field.<br>
+<b> Kích thước tối đa </ b> giá trị sẽ xác định số lượng tối đa ký tự có thể được nhập vào trong cùng trường.<br>
 <br>
-Select the <b>Required Field</b> checkbox in order to make the field required. A value must be provided for the field in order to be able to save a record containing the field.<br>
+Chọn <b>Trường yêu cầu</ b> ô trống để làm cho các trường cần thiết. Một giá trị phải được cung cấp cho các trường để có thể lưu một bản ghi có chứa các trường.<br>
 <br>
-Select the <b>Reportable</b> checkbox in order to allow the field to be used for filters and for displaying data in Reports.<br>
+Chọn <b> Bảng báo cáo </ b> ô trống để cho phép các trường sẽ được sử dụng để cho các bộ lọc và hiển thị dữ liệu trong báo cáo.<br>
 <br>
-Select the <b>Audit</b> checkbox in order to be able to track changes to the field in the Change Log.<br>
+Chọn <b> Kiểm toán </ b> ô trống để có thể theo dõi các thay đổi vào các lĩnh vực trong Thay đổi Đăng nhập<br>
+Chọn một tùy chọn ở trong <b> Bảng nhập </ b> cho phép, không cho phép hoặc yêu cầu các trường để được nhập vào trong nhập khẩu Wizard. <br>
 <br>
-Select an option in the <b>Importable</b> field to allow, disallow or require the field to be imported into in the Import Wizard.<br>
+Chọn một tùy chọn ở trong <b>Hợp nhất </ b> để kích hoạt hay vô hiệu hóa các tim bản sao và các tính năng hợp nhất. <br>
 <br>
-Select an option in the <b>Duplicate Merge</b> field to enable or disable the Merge Duplicates and Find Duplicates features.<br>
+Các tài sản có thể được đặt cho một số loại dữ liệu.',
+		'editField' => 'Hiển thị <b> Nhãn </ b> của một trường Sugar có thể được tùy chỉnh. Việc các đặc tính khác của các trường có thể không được tùy chỉnh. <br>
 <br>
-Additional properties can be set for certain data types.',
-		'editField' => 'The <b>Display Label</b> of a Sugar field can be customized. The other properties of the field can not be customized.<br>
+Nhấp vào <b> clone </ b> để tạo ra một lĩnh vực mới với cùng một thuộc tính.',
+        'mbeditField' => 'Hiển thị <b> Nhãn </ b> của một trường mẫu có thể được tùy chỉnh. Việc các tài sản khác của các trường có thể không được tùy chỉnh. <br>
 <br>
-Click <b>Clone</b> to create a new field with the same properties.',
-        'mbeditField' => 'The <b>Display Label</b> of a template field can be customized. The other properties of the field can not be customized.<br>
+Nhấp vào <b> clone </ b> để tạo ra một lĩnh vực mới với cùng một thuộc tính.<br>
 <br>
-Click <b>Clone</b> to create a new field with the same properties.<br>
-<br>
-To remove a template field so that it does not display in the module, remove the field from the appropriate <b>Layouts</b>.'
+Để loại bỏ một trường mẫu để nó không hiển thị trong các mô-đun, xoá bỏ những trường từ  <b>Layout </b>thích hợp.'
 
 	),
 	'exportcustom'=>array(
-	    'exportHelp'=>'Export customizations made in Studio by creating packages that can be uploaded into another Sugar instance through the <b>Module Loader</b>.<br>
+	    'exportHelp'=>'Tuỳ chỉnh xuất khẩu thực hiện trong Studio bằng cách tạo ra các gói có thể được tải lên thành một đường thông qua các <b> Modul tải</b>.<br>
 <br>
-First, provide a <b>Package Name</b>.  You can provide <b>Author</b> and <b>Description</b> information for package as well.<br>
+Trước tiên, cung cấp một gói phần mềm <b> Tên </ b>. Bạn có thể cung cấp cho <b> Tác giả </ b> và <b> Mô tả </ b> thông tin cho các gói phần mềm cũng như.<br>
 <br>
-Select the module(s) that contain the customizations you wish to export. Only modules containing customizations will appear for you to select.<br>
+Lựa chọn Modul (s) có chứa các tuỳ chỉnh mà bạn muốn xuất ra. Chỉ có Modul chứa tuỳ chỉnh sẽ xuất hiện để bạn lựa chọn. <br>
 <br>
-Then click <b>Export</b> to create a .zip file for the package containing the customizations.',
+Sau đó bấm vào <b> Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh.',
 	    'exportCustomBtn'=>'Click <b>Export</b> to create a .zip file for the package containing the customizations that you wish to export.',
 	    'name'=>'This is the <b>Name</b> of the package. This name will be displayed during installation.',
 	    'author'=>'This is the <b>Author</b> that is displayed during installation as the name of the entity that created the package. The Author can be either an individual or a company.',
