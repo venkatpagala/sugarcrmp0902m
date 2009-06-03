@@ -6,18 +6,26 @@ Em bắt đầu trước:
 = Details =
 *Headings
  Ngày 2-6-2009:
-
+- 
+- Layout -> bố cục<br />
+- Enable, Disable -> cho phép (Kích hoạt)<br />
+- Session Timeout -> phiên làm việc quá hạn<br />
+- Tracker -> theo dõi<br />
+- Bug thiếu sót(sai sót) -> bug traker -> Theo dõi sai sót show bug -> Hiển thị sai sót.<br />
+- Lead dịch là tiềm năng -> Lead source dịch là nguồn tiềm năng <br />
+- Prospect dịch là thăm dò.<br />
 - File sẽ dịch thành tập tin.<br />
 - URL, module, html,ID giữ nguyên.<br />
 - lists Mass dịch là khối.<br />
 - Email sẽ giữ nguyên không dịch.<br />
 - Portal nên dịch là Cổng điện tử.<br />
 - Home nên dịch là trang chủ.<br />
-- Website nên dịch là trang Web -> Site sẽ dịch thành trang. :D.
-iFrame -> khung.<br />
+- Website -> giữ nguyên<br />
+- Site sẽ dịch thành trang. :D.<br />
+- iFrame -> khung.<br />
 - Tab, menu, shortcut nên để nguyên không dịch.<br />
 - Dashboard dịch là bảng điều khiển<br />
 - Ngoài ra các anh cho ý kiến về dịch Dashlet. Cái này theo em nên dịch là điều khiển -> add dashlet dịch là thêm điều khiển vì ta đã dịch Dashboard là bảng điều khiển. <br />
-
+- license -> Giấy phép<br />
 = End =
 Trên đây là một số ý kiến của em. Có gì em sẽ post thêm. Hi vọng các anh sẽ thường xuyên vào kiểm tra đề có thể làm việc tốt. Ai có ý kiến vào Wiki rùi tạo một trang ntn mọi người sẽ vào xem. he he.
