@@ -322,175 +322,180 @@ Trước tiên, cung cấp một gói phần mềm <b> Tên </ b>. Bạn có th�
 Lựa chọn Modul (s) có chứa các tuỳ chỉnh mà bạn muốn xuất ra. Chỉ có Modul chứa tuỳ chỉnh sẽ xuất hiện để bạn lựa chọn. <br>
 <br>
 Sau đó bấm vào <b> Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh.',
-	    'exportCustomBtn'=>'Click <b>Export</b> to create a .zip file for the package containing the customizations that you wish to export.',
-	    'name'=>'This is the <b>Name</b> of the package. This name will be displayed during installation.',
-	    'author'=>'This is the <b>Author</b> that is displayed during installation as the name of the entity that created the package. The Author can be either an individual or a company.',
-	    'description'=>'This is the <b>Description</b> of the package that is displayed during installation.',
+	    'exportCustomBtn'=>'Nhấp vào <b>Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh mà bạn muốn xuất ra.',
+	    'name'=>'Đây là <b> Tên </ b> của gói. Tên gọi này sẽ được hiển thị trong quá trình cài đặt.',
+	    'author'=>'Đây là <b> Tác giả </ b> được hiển thị trong quá trình cài đặt như là tên của tổ chức đó tạo ra các gói phần mềm. Tác giả có thể được, hoặc một cá nhân hay một công ty.',
+	    'description'=>'Đây là <b> Mô tả </ b> của gói được hiển thị trong quá trình cài đặt.',
 	),
 	'studioWizard'=>array(
-		'mainHelp' 	=> 'Welcome to the <b>Developer Tools</b> area. <br/>
+		'mainHelp' 	=> 'Chào mừng bạn đến với khu vực <b> phát triển công cụ </ b>. <br/>
 <br/>
-Use the tools within this area to create and manage standard and custom modules and fields.',
-		'studioBtn'	=> 'Use <b>Studio</b> to customize deployed modules.',
-		'mbBtn'		=> 'Use <b>Module Builder</b> to create new modules.',
-		'sugarPortalBtn' => 'Use <b>Sugar Portal Editor</b> to manage and customize the Sugar Portal.',
-		'dropDownEditorBtn' => 'Use <b>Dropdown Editor</b> to add and edit global dropdowns for dropdown fields.',
-		'appBtn' 	=> 'Application mode is where you can customize various properties of the program, such as how many TPS reports are displayed on the homepage',
-		'backBtn'	=> 'Return to the previous step.',
-		'studioHelp'=> 'Use <b>Studio</b> to determine what and how information is displayed in the modules.',
-		'moduleBtn'	=> 'Click to edit this module.',
-		'moduleHelp'=> 'The components that you can customize for the module appear here.<br>
+Sử dụng các công cụ trong khu vực này để tạo và quản lý theo tiêu chuẩn và tùy chỉnh mô-đun và các trường.',
+		'studioBtn'	=> 'Sử dụng <b> Studio </ b> để tùy chỉnh, triển khai mô-đun.',
+		'mbBtn'		=> 'Sử dụng <b> Module Builder </ b> để tạo ra mô-đun mới.',
+		'sugarPortalBtn' => 'Sử dụng <b>Biên soạn Sugar Portal </ b> để quản lý và tuỳ chỉnh Sugar Portal,.',
+		'dropDownEditorBtn' => 'Sử dụng <b>Biên soạn Dropdown</ b> để thêm và chỉnh sửa dropdowns toàn cầu cho các lĩnh vực dropdown.',
+		'appBtn' 	=> 'Áp dụng chế độ là nơi bạn có thể tuỳ chỉnh các thuộc tính của chương trình, chẳng hạn như có bao nhiêu TPS các báo cáo được hiển thị trên trang chủ',
+		'backBtn'	=> 'Quay trở lại trang trước',
+		'studioHelp'=> 'Sử dụng <b> Studio </ b> để xác định xem những gì và làm thế nào để thông tin được hiển thị trong các mô-đun.',
+		'moduleBtn'	=> 'Nhấp vào để chỉnh sửa mô-đun này.',
+		'moduleHelp'=> 'Các thành phần mà bạn có thể tùy chỉnh cho các mô-đun xuất hiện ở đây.<br>
 <br>
-Click an icon to select the component to edit.',
-		'fieldsBtn'	=> 'Create and customize <b>Fields</b> to store information in the module.',
-		'labelsBtn' => 'Edit the <b>Labels</b> that display for the fields and other titles in the module.'	,
-	    'relationshipsBtn' => 'Add new or view existing <b>Relationships</b> for the module.' ,
-		'layoutsBtn'=> 'Customize the module <b>Layouts</b>.  The layouts are the different views of the module contaning fields.<br>
+Click vào một biểu tượng để lựa chọn thành phần để chỉnh sửa.',
+		'fieldsBtn'	=> 'Tạo và chỉnh <b> trường </ b> để lưu trữ thông tin trong các mô-đun.',
+		'labelsBtn' => 'Hiệu chỉnh <b> Nhãn </ b> là hiển thị cho các trường và các tiêu đề trong các mô-đun.'	,
+	    'relationshipsBtn' => 'Thêm mới hoặc xem tồn tại <b> Quan hệ </ b> cho các mô-đun.' ,
+		'layoutsBtn'=> 'Tuỳ chỉnh mô-đun <b>Layout </ b>.Quan điểm của các modul contaning lĩnh vực là khác nhau.<br>
 <br>
-You can determine which fields appear and how they are organized in each layout.',
-		'subpanelBtn'=> 'Determine which fields appear in the <b>Subpanels</b> in the module.',
-		'portalBtn' =>'Customize the module <b>Layouts</b> that appear in the <b>Sugar Portal</b>.',
-		'layoutsHelp'=> 'The module <b>Layouts</b> that can be customized appear here.<br>
+Bạn có thể quyết định những trường xuất hiện và cách thức chúng được bố trí trong mỗi tổ chức.',
+		'subpanelBtn'=> 'Quyết định những lĩnh vực xuất hiện trong các <b> Subpanels </ b> trong các mô-đun.',
+		'portalBtn' =>'Tuỳ chỉnh modul <b>Layout</ b> mà xuất hiện trong các <b> Sugar Portal </ b>.',
+		'layoutsHelp'=> 'Những modul <b> Layout </ b> có thể được tùy biến xuất hiện ở đây.<br>
 <br>
-The layouts display fields and field data.<br>
+Các lĩnh vực bố trí hiển thị và các dữ liệu<br>
 <br>
-Click an icon to select the layout to edit.',
-		'subpanelHelp'=> 'The <b>Subpanels</b> in the module that can be customized appear here.<br>
+Nhấp vào một biểu tượng để lựa chọn bố trí để chỉnh sửa.',
+		'subpanelHelp'=> '<b> Subpanels </ b> trong các mô-đun có thể được tùy biến xuất hiện ở đây.<br>
 <br>
-Click an icon to select the module to edit.',
-        'newPackage'=>'Click <b>New Package</b> to create a new package.',
-        'exportBtn' => 'Click <b>Export Customizations</b> to create and download a package containing customizations made in Studio for specific modules.',
-        'mbHelp'    => 'Use <b>Module Builder</b> to create packages containing custom modules based on standard or custom objects.',
-	    'viewBtnEditView' => 'Customize the module\'s <b>EditView</b> layout.<br>
+Nhấp vào vào một biểu tượng để lựa chọn modul để chỉnh sửa.',
+        'newPackage'=>'Nhấp vào <b>Gói mới</ b> để tạo ra một gói phần mềm mới.',
+        'exportBtn' => 'Nhấp vào <b>Tùy chỉnh hàng xuất ra</ b> để tạo ra và tải về một gói phần mềm có chứa tuỳ chỉnh và được thực hiện trong Studio cho mô-đun.',
+        'mbHelp'    => 'Sử dụng <b> Module Builder </ b> để tạo ra các gói có chứa mô-đun tuỳ chỉnh dựa trên tiêu chuẩn hay tùy chỉnh các đối tượng.',
+	    'viewBtnEditView' => 'Tuỳ chỉnh mô-đun \ 's <b> EditView </ b> Layout.<br>
 <br>
-The EditView is the form containing input fields for capturing user-entered data.',
-	    'viewBtnDetailView' => 'Customize the module\'s <b>DetailView</b> layout.<br>
+Các EditView là một hình thức có chứa dữ liệu vào lĩnh vực capturing cho người sử dụng nhập dữ liệu.',
+	    'viewBtnDetailView' => 'Tuỳ chỉnh mô-đun \<b> DetailView </ b> Layout.<br>
 <br>
-The DetailView displays user-entered field data.',
-		'viewBtnDashlet' => 'Customize the module\'s <b>Sugar Dashlet</b>, including the Sugar Dashlet\'s ListView and Search.<br>
+Các DetailView hiển thị cho người dùng nhập vào trường dữ liệu.',
+		'viewBtnDashlet' => 'Tuỳ chỉnh mô-đun \  <b> Sugar Dashlet </ b>, bao gồm cả việc Sugar Dashlet \' s ListView và Tìm kiếm.<br>
 <br>
-The Sugar Dashlet will be available to add to the pages in the Home module.',
-	    'viewBtnListView' => 'Customize the module\'s <b>ListView</b> layout.<br>
+Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong mô-đun Trang chủ.',
+	    'viewBtnListView' => 'Tuỳ chỉnh mô-đun \ <b> ListView </ b> Layout.<br>
 <br>
-The Search results appear in the ListView.',
-	    'searchBtn' => 'Customize the module\'s <b>Search</b> layouts.<br>
+Các kết quả tìm kiếm xuất hiện trong ListView.',
+	    'searchBtn' => 'Tuỳ chỉnh mô-đun \ <b> Tìm kiếm </ b> Layout.<br>
 <br>
-Determine what fields can be used to filter records that appear in the ListView.',
-		'viewBtnQuickCreate' =>  'Customize the module\'s <b>QuickCreate</b> layout.<br>
+Xác định những trường có thể được dùng để lọc các hồ sơ liên quan xuất hiện trong ListView.',
+		'viewBtnQuickCreate' =>  'Tuỳ chỉnh mô-đun \ <b> ListView </ b> Layout.<br>
 <br>
-The QuickCreate form appears in subpanels and in the Emails module.',
+Các hình thức tạo nhanh xuất hiện trong subpanels và email trong modul.',
 
-	    'searchHelp'=> 'The <b>Search</b> forms that can be customized appear here.<br>
+	    'searchHelp'=> '<b>Các hình thức tìm kiếm </ b>có thể được tùy biến xuất hiện ở đây.<br>
 <br>
-Search forms contain fields for filtering records.<br>
+Các hình thức tìm kiếm chứa các lĩnh vực để lọc các bộ hồ sơ.<br>
 <br>
-Click an icon to select the search layout to edit.',
-	    'dashletHelp' =>'The <b>Sugar Dashlet</b> layouts that can be customized appear here.<br>
+Nhấp vào một biểu tượng để lựa chọn bố trí tìm kiếm để chỉnh sửa.',
+	    'dashletHelp' =>'<b>Sugar Dashlet </ b>Layout có thể được tùy biến xuất hiện ở đây.<br>
 <br>
-The Sugar Dashlet will be available to add to the pages in the Home module.',
-	    'DashletListViewBtn' =>'The <b>Sugar Dashlet ListView</b> displays records based on the Sugar Dashlet search filters.',
-	    'DashletSearchViewBtn' =>'The <b>Sugar Dashlet Search</b> filters records for the Sugar Dashlet listview.',
-		'BasicSearchBtn' => 'Customize the <b>Basic Search</b> form that appears in the Basic Search tab in the Search area for the module.',
-	    'AdvancedSearchBtn' => 'Customize the <b>Advanced Search</b> form that appears in the Advanced Search tab in the Search area for the module.',
-	    'portalHelp' => 'Manage and customize the <b>Sugar Portal</b>.',
-	    'SPUploadCSS' => 'Upload a <b>Style Sheet</b> for the Sugar Portal.',
-	    'SPSync' => '<b>Sync</b> customizations to the Sugar Portal instance.',
-	    'Layouts' => 'Customize the <b>Layouts</b> of the Sugar Portal modules.',
-	    'portalLayoutHelp' => 'The modules within the Sugar Portal appear in this area.<br>
+Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong modul Trang chủ.',
+	    'DashletListViewBtn' =>'	
+<b> Mía đường Dashlet ListView </ b> sẽ hiển thị hồ sơ, dựa vào các Dashlet Mía đường tìm kiếm các bộ lọc.',
+	    'DashletSearchViewBtn' =>'<b> Sugar Dashlet Tìm kiếm </ b> các bộ lọc hồ sơ cho các danh sách xem Dashlet.',
+		'BasicSearchBtn' => 'Tuỳ chỉnh <b>Tìm kiếm cơ bản </ b> hình thức xuất hiện trong các thẻ tab Tìm kiếm, Tìm kiếm khu vực cho các mô-đun.',
+	    'AdvancedSearchBtn' => 'Tùy chỉnh <b> Tìm kiếm nâng cao </ b> hình thức xuất hiện trong thẻ tab tìm kiếm nâng cao ,Tìm kiếm trong khu vực cho các modul ".',
+	    'portalHelp' => 'Quản lý và tuỳ chỉnh <b> Sugar Portal </ b>.',
+	    'SPUploadCSS' => 'Tải lên <b>phong cách trang Sheet</b> cho Sugar Portal.',
+	    'SPSync' => '<b> Đồng bộ hoá </ b> tuỳ chỉnh cho Sugar Portal.',
+	    'Layouts' => 'Tuỳ chỉnh <b> Layout </ b> của Sugar Portal, modul.',
+	    'portalLayoutHelp' => 'Những modul trong Sugar Portal, xuất hiện trong khu vực này.<br>
 <br>
-Select a module to edit the <b>Layouts</b>.',
-		'relationshipsHelp' => 'All of the <b>Relationships</b> that exist between the module and other deployed modules appear here.<br>
+Chọn một modul để chỉnh sửa <b> Layout </ b>.',
+		'relationshipsHelp' => 'Tất cả các <b> Quan hệ </ b> mà còn tồn tại giữa các phân hệ và mô-đun triển khai khác xuất hiện ở đây.<br>
 <br>
-The relationship <b>Name</b> is the system-generated name for the relationship.<br>
+Các mối quan hệ <b> Tên </ b> là các hệ thống tạo ra tên cho mối quan hệ.<br>
 <br>
-The <b>Primary Module</b> is the module that owns the relationships.  For example, all of the properties of the relationships for which the Accounts module is the primary module are stored in the Accounts database tables.<br>
+<b>Modul chính thức</ b> là các modul đó sở hữu các mối quan hệ. Ví dụ, tất cả các thuộc tính của các mối quan hệ đó có tài khoản cho các mô-đun chính là mô-đun sẽ được lưu trong cơ sở dữ liệu tài khoản.<br>
 <br>
-The <b>Type</b> is the type of relationship exists between the Primary module and the <b>Related Module</b>.<br>
+<b> Type </ b> là loại có thể có được mối quan hệ giữa các Modul chính và các <b> Modul liên quan </ b>. <br>
 <br>
-Click a column title to sort by the column.<br>
+Nhấp vào một tiêu đề cột để sắp xếp theo cột.<br>
 <br>
-Click a row in the relationship table to view the properties associated with the relationship.<br>
+Nhấp vào một hàng trong các mối quan hệ bảng để xem những tài sản gắn liền với mối quan hệ<br>
 <br>
-Click <b>Add Relationship</b> to create a new relationship.<br>
+Nhấp vào  <b>Thêm mối quan hệ </ b> để tạo ra một mối quan hệ mới.<br>
 <br>
-Relationships can be created between any two deployed modules.',
-        'relationshipHelp'=>'<b>Relationships</b> can be created between the module and another deployed module.<br>
+Quan hệ có thể được tạo ra bất kỳ giữa hai modul triển khai .',
+        'relationshipHelp'=>'<b> Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và mô-đun triển khai .<br>
 <br>
-Relationships are visually expressed through subpanels and relate fields in the module records.<br>
+Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong hồ sơ modul.<br>
 <br>
-Select one of the following relationship <b>Types</b> for the module:<br>
+Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các Modul:<br>
 <br>
-<b>One-to-One</b> - Both modules\' records will contain relate fields.<br>
+	
+<b>Một - Một </ b> - Cả hai Modul \sẽ chứa các trường hồ sơ liên quan.<br>
 <br>
-<b>One-to-Many</b> - The Primary Module\'s record will contain a subpanel, and the Related Module\'s record will contain a relate field.<br>
+<b>	Một - Nhiều </ b> - Các Modul chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
 <br>
-<b>Many-to-Many</b> - Both modules\' records will display subpanels.<br>
+<b>	
+Nhiều - Nhiều </ b> - Cả hai Modul \hồ sơ sẽ hiển thị subpanels.<br>
 <br>
-Select the <b>Related Module</b> for the relationship. <br>
+Chọn <b> Modul liên quan </ b> cho các mối quan hệ. <br>
 <br>
-If the relationship type involves subpanels, select the subpanel view for the appropriate modules.<br>
+Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subpanel xem thích hợp cho các Modul.<br>
 <br>
-Click <b>Save</b> to create the relationship.',
-		'editDropDownBtn' => 'Edit a global Dropdown',
-		'addDropDownBtn' => 'Add a new global Dropdown',
+	
+Nhấp vào <b>Lưu</ b> để tạo ra các mối quan hệ',
+		'editDropDownBtn' => 'Sửa đổi toàn bộ, Dropdown',
+		'addDropDownBtn' => 'Thêm mới toàn bộ Dropdown',
 	),
 	'fieldsHelp'=>array(
-		'default'=>'The <b>Fields</b> in the module are listed here by Field Name.<br>
+		'default'=>'<b> Trường </ b> trong các Modul được liệt kê ở đâu bởi Trường Tên.<br>
 <br>
-The module template includes a pre-determined set of fields.<br>
+Một mẫu Modul bao gồm các trường trước khi quyết định<br>
 <br>
-To create a new field, click <b>Add Field</b>.<br>
+Để tạo một trường mới, bấm vào <b> Thêm Trường </ b>. <br>
 <br>
-To edit a field, click the <b>Field Name</b>.<br/>
+Để chỉnh sửa một trường, bấm vào <b> Tên Trường </ b>. <br/>
 <br/>
-After the module is deployed, the new fields created in Module Builder, along with the template fields, are regarded as standard fields in Studio.',
+Sau khi triển khai Modul là, các trường mới tạo trong Module Builder, cùng với các mẫu trường, được coi như là tiêu chuẩn trong lĩnh vực Studio.',
 	),
 	'relationshipsHelp'=>array(
-		'default'=>'The <b>Relationships</b> that have been created between the module and other modules appear here.<br>
+		'default'=>'<b> Quan hệ </ b> đã được tạo ra giữa các Modul và các Modul được xuất hiện ở đây.<br>
 <br>
-The relationship <b>Name</b> is the system-generated name for the relationship.<br>
+Các mối quan hệ <b> Tên </ b> là các hệ thống tạo ra tên cho mối quan hệ. <br>
 <br>
-The <b>Primary Module</b> is the module that owns the relationships. The relationship properties are stored in the database tables belonging to the primary module.<br>
+<b> Modul chính thức </ b> là các Modul sở hữu các mối quan hệ. Các mối quan hệ thuộc tính sẽ được lưu trong cơ sở dữ liệu của bảng và phụ thuộc vào chính Modul. <br>
 <br>
-The <b>Type</b> is the type of relationship exists between the Primary module and the <b>Related Module</b>.<br>
+<b> Loại </ b> là loại có thể có được mối quan hệ giữa các Modul chính và các <b> Modul liên quan </ b>. <br>
 <br>
-Click a column title to sort by the column.<br>
+Nhấp vào một tiêu đề cột để sắp xếp theo cột<br>
 <br>
-Click a row in the relationship table to view and edit the properties associated with the relationship.<br>
+Nhấp vào một hàng trong các mối quan hệ bảng để xem và chỉnh sửa các thuộc tính gắn liền với mối quan hệ.<br>
 <br>
-Click <b>Add Relationship</b> to create a new relationship.',
-		'addrelbtn'=>'mouse over help for add relationship..',
-		'addRelationship'=>'<b>Relationships</b> can be created between the module and another custom module or a deployed module.<br>
+Nhấp vào <b>Thêm mối quan hệ </ b> để tạo ra một mối quan hệ mới.',
+		'addrelbtn'=>'Di chuột lên để thêm mối quan hệ..',
+		'addRelationship'=>'<b>Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và tùy chỉnh mô-đun hoặc một Modul triển khai<br>
 <br>
-Relationships are visually expressed through subpanels and relate fields in the module records.<br>
+Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong  hồ sơ Modul.<br>
 <br>
-Select one of the following relationship <b>Types</b> for the module:<br>
+Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các Modul:<br>
 <br>
-<b>One-to-One</b> - Both modules\' records will contain relate fields.<br>
+<b>Một - Một </ b> - Cả hai Modul \sẽ chứa các trường hồ sơ liên quan.<br>
 <br>
-<b>One-to-Many</b> - The Primary Module\'s record will contain a subpanel, and the Related Module\'s record will contain a relate field.<br>
+<b>	Một - Nhiều </ b> - Các Modul chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
 <br>
-<b>Many-to-Many</b> - Both modules\' records will display subpanels.<br>
+<b>Nhiều - Nhiều </ b> - Cả hai Modul \hồ sơ sẽ hiển thị subpanels.<br>
 <br>
-Select the <b>Related Module</b> for the relationship. <br>
+Chọn <b>Modul liên quan</ b> cho các mối quan hệ. <br>
 <br>
-If the relationship type involves subpanels, select the subpanel view for the appropriate modules.<br>
+Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subpanel xem cho các Modul thích hợp.<br>
 <br>
-Click <b>Save</b> to create the relationship.',
+Nhấp vào<b>Lưu</ b> để tạo ra các mối quan hệ.',
 	),
 	'labelsHelp'=>array(
-		'default'=> 'The <b>Labels</b> for the fields and other titles in the module can be changed.<br>
+		'default'=> '<b> Nhãn </ b> cho các trường và các tiêu đề trong các Modul có thể được thay đổi.<br>
 <br>
-Edit the label by clicking within the field, entering a new label and clicking <b>Save</b>.<br>
+Hiệu chỉnh các nhãn bằng cách nhấp chuột vào bên trong trường, nhập vào một nhãn mới và nhấp vào <b>Lưu</ b>.<br>
 <br>
-If any language packs are installed in the application, you can select the <b>Language</b> to use for the labels.',
-		'saveBtn'=>'Click <b>Save</b> to save all changes.',
-		'publishBtn'=>'Click <b>Save & Deploy</b> to save all changes and make them active.',
+	
+Nếu bất cứ ngôn ngữ nào được cài đặt trong gói ứng dụng, bạn có thể chọn <b> ngôn ngữ </ b> để sử dụng cho các nhãn.',
+		'saveBtn'=>'Nhấp vào <b> Lưu </ b> để lưu tất cả các thay đổi',
+		'publishBtn'=>'Nhấp vào <b>  Lưu & Triển khai </ b> để lưu tất cả các thay đổi và làm cho họ hoạt động.',
 	),
 	'portalSync'=>array(
-	    'default' => 'Enter the <b>Sugar Portal URL</b> of the portal instance to update, and click <b>Go</b>.<br>
+	    'default' => 'Nhập các <b> Sugar Portal, URL </ b> của các cổng để cập nhật thông tin, và bấm vào <b>Go</ b>. <br</b>.<br>
 <br>
-Then enter a valid Sugar user name and password, and then click <b>Begin Sync</b>.<br>
+Sau đó nhập đúng tên truy cập và mật khẩu và sau đó nhấp vào <b>Begin Sync</b>.<br>
 <br>
 The customizations made to the Sugar Portal <b>Layouts</b>, along with the <b>Style Sheet</b> if one was uploaded, will be transferred to specified the portal instance.',
 	),
@@ -715,193 +720,194 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_HOME' => 'Home',
 'LBL_NONE'=>'-None-',
 
-'LBL_ADD_FIELDS'=>'Add Custom Fields',
-'LBL_AVAILABLE_SUBPANELS'=>'Available Subpanels',
-'LBL_ADVANCED'=>'Advanced',
-'LBL_ADVANCED_SEARCH'=>'Advanced Search',
-'LBL_BASIC'=>'Basic',
-'LBL_BASIC_SEARCH'=>'Basic Search',
+'LBL_ADD_FIELDS'=>'Thêm một trườn tùy chỉnh',
+'LBL_AVAILABLE_SUBPANELS'=>'Có sẵn Subpanels',
+'LBL_ADVANCED'=>'Nâng cao',
+'LBL_ADVANCED_SEARCH'=>'TÌm kiếm nâng cao',
+'LBL_BASIC'=>'Cơ bản',
+'LBL_BASIC_SEARCH'=>'Tìm kiếm cơ bản',
 'LBL_CURRENT_LAYOUT'=>'Layout',
 'LBL_CURRENCY' => 'Currency',
 'LBL_DASHLET'=>'Sugar Dashlet',
-'LBL_DASHLETLISTVIEW'=>'Sugar Dashlet ListView',
-'LBL_DASHLETSEARCH'=>'Sugar Dashlet Search',
-'LBL_DASHLETSEARCHVIEW'=>'Sugar Dashlet Search',
-'LBL_DISPLAY_HTML'=>'Display HTML Code',
-'LBL_DETAILVIEW'=>'DetailView',
-'LBL_DROP_HERE' => '[Drop Here]',
-'LBL_EDIT'=>'Edit',
+'LBL_DASHLETLISTVIEW'=>'Xem danh sách Sugar Dashlet',
+'LBL_DASHLETSEARCH'=>'Tìm kiếm Sugar Dashlet',
+'LBL_DASHLETSEARCHVIEW'=>'Tìm kiếm Sugar Dashlet',
+'LBL_DISPLAY_HTML'=>'Hiển thị mã HTML',
+'LBL_DETAILVIEW'=>'Xem chi tiết',
+'LBL_DROP_HERE' => '[Xóa ở đây]',
+'LBL_EDIT'=>'Chỉnh sửa',
 'LBL_EDIT_LAYOUT'=>'Edit Layout',
-'LBL_EDIT_ROWS'=>'Edit Rows',
-'LBL_EDIT_COLUMNS'=>'Edit Columns',
-'LBL_EDIT_LABELS'=>'Edit Labels',
-'LBL_EDIT_FIELDS'=>'Edit Custom Fields',
-'LBL_EDIT_PORTAL'=>'Edit Portal for ',
-'LBL_EDIT_FIELDS'=>'Edit Fields',
+'LBL_EDIT_ROWS'=>'Sửa đổi hàng',
+'LBL_EDIT_COLUMNS'=>'Sửa đổi cột',
+'LBL_EDIT_LABELS'=>'Sửa đổi nhãn',
+'LBL_EDIT_FIELDS'=>'Tùy chỉnh trường',
+'LBL_EDIT_PORTAL'=>'Chỉnh sửa cổng điện tử ',
+'LBL_EDIT_FIELDS'=>'Chỉnh sửa trường',
 'LBL_EDITVIEW'=>'EditView',
-'LBL_FILLER'=>'(filler)',
-'LBL_FIELDS'=>'Fields',
-'LBL_FAILED_TO_SAVE' => 'Failed To Save',
-'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-'LBL_HOMEPAGE_PREFIX' => 'My',
+'LBL_FILLER'=>'(Bộ lọc)',
+'LBL_FIELDS'=>'Trường',
+'LBL_FAILED_TO_SAVE' => 'Không để lưu',
+'LBL_FAILED_PUBLISHED' => 'Không thể xuất bản',
+'LBL_HOMEPAGE_PREFIX' => 'Của tôi',
 'LBL_LAYOUT_PREVIEW'=>'Layout Preview',
 'LBL_LAYOUTS'=>'Layouts',
-'LBL_LISTVIEW'=>'ListView',
+'LBL_LISTVIEW'=>'Xem danh sách',
 'LBL_MODULES'=>'Modules',
 'LBL_MODULE_TITLE' => 'Studio',
-'LBL_NEW_PACKAGE' => 'New Package',
-'LBL_NEW_PANEL'=>'New Panel',
-'LBL_NEW_ROW'=>'New Row',
-'LBL_PACKAGE_DELETED'=>'Package Deleted',
+'LBL_NEW_PACKAGE' => 'Gói mới',
+'LBL_NEW_PANEL'=>'Bảng mới',
+'LBL_NEW_ROW'=>'Hàng mới',
+'LBL_PACKAGE_DELETED'=>'Gói đã xóa',
 'LBL_PUBLISHING' => 'Publishing ...',
-'LBL_PUBLISHED' => 'Published',
-'LBL_SELECT_FILE'=> 'Select File',
+'LBL_PUBLISHED' => 'Đã xuất bản',
+'LBL_SELECT_FILE'=> 'Lựa chọn tập tin',
 'LBL_SAVE_LAYOUT'=> 'Save Layout',
-'LBL_SELECT_A_SUBPANEL' => 'Select a Subpanel',
-'LBL_SELECT_SUBPANEL' => 'Select Subpanel',
+'LBL_SELECT_A_SUBPANEL' => 'Lựa chọn một Subpanel',
+'LBL_SELECT_SUBPANEL' => 'Lựa chọn Subpanel',
 'LBL_SUBPANELS' => 'Subpanels',
 'LBL_SUBPANEL' => 'Subpanel',
-'LBL_SEARCH_FORMS' => 'Search',
-'LBL_SEARCH'=>'Search',
-'LBL_STAGING_AREA' => 'Staging Area (drag and drop items here)',
+'LBL_SEARCH_FORMS' => 'Tìm kiếm',
+'LBL_SEARCH'=>'Tìm kiếm',
+'LBL_STAGING_AREA' => 'Staging Area (kéo thả các bản ghi ở đây)',
 'LBL_SUGAR_FIELDS_STAGE' => 'Sugar Fields (click items to add to staging area)',
 'LBL_SUGAR_BIN_STAGE' => 'Sugar Bin (click items to add to staging area)',
-'LBL_TOOLBOX' => 'Toolbox',
-'LBL_VIEW_SUGAR_FIELDS' => 'View Sugar Fields',
+'LBL_TOOLBOX' => 'Hộp công cụ',
+'LBL_VIEW_SUGAR_FIELDS' => 'Xem trường Sugar',
 'LBL_VIEW_SUGAR_BIN' => 'View Sugar Bin',
-'LBL_QUICKCREATE' => 'QuickCreate',
+'LBL_QUICKCREATE' => 'Tạo nhanh',
 'LBL_EDIT_DROPDOWNS' => 'Edit a Global Dropdown',
 'LBL_ADD_DROPDOWN' => 'Add a new Global Dropdown',
 'LBL_BLANK' => '-blank-',
 'LBL_TAB_ORDER' => 'Tab Order',
 
-'LBL_DROPDOWN_TITLE_NAME' => 'Name',
-'LBL_DROPDOWN_LANGUAGE' => 'Language',
-'LBL_DROPDOWN_ITEMS' => 'List Items',
-'LBL_DROPDOWN_ITEM_NAME' => 'Item Name',
-'LBL_DROPDOWN_ITEM_LABEL' => 'Display Label',
+'LBL_DROPDOWN_TITLE_NAME' => 'Tên',
+'LBL_DROPDOWN_LANGUAGE' => 'Ngôn ngữ',
+'LBL_DROPDOWN_ITEMS' => 'Danh sách mục',
+'LBL_DROPDOWN_ITEM_NAME' => 'Tên mục',
+'LBL_DROPDOWN_ITEM_LABEL' => 'Hiện thị nhãn',
 
 //RELATIONSHIPS
 'LBL_MODULE' => 'Module',
 'LBL_MODULE' => 'Module',
-'LBL_LHS_MODULE'=>'Primary Module',
-'LBL_CUSTOM_RELATIONSHIPS' => '* relationship created in Studio or Module Builder',
-'LBL_RELATIONSHIPS'=>'Relationships',
-'LBL_RELATIONSHIP_EDIT' => 'Edit Relationship',
-'LBL_REL_NAME' => 'Name',
-'LBL_REL_LABEL' => 'Label',
-'LBL_REL_TYPE' => 'Type',
-'LBL_RHS_MODULE'=>'Related Module',
-'LBL_NO_RELS' => 'No Relationships',
-'LBL_RELATIONSHIP_ROLE_ENTRIES'=>'Optional Condition' ,
-'LBL_RELATIONSHIP_ROLE_COLUMN'=>'Column',
-'LBL_RELATIONSHIP_ROLE_VALUE'=>'Value',
-'LBL_SUBPANEL_FROM'=>'Subpanel from',
-'LBL_RELATIONSHIP_ONLY'=>'No visible elements will be created for this relationship as there is a pre-existing visible relationship between these two modules.',
-'LBL_ONETOONE' => 'One to One',
-'LBL_ONETOMANY' => 'One to Many',
-'LBL_MANYTOMANY' => 'Many to Many',
+'LBL_LHS_MODULE'=>'Module chính',
+'LBL_CUSTOM_RELATIONSHIPS' => '* Tạo ra mối quan hệ giữa Studio và Module Builder',
+'LBL_RELATIONSHIPS'=>'Quan hệ',
+'LBL_RELATIONSHIP_EDIT' => 'Chỉnh sửa Relationship',
+'LBL_REL_NAME' => 'Tên',
+'LBL_REL_LABEL' => 'Nhãn',
+'LBL_REL_TYPE' => 'Loại',
+'LBL_RHS_MODULE'=>'Module liên quan',
+'LBL_NO_RELS' => 'Không có quan hệ',
+'LBL_RELATIONSHIP_ROLE_ENTRIES'=>'Điều kiện bắt buộc' ,
+'LBL_RELATIONSHIP_ROLE_COLUMN'=>'Cột',
+'LBL_RELATIONSHIP_ROLE_VALUE'=>'Giá trị',
+'LBL_SUBPANEL_FROM'=>'Subpanel từ',
+'LBL_RELATIONSHIP_ONLY'=>'Không có thể nhìn thấy yếu tố có sẵn được tạo ra cho mối quan hệ này , hiện có thể nhìn thấy mối quan hệ giữa hai module.',
+'LBL_ONETOONE' => 'Một - Một',
+'LBL_ONETOMANY' => 'Một - Nhiều',
+'LBL_MANYTOMANY' => 'Nhiều - Nhiều',
 
 
 //STUDIO QUESTIONS
-'LBL_QUESTION_FUNCTION' => 'Select a function or component.',
-'LBL_QUESTION_MODULE1' => 'Select a module.',
-'LBL_QUESTION_EDIT' => 'Select a module to edit.',
-'LBL_QUESTION_LAYOUT' => 'Select a layout to edit.',
-'LBL_QUESTION_SUBPANEL' => 'Select a subpanel to edit.',
-'LBL_QUESTION_SEARCH' => 'Select a search layout to edit.',
-'LBL_QUESTION_MODULE' => 'Select a module component to edit.',
-'LBL_QUESTION_PACKAGE' => 'Select a package to edit, or create a new package.',
-'LBL_QUESTION_EDITOR' => 'Select a tool.',
-'LBL_QUESTION_DROPDOWN' => 'Select a dropdown to edit, or create a new dropdown.',
-'LBL_QUESTION_DASHLET' => 'Select a dashlet layout to edit.',
+'LBL_QUESTION_FUNCTION' => 'Lựa chọn một chức năng hoặc các thành phần.',
+'LBL_QUESTION_MODULE1' => 'Lựa chọn một module.',
+'LBL_QUESTION_EDIT' => 'Lựa chọn một module để chỉnh sửa.',
+'LBL_QUESTION_LAYOUT' => 'Lựa chọn một layout để chỉnh sửa.',
+'LBL_QUESTION_SUBPANEL' => 'Lựa chọn một subpanel để chỉnh sửa.',
+'LBL_QUESTION_SEARCH' => 'Lựa chọn tìm kiếm layout để chỉnh sửa',
+'LBL_QUESTION_MODULE' => 'Lựa chọn một thành phần của module để chỉnh sửa.',
+'LBL_QUESTION_PACKAGE' => 'Chọn một gói phần mềm để chỉnh sửa, hoặc tạo ra một gói phần mềm mới.',
+'LBL_QUESTION_EDITOR' => 'Lựa chọn một công cụ.',
+'LBL_QUESTION_DROPDOWN' => 'Chọn một dropdown để chỉnh sửa, hoặc tạo một dropdown mới',
+'LBL_QUESTION_DASHLET' => 'Chọn một dashlet layout để chỉnh sửa.',
 //CUSTOM FIELDS
-'LBL_RELATE_TO'=>'Relate To',
-'LBL_NAME'=>'Name',
-'LBL_LABELS'=>'Labels',
-'LBL_MASS_UPDATE'=>'Mass Update',
-'LBL_AUDITED'=>'Audit',
+'LBL_RELATE_TO'=>'Liên quan',
+'LBL_NAME'=>'Tên',
+'LBL_LABELS'=>'Nhãn',
+'LBL_MASS_UPDATE'=>'Update khối',
+'LBL_AUDITED'=>'Kiểm toán',
 'LBL_CUSTOM_MODULE'=>'Module',
-'LBL_DEFAULT_VALUE'=>'Default Value',
-'LBL_REQUIRED'=>'Required',
-'LBL_DATA_TYPE'=>'Type',
+'LBL_DEFAULT_VALUE'=>'Giá trị mặc định',
+'LBL_REQUIRED'=>'Yêu cầu',
+'LBL_DATA_TYPE'=>'Loại',
 'LBL_HCUSTOM'=>'CUSTOM',
-'LBL_HDEFAULT'=>'DEFAULT',
-'LBL_LANGUAGE'=>'Language:',
+'LBL_HDEFAULT'=>'MẶC ĐỊNH',
+'LBL_LANGUAGE'=>'Ngôn ngữ:',
 
 
 //SECTION
-'LBL_SECTION_EDLABELS' => 'Edit Labels',
-'LBL_SECTION_PACKAGES' => 'Packages',
-'LBL_SECTION_PACKAGE' => 'Package',
+'LBL_SECTION_EDLABELS' => 'Chỉnh sửa nhãn',
+'LBL_SECTION_PACKAGES' => 'Các gói',
+'LBL_SECTION_PACKAGE' => 'Gói',
 'LBL_SECTION_MODULES' => 'Modules',
-'LBL_SECTION_PORTAL' => 'Portal',
+'LBL_SECTION_PORTAL' => 'Cổng điện tử',
 'LBL_SECTION_DROPDOWNS' => 'Dropdowns',
-'LBL_SECTION_PROPERTIES' => 'Properties',
-'LBL_SECTION_DROPDOWNED' => 'Edit Dropdown',
-'LBL_SECTION_HELP' => 'Help',
-'LBL_SECTION_ACTION' => 'Action',
-'LBL_SECTION_MAIN' => 'Main',
-'LBL_SECTION_EDPANELLABEL' => 'Edit Panel Label',
-'LBL_SECTION_FIELDEDITOR' => 'Edit Field',
-'LBL_SECTION_DEPLOY' => 'Deploy',
+'LBL_SECTION_PROPERTIES' => 'Những thuộc tính',
+'LBL_SECTION_DROPDOWNED' => 'Chỉnh sửa Dropdown',
+'LBL_SECTION_HELP' => 'Giúp đỡ',
+'LBL_SECTION_ACTION' => 'Hành động',
+'LBL_SECTION_MAIN' => 'Chính',
+'LBL_SECTION_EDPANELLABEL' => 'Chỉnh sửa bảng nhãn',
+'LBL_SECTION_FIELDEDITOR' => 'Chỉnh sửa trường',
+'LBL_SECTION_DEPLOY' => 'Triển khai',
 'LBL_SECTION_MODULE' => 'Module',
 //WIZARDS
 
 //LIST VIEW EDITOR
-'LBL_DEFAULT'=>'Default',
-'LBL_HIDDEN'=>'Hidden',
-'LBL_AVAILABLE'=>'Available',
-'LBL_LISTVIEW_DESCRIPTION'=>'There are three columns displayed below. The <b>Default</b> column contains fields that are displayed in a list view by default.  The <b>Additional</b> column contains fields that a user can choose to use for creating a custom view.  The <b>Available</b> column displays fields availabe for you as an admin to add to the Default or Additional columns for use by users.',
-'LBL_LISTVIEW_EDIT'=>'List View Editor',
+'LBL_DEFAULT'=>'Mặc định',
+'LBL_HIDDEN'=>'Ân',
+'LBL_AVAILABLE'=>'Có sẵn',
+'LBL_LISTVIEW_DESCRIPTION'=>'Hiện có ba cột hiển thị dưới đây. <b> Mặc định </ b> cột chứa các lĩnh vực được hiển thị trong một danh sách xem theo mặc định. <b> Bổ sung </ b> cột chứa các lĩnh vực đó, một người sử dụng có thể chọn để sử dụng cho việc tạo một lần xem.  	
+<b>Sănư có </ b> cột hiển thị các trường cho bạn như là một quản trị viên để thêm vào các cột mặc định hoặc bổ sung cho việc sử dụng của người dùng.',
+'LBL_LISTVIEW_EDIT'=>'Xem danh sách biên soạn',
 
 //Manager Backups History
-'LBL_MB_PREVIEW'=>'Preview',
-'LBL_MB_RESTORE'=>'Restore',
-'LBL_MB_DELETE'=>'Delete',
-'LBL_MB_COMPARE'=>'Compare',
+'LBL_MB_PREVIEW'=>'Xem trước',
+'LBL_MB_RESTORE'=>'Khôi phục',
+'LBL_MB_DELETE'=>'Xóa bỏ',
+'LBL_MB_COMPARE'=>'Hoàn thành',
 
 //END WIZARDS
 
 //BUTTONS
-'LBL_BTN_ADD'=>'Add',
-'LBL_BTN_SAVE'=>'Save',
-'LBL_BTN_SAVE_CHANGES'=>'Save Changes',
-'LBL_BTN_DONT_SAVE'=>'Discard Changes',
-'LBL_BTN_CANCEL'=>'Cancel',
-'LBL_BTN_CLOSE'=>'Close',
-'LBL_BTN_UPLOAD'=>'Upload',
-'LBL_BTN_SAVEPUBLISH'=>'Save & Deploy',
-'LBL_BTN_NEXT'=>'Next',
-'LBL_BTN_BACK'=>'Back',
+'LBL_BTN_ADD'=>'Thêm vào',
+'LBL_BTN_SAVE'=>'Lưu giữ',
+'LBL_BTN_SAVE_CHANGES'=>'Lưu giữ thay đổi',
+'LBL_BTN_DONT_SAVE'=>'Hủy thay đổi',
+'LBL_BTN_CANCEL'=>'Hủy bỏ',
+'LBL_BTN_CLOSE'=>'Đóng',
+'LBL_BTN_UPLOAD'=>'Tải lên',
+'LBL_BTN_SAVEPUBLISH'=>'Lưu và triển khai',
+'LBL_BTN_NEXT'=>'Tiếp theo',
+'LBL_BTN_BACK'=>'Trở lại',
 'LBL_BTN_CLONE'=>'Clone',
-'LBL_BTN_ADDCOLS'=>'Add Columns',
-'LBL_BTN_ADDROWS'=>'Add Rows',
-'LBL_BTN_ADDFIELD'=>'Add Field',
-'LBL_BTN_ADDDROPDOWN'=>'Add Dropdown',
-'LBL_BTN_SORT_ASCENDING'=>'Sort Ascending',
-'LBL_BTN_SORT_DESCENDING'=>'Sort Descending',
-'LBL_BTN_EDLABELS'=>'Edit Labels',
-'LBL_BTN_UNDO'=>'Undo',
-'LBL_BTN_REDO'=>'Redo',
-'LBL_BTN_ADDCUSTOMFIELD'=>'Add Custom Field',
-'LBL_BTN_EXPORT'=>'Export Customizations',
-'LBL_BTN_DUPLICATE'=>'Duplicate',
-'LBL_BTN_PUBLISH'=>'Publish',
-'LBL_BTN_DEPLOY'=>'Deploy',
-'LBL_BTN_EXP'=>'Export',
-'LBL_BTN_DELETE'=>'Delete',
-'LBL_BTN_VIEW_LAYOUTS'=>'View Layouts',
-'LBL_BTN_VIEW_FIELDS'=>'View Fields',
-'LBL_BTN_VIEW_RELATIONSHIPS'=>'View Relationships',
-'LBL_BTN_ADD_RELATIONSHIP'=>'Add Relationship',
+'LBL_BTN_ADDCOLS'=>'Thêm cộ',
+'LBL_BTN_ADDROWS'=>'Thêm hàng',
+'LBL_BTN_ADDFIELD'=>'Thêm trường',
+'LBL_BTN_ADDDROPDOWN'=>'Thêm Dropdown',
+'LBL_BTN_SORT_ASCENDING'=>'Sắp xếp tăng dần',
+'LBL_BTN_SORT_DESCENDING'=>'Sắp xếp giảm dần',
+'LBL_BTN_EDLABELS'=>'Chỉnh sửa nhãn',
+'LBL_BTN_UNDO'=>'Hoàn tất',
+'LBL_BTN_REDO'=>'Làm lại',
+'LBL_BTN_ADDCUSTOMFIELD'=>'Thêm trường tùy chỉnh',
+'LBL_BTN_EXPORT'=>'Tùy chỉnh xuất ra',
+'LBL_BTN_DUPLICATE'=>'Trùng lặp',
+'LBL_BTN_PUBLISH'=>'Xuất ra',
+'LBL_BTN_DEPLOY'=>'Triển khai',
+'LBL_BTN_EXP'=>'Xuất ra',
+'LBL_BTN_DELETE'=>'Xóa bỏ',
+'LBL_BTN_VIEW_LAYOUTS'=>'Xem Layouts',
+'LBL_BTN_VIEW_FIELDS'=>'Xem trường',
+'LBL_BTN_VIEW_RELATIONSHIPS'=>'Xem mối quan hệ',
+'LBL_BTN_ADD_RELATIONSHIP'=>'Thêm mối quan hệ',
 //TABS
 
 
 //ERRORS
-'ERROR_ALREADY_EXISTS'=> 'Error: Field Already Exists',
-'ERROR_INVALID_KEY_VALUE'=> "Error: Invalid Key Value: [']",
-'ERROR_NO_HISTORY' => 'No history files found',
+'ERROR_ALREADY_EXISTS'=> 'Lỗi: luôn có một trường tồn tại',
+'ERROR_INVALID_KEY_VALUE'=> "Lỗi:Mật khẩu không đúng [']",
+'ERROR_NO_HISTORY' => 'Không tìm thấy nhật ký tập tin',
 
 
 
