@@ -32,7 +32,7 @@ Em bắt đầu trước:
 - Publish ~ Công bố. Publish Date ~ Ngày công bố. Cái này nằm nhiều trong phần Document. <br />
 - Mình có ý kiến thế này khi dịch:<br />
 ví dụ như: Create Contact ~ Tạo Liên hệ << Viết hoa Liên hệ<br />
-- Mọi người bổ sung tiếp nha :D<br /> 
+- Mọi người bổ sung tiếp nha :D<br /> -> Em đồng ý he he.
  Ngày 04-6-2009: LongNH<br />
 - Ai dịch hộ em cái này với: The above uses standard crontab notation<br />
 - Ai dịch hộ em cái này với:Workflow<br />
