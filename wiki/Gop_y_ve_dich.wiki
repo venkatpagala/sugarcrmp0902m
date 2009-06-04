@@ -16,7 +16,7 @@ Em bắt đầu trước:
 - Prospect dịch là thăm dò.<br />
 - File sẽ dịch thành tập tin.<br />
 - URL, module, html,ID giữ nguyên.<br />
-- lists Mass dịch là khối.<br />
+- lists dịch thành danh sách Mass dịch là khối.<br />
 - Email sẽ giữ nguyên không dịch.<br />
 - Portal nên dịch là Cổng điện tử.<br />
 - Home nên dịch là trang chủ.<br />
