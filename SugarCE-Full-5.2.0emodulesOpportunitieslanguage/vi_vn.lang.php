@@ -59,7 +59,7 @@ $mod_strings = array (
   'LBL_LIST_DATE_CLOSED' => 'Đóng',
   'LBL_LIST_SALES_STAGE' => 'Giai đoạn bán hàng',
   'LBL_ACCOUNT_ID'=>'Tên đăng nhập tài khoản',
-  'LBL_CURRENCY_ID'=>'Currency ID',
+  'LBL_CURRENCY_ID'=>'ID tiền tệ',
   'LBL_CURRENCY_NAME'=>'Tên loại tiền tệ',
   'LBL_CURRENCY_SYMBOL'=>'Ký hiệu tiền tệ',
 
@@ -104,7 +104,7 @@ $mod_strings = array (
   'LBL_TYPE' => 'Dạng:',
   'LBL_CAMPAIGN' => 'Chiến dịch:',
   'LBL_NEXT_STEP' => 'Bước tiếp theo:',
-  'LBL_LEAD_SOURCE' => 'Lead Source:',
+  'LBL_LEAD_SOURCE' => 'Nguồn tiềm năng:',
   'LBL_SALES_STAGE' => 'Giai đoạn bán hàng:',
   'LBL_PROBABILITY' => 'Xác suất (%):',
   'LBL_DESCRIPTION' => 'Mô tả:',

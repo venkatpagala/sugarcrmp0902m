@@ -281,7 +281,7 @@ $app_list_strings = array (
     'Net 15' => 'Trong vòng 15',
     'Net 30' => 'Trong vòng 30',
   ),
-  'sales_stage_default_key' => 'Prospecting',
+  'sales_stage_default_key' => 'Thăm dò',
   'sales_stage_dom' =>
   array (
     'Prospecting' => 'Thăm dò',
@@ -477,7 +477,7 @@ $app_list_strings = array (
 
   //Note:  do not translate record_type_default_key
 //       it is the key for the default record_type_module value
-  'record_type_default_key' => 'Accounts',
+  'record_type_default_key' => 'Tài khoản',
   'record_type_display' =>
   array (
     '' => '',
@@ -944,11 +944,11 @@ $app_list_strings = array (
     'dom_switch_bool'       => array ('on' => 'Yes',
                                         'off' => 'No',
                                         '' => 'No', ),
-    'dom_email_link_type'   => array(   ''          => 'System Default Mail Client',
-                                        'sugar'     => 'SugarCRM Mail Client',
-                                        'mailto'    => 'External Mail Client'),
+    'dom_email_link_type'   => array(   ''          => 'Hệ thống mặc đinh thư khách',
+                                        'sugar'     => 'Thư khách SugarCRM',
+                                        'mailto'    => 'Thư khách bên ngoài'),
 
-    'dom_email_editor_option'=> array(  ''          => 'Default Email Format',
+    'dom_email_editor_option'=> array(  ''          => 'Định dạng mặc đinh cho thư',
                                         'html'      => 'HTML Email',
                                         'plain'     => 'Plain Text Email'),
 
@@ -1030,7 +1030,6 @@ $app_list_strings = array (
     'tentative' => 'Sắp xếp',
     'none'      => 'Không',
   ),
-
 
 
 
