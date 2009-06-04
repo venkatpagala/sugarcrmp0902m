@@ -5,7 +5,7 @@ Chào các anh. Em đã xem qua của anh Giáp dịch em thấy bài của anh 
 Em bắt đầu trước:
 = Details =
 *Headings
- Ngày 2-6-2009:
+ Ngày 02-6-2009:
 - 
 - Layout -> bố cục<br />
 - Enable, Disable -> cho phép (Kích hoạt)<br />
@@ -27,5 +27,11 @@ Em bắt đầu trước:
 - Dashboard dịch là bảng điều khiển<br />
 - Ngoài ra các anh cho ý kiến về dịch Dashlet. Cái này theo em nên dịch là điều khiển -> add dashlet dịch là thêm điều khiển vì ta đã dịch Dashboard là bảng điều khiển. <br />
 - license -> Giấy phép<br />
+
+ Ngày 04-6-2009: ToanLK<br />
+- Publish ~ Công bố. Publish Date ~ Ngày công bố. Cái này nằm nhiều trong phần Document. <br />
+- Mình có ý kiến thế này khi dịch:<br />
+ví dụ như: Create Contact ~ Tạo Liên hệ << Viết hoa Liên hệ<br />
+- Mọi người bổ sung tiếp nha :D<br /> 
 = End =
 Trên đây là một số ý kiến của em. Có gì em sẽ post thêm. Hi vọng các anh sẽ thường xuyên vào kiểm tra đề có thể làm việc tốt. Ai có ý kiến vào Wiki rùi tạo một trang ntn mọi người sẽ vào xem. he he.
