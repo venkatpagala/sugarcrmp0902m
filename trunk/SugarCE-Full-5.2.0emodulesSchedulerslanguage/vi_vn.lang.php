@@ -51,8 +51,8 @@ $mod_strings = array (
 'LBL_OOTB_BOUNCE'		=> 'Run Nightly Process Bounced Campaign Emails',
 'LBL_OOTB_CAMPAIGN'		=> 'Run Nightly Mass Email Campaigns',
 'LBL_OOTB_PRUNE'		=> 'Sửa dữ liệu vào ngày đầu tiên của tháng',
-'LBL_OOTB_TRACKER'		=> 'Prune tracker tables',
-'LBL_UPDATE_TRACKER_SESSIONS' => 'Update tracker_sessions table',
+'LBL_OOTB_TRACKER'		=> 'Bỏ bớt bảng theo dõi',
+'LBL_UPDATE_TRACKER_SESSIONS' => 'Cập nhật bảng phiên theo dõi',
 
 
 
