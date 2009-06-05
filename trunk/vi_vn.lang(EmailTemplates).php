@@ -43,15 +43,15 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-	'LBL_ADD_ANOTHER_FILE'		=> 'Thêm thư mục khác',
+	'LBL_ADD_ANOTHER_FILE'		=> 'Thêm tập tin khác',
 	'LBL_ADD_DOCUMENT'			=> 'Thêm một tài liệu sugar',
-	'LBL_ADD_FILE'				=> 'Thêm một thư mục',
-	'LBL_ATTACHMENTS'			=> 'Những thư mục đính kèm',
+	'LBL_ADD_FILE'				=> 'Thêm một tập tin',
+	'LBL_ATTACHMENTS'			=> 'Những tập tin đính kèm',
 	'LBL_BODY'					=> 'Body:',
 	'LBL_CLOSE'					=> 'Đóng:',
 	'LBL_COLON'					=> ':',
 	'LBL_CONTACT_AND_OTHERS'	=> 'Contact/Lead/Target',
-	'LBL_DESCRIPTION'			=> 'Description:',
+	'LBL_DESCRIPTION'			=> 'Mô tả:',
 	'LBL_EDIT_ALT_TEXT'			=> 'Sử dụng Plain Text',
 	'LBL_EMAIL_ATTACHMENT'		=> 'Đính kèm Email',
 	'LBL_HTML_BODY'				=> 'HTML Body',

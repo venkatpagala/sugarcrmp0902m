@@ -47,7 +47,7 @@ $mod_strings = array (
 	'LBL_IN_QUEUE'								=> 'Xếp hạng trong?',
 	'LBL_IN_QUEUE_DATE'							=> 'Ngày xếp hạng',
 
-	'ERR_INT_ONLY_EMAIL_PER_RUN'				=> 'Chỉ sử dụng nguyên giá trị để xác định số lượng các email được gửi cho mỗi đợt',
+	'ERR_INT_ONLY_EMAIL_PER_RUN'				=> 'Chỉ sử dụng nguyên một giá trị để xác định số lượng các email được gửi cho mỗi đợt',
 
 	'LBL_ATTACHMENT_AUDIT'						=> ' Đã gửi. Không lặp lại tại vùng để bảo tồn đĩa sử dụng.',
 	'LBL_CONFIGURE_SETTINGS'					=> 'Cấu hình',
