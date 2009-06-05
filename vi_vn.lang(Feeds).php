@@ -49,11 +49,11 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'RSS News Feed tìm kiếm',
   'LBL_LIST_FORM_TITLE' => 'Danh sách RSS News Feed',
   'LBL_MY_LIST_FORM_TITLE' => 'RSS News Feeds của tôi',
-  'LBL_NEW_FORM_TITLE' => 'New RSS News Feed',
+  'LBL_NEW_FORM_TITLE' => 'RSS News Feed mới',
 //END DON'T CONVERT
   'NTC_DELETE_CONFIRMATION' => 'Bạn có chắc muốn xóa bản ghi này?',
   'ERR_DELETE_RECORD' => 'Một số hồ sơ phải được chỉ định để xóa các địa chỉ liên lạc.',
-  'LNK_NEW_FEED' => 'New RSS News Feed',
+  'LNK_NEW_FEED' => 'RSS News Feed mới',
   'LNK_FEED_LIST' => 'Tất cả RSS News Feeds',
   'LNK_MY_FEED_LIST' => 'RSS News Feeds của tôi',
   'LBL_TITLE' => 'Chủ đề',

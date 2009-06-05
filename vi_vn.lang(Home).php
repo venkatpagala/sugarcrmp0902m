@@ -43,7 +43,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'Home',
+  'LBL_MODULE_NAME' => 'Trang',
   'LBL_MODULES_TO_SEARCH' => 'Modules để tìm kiếm',
   'LBL_NEW_FORM_TITLE' => 'Liên hệ mới',
   'LBL_FIRST_NAME' => 'Họ:',
@@ -53,7 +53,7 @@ $mod_strings = array (
   'LBL_EMAIL_ADDRESS' => 'Email:',
   'LBL_MY_PIPELINE_FORM_TITLE' => 'My Pipeline',
   'LBL_PIPELINE_FORM_TITLE' => 'Pipeline By Sales Stage',
-  'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Campaign ROI',
+  'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Chiến dịch ROI',
   'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'My Closed Opportunities Gauge',
   'LNK_NEW_CONTACT' => 'Tạo liên hệ',
   'LNK_NEW_ACCOUNT' => 'Tạo tài khoản',
@@ -62,7 +62,7 @@ $mod_strings = array (
 
 
   'LNK_NEW_LEAD' => 'Create Lead',
-  'LNK_NEW_CASE' => 'Create Case',
+  'LNK_NEW_CASE' => 'Tạo tình huống',
   'LNK_NEW_NOTE' => 'Tạo ghi chú hoặc đính kèm',
   'LNK_NEW_CALL' => 'Lịch cuộc gọi',
   'LNK_NEW_EMAIL' => 'Lưu trữ mail',
@@ -80,7 +80,7 @@ $mod_strings = array (
   'LBL_NO_RESULTS' => '<h2>Không có kết quả được tìm thấy. Xin vui lòng tìm kiếm lại.</h2><br>',
   'LBL_NO_RESULTS_TIPS' => '<h3>Search Tips:</h3><ul><li>Hãy chắc chắn rằng bạn đã chọn đúng chuyên mục đã chọn ở trên.</li><li>Mở rộng các tiêu chí tìm kiếm của bạn.</li><li>Nếu bạn vẫn không thể tìm thấy bất kỳ kết quả nào hãy thử những lựa chọn Tìm kiếm nâng cao.</li></ul>',
 
-  'LBL_RELOAD_PAGE' => 'Hãy<a href="javascript: window.location.reload()">Tải lại cửa số</a> để sử dụng Sugar Dashlet này.',
+  'LBL_RELOAD_PAGE' => 'Hãy<a href="javascript: window.location.reload()">Tải lại cửa số</a> để sử dụng bảng điều khiển Sugar này.',
   'LBL_ADD_DASHLETS' => 'ThSugar Dashlets',
   'LBL_ADD_PAGE' => 'Thêm trang',
   'LBL_DELETE_PAGE' => 'Xóa trang',
@@ -120,14 +120,14 @@ $mod_strings = array (
       'Charts' => 'Những biểu đồ',
       'Tools' => 'Các dụng cụ',
       'Miscellaneous' => 'Miscellaneous'),
-  'LBL_MAX_DASHLETS_REACHED' => 'Bạn đã đạt đến số lượng tối đa Sugar Dashlets quản trị viên của bạn đã thiết lập. Xin vui lòng loại bỏ một Sugar Dashlet để thêm một hình mới.',
+  'LBL_MAX_DASHLETS_REACHED' => 'Bạn đã đạt đến số lượng tối đa quản trị viên của bạn đã thiết lập trong bảng điều khiển Sugar. Xin vui lòng loại bỏ một bảng điều khiển Sugar để thêm một hình mới.',
   'LBL_ADDING_DASHLET' => 'Thêm Sugar Dashlet ...',
   'LBL_ADDED_DASHLET' => 'Đã thêm Sugar Dashlet',
   'LBL_REMOVE_DASHLET_CONFIRM' => 'Bạn có chắc rằng muốn xóa Sugar Dashlet?',
   'LBL_REMOVING_DASHLET' => 'Đang xóa Sugar Dashlet ...',
   'LBL_REMOVED_DASHLET' => 'Đã xóa Sugar Dashlet',
   'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
-  'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filters',
+  'LBL_DASHLET_CONFIGURE_FILTERS' => 'Bộ lọc',
   'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Duy nhất mục của tôi',
   'LBL_DASHLET_CONFIGURE_TITLE' => 'Tiêu đề',
   'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Hiện thị những hàng',
@@ -147,7 +147,7 @@ $mod_strings = array (
 
   // Default out-of-box names for tabs
   'LBL_HOME_PAGE_1_NAME' => 'My Sugar',
-  'LBL_HOME_PAGE_2_NAME' => 'Sales Page',
+  'LBL_HOME_PAGE_2_NAME' => 'Trang Sales',
   'LBL_HOME_PAGE_3_NAME' => 'Trang hỗ trợ & quảng cáo',
   'LBL_HOME_PAGE_4_NAME' => 'Tracker',
 

@@ -44,7 +44,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Nhân viên',
-  'LBL_MODULE_TITLE' => 'Nhân viên: Home',
+  'LBL_MODULE_TITLE' => 'Nhân viên: Trang',
   'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm nhân viên',
   'LBL_LIST_FORM_TITLE' => 'Nhân viên',
   'LBL_NEW_FORM_TITLE' => 'Nhân viên mới',
@@ -124,12 +124,12 @@ $mod_strings = array (
 
 
 
-  'LBL_LIST_EMPLOYEE_STATUS' => 'Status',
+  'LBL_LIST_EMPLOYEE_STATUS' => 'Trạng thái',
 
   'LBL_SUGAR_LOGIN' => 'Is Sugar User',  
   'LBL_RECEIVE_NOTIFICATIONS' => 'Notify on Assignment',  
-  'LBL_IS_ADMIN' => 'Is Administrator',  
-  'LBL_GROUP' => 'Group User',
+  'LBL_IS_ADMIN' => 'Là quản trị viên',  
+  'LBL_GROUP' => 'Nhóm người dùng',
   'LBL_PORTAL_ONLY'	=> 'Portal Only User',
 );
 
