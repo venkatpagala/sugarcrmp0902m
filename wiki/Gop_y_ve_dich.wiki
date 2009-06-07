@@ -36,6 +36,6 @@ ví dụ như: Create Contact ~ Tạo Liên hệ << Viết hoa Liên hệ<br />
  Ngày 04-6-2009: LongNH<br />
 - Chúc các anh một ngày zui zẻ he he.<br />
  Ngày 7-6-2009: LongNH<br />
-- Mọi người cho em về ý kiến dịch Integrator. he.<br />
+- Mọi người cho em về ý kiến dịch Integrator,Direct Assign,Round-Robin,Least-Busy. he.<br />
 = End =
 Trên đây là một số ý kiến của em. Có gì em sẽ post thêm. Hi vọng các anh sẽ thường xuyên vào kiểm tra đề có thể làm việc tốt. Ai có ý kiến vào Wiki rùi tạo một trang ntn mọi người sẽ vào xem. he he.
