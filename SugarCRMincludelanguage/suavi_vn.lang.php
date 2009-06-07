@@ -51,7 +51,7 @@ $app_list_strings = array (
   array (
     'Home' => 'Trang chủ',
     'Dashboard' => 'Bảng điều khiển',
-    'Contacts' => 'Liên Lạc',
+    'Contacts' => 'Liên hệ',
     'Accounts' => 'Tài khoản',
     'Opportunities' => 'Cơ hội',
     'Cases' => 'Tình huống',
@@ -79,7 +79,7 @@ $app_list_strings = array (
 
 
     'Activities' => 'Hoạt động',
-    'Bugs' => 'Thiếu sót',
+    'Bugs' => 'sai sót',
     'Feeds' => 'Lấy tin tự động',
     'iFrames'=>'Cổng điện tử',
     'TimePeriods'=>'Giai đoạn',
@@ -144,7 +144,7 @@ $app_list_strings = array (
 
 
     'Activities' => 'Hoạt động',
-    'Bugs' => 'Tìm thiếu sót',
+    'Bugs' => 'Dò sai sót',
     'Feeds' => 'Lấy tin tự động',
     'iFrames'=>'Cổng điện tử',
     'TimePeriods'=>'Giai đoạn',
@@ -171,7 +171,7 @@ $app_list_strings = array (
   //e.g. en fran�ais 'Analyst'=>'Analyste',
   'account_type_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Analyst' => 'Nhà phân tích',
     'Competitor' => 'Đối thủ',
     'Customer' => 'Khách hàng',
@@ -186,7 +186,7 @@ $app_list_strings = array (
   //e.g. en espa�ol 'Apparel'=>'Ropa',
   'industry_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Apparel' => 'Dệt may',
     'Banking' => 'Ngân hàng',
     'Biotechnology' => 'Công nghệ sinh học',
@@ -221,7 +221,7 @@ $app_list_strings = array (
   'lead_source_default_key' => 'Tự tạo',
   'lead_source_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Cold Call' => 'Mời chào',
     'Existing Customer' => 'Khách hàng hiện tại',
     'Self Generated' => 'Tự tạo ra',
@@ -239,7 +239,7 @@ $app_list_strings = array (
   ),
   'opportunity_type_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Existing Business' => 'Kinh doanh hiện tại',
     'New Business' => 'Kinh doanh mới',
   ),
@@ -256,7 +256,7 @@ $app_list_strings = array (
   'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
   'opportunity_relationship_type_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Primary Decision Maker' => 'Quyết định chính',
     'Business Decision Maker' => 'Quyết định kinh doanh',
     'Business Evaluator' => 'Đánh giá kinh doanh',
@@ -271,7 +271,7 @@ $app_list_strings = array (
   'case_relationship_type_default_key' => 'Primary Contact',
   'case_relationship_type_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'Primary Contact' => 'Liên lạc chính',
     'Alternate Contact' => 'Liên lạc thay thế',
   ),
@@ -328,7 +328,7 @@ $app_list_strings = array (
   ),
   'salutation_dom' =>
       array (
-        '' => 'Không',
+        '' => '',
         'Mr.' => 'Ông.',
         'Ms.' => 'Cô.',
         'Mrs.' => 'Bà.',
@@ -383,7 +383,7 @@ $app_list_strings = array (
   ),
   'lead_status_dom' =>
   array (
-    '' => 'không',
+    '' => '',
     'New' => 'Mới',
     'Assigned' => 'Quen biết',
     'In Process' => 'Đang có',
@@ -406,7 +406,7 @@ $app_list_strings = array (
     'Closed' => 'Đã kết thúc',
     'Pending Input' => 'Chờ giải quyết',
     'Rejected' => 'Từ chối',
-    'Duplicate' => 'Trùng lặp',
+    'Duplicate' => 'Nhân đôi',
   ),
   'case_priority_default_key' => 'P2',
   'case_priority_dom' =>
@@ -439,7 +439,7 @@ $app_list_strings = array (
         'Medium' => 'Bình thường',
         'Low' => 'Thấp',
     ),
-    'project_task_priority_default' => 'Medium',
+    'project_task_priority_default' => 'Bình thường',
 
     'project_task_status_options' => array (
         'Not Started' => 'Chưa bắt đầu',
@@ -485,12 +485,12 @@ $app_list_strings = array (
     'Opportunities' => 'Cơ hội',
     'Cases' => 'Tình huống',
     'Leads' => 'Tiềm năng',
-    'Contacts' => 'Liên lạc', // cn (11/22/2005) added to support Emails
+    'Contacts' => 'Liên hệ', // cn (11/22/2005) added to support Emails
 
 
 
 
-    'Bugs' => 'Thiếu sót',
+    'Bugs' => 'Sai sót',
     'Project' => 'Dự án',
 
 
@@ -504,7 +504,7 @@ $app_list_strings = array (
   array (
 
     'Accounts' => 'Tài khoản',
-    'Contacts' => 'Liên lạc',
+    'Contacts' => 'Liên hệ',
     'Opportunities' => 'Cơ hội',
     'Cases' => 'Tình huống',
     'Leads' => 'Tiềm năng',
@@ -514,7 +514,7 @@ $app_list_strings = array (
 
 
 
-    'Bugs' => 'Thiếu sót',
+    'Bugs' => 'Sai sót',
     'Emails' => 'Email',
     'Project' => 'Dự án',
     'ProjectTask' => 'Hoạt động dự án',
@@ -534,9 +534,9 @@ $app_list_strings = array (
   array (
 
     'Accounts' => 'Tài khoản',
-    'Bugs' => 'Tìm thiếu sót',
+    'Bugs' => 'Tìm sai sót',
     'Cases' => 'Tình huống',
-    'Contacts' => 'Liên lạc',
+    'Contacts' => 'Liên hệ',
     'Leads' => 'Tiềm năng',
     'Opportunities' => 'Cơ hội',
 
@@ -659,7 +659,7 @@ $app_list_strings = array (
   array (
     '' => '',
     'Accepted' => 'Được chấp nhận',
-    'Duplicate' => 'Vấn đề trùng lặp',
+    'Duplicate' => 'Nhân đôi',
     'Closed' => 'Kết thúc',
     'Out of Date' => 'Quá hạn',
     'Invalid' => 'không hợp lệ',
@@ -688,7 +688,7 @@ $app_list_strings = array (
   array (
     '' => '',
     'Accepted' => 'Chấp nhận',
-    'Duplicate' => 'Trùng lặp',
+    'Duplicate' => 'Nhân đôi',
     'Fixed' => 'Đã sửa',
     'Out of Date' => 'Quá hạn',
     'Invalid' => 'Không phù hợp',
@@ -701,9 +701,9 @@ $app_list_strings = array (
     'Assigned' => 'Đã xử lý',
     'Closed' => 'Đã kết thúc',
     'Pending' => 'Đang chờ xử lý',
-    'Rejected' => 'Từ chối',
+    'Rejected' => 'Đã từ chối',
   ),
-   'bug_type_default_key' => 'Thiếu sót',
+   'bug_type_default_key' => 'Sai sót',
   'bug_type_dom' =>
   array (
     'Defect' => 'Khuyết điểm',
@@ -732,7 +732,7 @@ $app_list_strings = array (
     '' => '',
     'Accounts' => 'Tài khoản',
     'Activities' => 'Hoạt động',
-    'Bug Tracker' => 'Dò lỗi',
+    'Bug Tracker' => 'Dò sai sót',
     'Calendar' => 'Lịch làm việc',
     'Calls' => 'Gọi',
     'Campaigns' => 'Chiến dịch',
@@ -779,7 +779,7 @@ $app_list_strings = array (
         'Telesales' => 'Bán hàng từ xa',
         'Mail' => 'Thư',
         'Email' => 'Email',
-        'Print' => 'Print',
+        'Print' => 'In ấn',
         'Web' => 'Web',
         'Radio' => 'Đài phát thanh',
         'Television' => 'Ti-vi',
@@ -899,7 +899,7 @@ $app_list_strings = array (
         'archived'  => 'Lưu',
         'draft'     => 'Nháp',
         'inbound'   => 'Nội bộ',
-        'campaign'  => 'Vận động'
+        'campaign'  => 'Chiến dịch'
     ),
     'dom_email_status' => array (
         'archived'  => 'Lưu trữ',
@@ -912,7 +912,7 @@ $app_list_strings = array (
         'unread'    => 'Chưa đọc',
     ),
     'dom_email_archived_status' => array (
-        'archived'  => 'Archived',
+        'archived'  => 'Đã lưu trữ',
     ),
 
     'dom_email_server_type' => array(   ''          => '--None--',
@@ -925,26 +925,26 @@ $app_list_strings = array (
                                      'bounce'   => 'Bounce Handling',
     ),
     'dom_email_distribution'=> array(''             => '--None--',
-                                     'direct'       => 'Direct Assign',
+                                     'direct'       => 'Chỉ Định Trực Tiếp',
                                      'roundRobin'   => 'Round-Robin',
                                      'leastBusy'    => 'Least-Busy',
     ),
     'dom_email_distribution_for_auto_create'=> array('roundRobin'   => 'Round-Robin',
                                                      'leastBusy'    => 'Least-Busy',
     ),
-    'dom_email_errors'      => array(1 => 'Only select one user when Direct Assigning items.',
-                                     2 => 'You must assign Only Checked Items when Direct Assigning items.',
+    'dom_email_errors'      => array(1 => 'Chỉ chọn một người dùng khi mục được chỉ định trực tiếp.',
+                                     2 => 'Bạn cần chỉ định những mục đã được đánh dấu khi Mục Được Chỉ Định Trực Tiếp.',
     ),
-    'dom_email_bool'        => array('bool_true' => 'Yes',
-                                     'bool_false' => 'No',
+    'dom_email_bool'        => array('bool_true' => 'Có',
+                                     'bool_false' => 'Không',
     ),
-    'dom_int_bool'          => array(1 => 'Yes',
-                                     0 => 'No',
+    'dom_int_bool'          => array(1 => 'Có',
+                                     0 => 'Không',
     ),
-    'dom_switch_bool'       => array ('on' => 'Yes',
-                                        'off' => 'No',
+    'dom_switch_bool'       => array ('on' => 'Có',
+                                        'off' => 'Không',
                                         '' => 'No', ),
-    'dom_email_link_type'   => array(   ''          => 'Hệ thống mặc đinh thư khách',
+    'dom_email_link_type'   => array(   ''          => 'Hệ thống thư khách mặc đinh',
                                         'sugar'     => 'Thư khách SugarCRM',
                                         'mailto'    => 'Thư khách bên ngoài'),
 
@@ -953,12 +953,12 @@ $app_list_strings = array (
                                         'plain'     => 'Plain Text Email'),
 
 
-    'schedulers_times_dom'  => array(   'not run'       => 'Past Run Time, Not Executed',
-                                        'ready'         => 'Ready',
-                                        'in progress'   => 'In Progress',
-                                        'failed'        => 'Failed',
-                                        'completed'     => 'Completed',
-                                        'no curl'       => 'Not Run: No cURL available',
+    'schedulers_times_dom'  => array(   'not run'       => 'Qua thời gian chạy, Không thực hiện',
+                                        'ready'         => 'Sẵn sàng',
+                                        'in progress'   => 'Đang xử lý',
+                                        'failed'        => 'Thất bại',
+                                        'completed'     => 'Kết thúc',
+                                        'no curl'       => 'Không chạy: không có cURL',
     ),
 
     'scheduler_status_dom' =>
@@ -1028,7 +1028,7 @@ $app_list_strings = array (
     'accept' => 'Đã chấp nhận',
     'decline' => 'Đã từ chối',
     'tentative' => 'Sắp xếp',
-    'none'      => 'Không',
+    'none'      => 'none',
   ),
 
 
@@ -1456,9 +1456,9 @@ $app_list_strings = array (
   array (
     'default' => 'Mặc định',
     'seed' => 'Seed',
-    'exempt_domain' => 'Suppression List - By Domain',
-    'exempt_address' => 'Suppression List - By Email Address',
-    'exempt' => 'Suppression List - By Id',
+    'exempt_domain' => 'Danh sách chặn - Theo tên miền',
+    'exempt_address' => 'Danh sách chặn - Theo địa chỉ Email',
+    'exempt' => 'Danh sách chặn - Theo Id',
     'test' => 'Test',
   ),
 
@@ -1472,15 +1472,15 @@ $app_list_strings = array (
   'campainglog_activity_type_dom' =>
   array (
     ''=>'',
-    'targeted' => 'Message Sent/Attempted',
-    'send error'=>'Bounced Messages,Other',
-    'invalid email'=>'Bounced Messages,Invalid Email',
-    'link'=>'Click-thru Link',
-    'viewed'=>'Viewed Message',
-    'removed'=>'Opted Out',
-    'lead'=>'Leads Created',
-    'contact'=>'Contacts Created',
-    'blocked'=>'Suppressed by address or domain',
+    'targeted' => 'Đã gửi thư/Đã thử',
+    'send error'=>'Tin nhắn bị trả về, Khác',
+    'invalid email'=>'Tin nhắn bị trả về,Thư không hợp lệ',
+    'link'=>'Ấn thông qua đường dẫn',
+    'viewed'=>'Thư đã xem',
+    'removed'=>'Chọn ra',
+    'lead'=>'Đã tạo tiềm năng',
+    'contact'=>'Đã tạo liên hệ',
+    'blocked'=>'Đã chặn theo địa chỉ hoặc tên miền',
   ),
 
   'campainglog_target_type_dom' =>
@@ -1697,8 +1697,8 @@ $app_list_strings = array (
 
     'release_status_dom' =>
     array (
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Hoạt động',
+        'Inactive' => 'Không hoạt động',
     ),
 );
 
@@ -1758,7 +1758,7 @@ $app_strings = array (
     'LBL_ROUTING_TO_ADDRESS'                => 'Tới địa chỉ',
     'LBL_ROUTING_WITH_TEMPLATE'             => 'Với mẫu',
 
-	'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'You currently have values in your form for the Phone and Address fields. To overwrite these values with the phone/address of the Acccount that you selected, click "OK". To keep the current values, click "Cancel".',
+	'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Bạn đã có dữ liệu trong trường số điện thoại và trường địa chỉ trong mẫu của bạn. Để thay thế những dữ liệu đó với số điện thoại/địa chỉ của một tài khoản do bạn chọn, chọn "OK". Để giữ nguyên giá trị, chọn "Cancel".',
 
     'LBL_EMAIL_ACCOUNTS_EDIT'               => 'Chỉnh sửa',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS'     => 'Mặc định Gmail',
@@ -1983,7 +1983,7 @@ $app_strings = array (
     'LBL_EMAIL_ONE_MOMENT'                  => 'Xin chờ một lát...',
     'LBL_EMAIL_OPEN_ALL'                    => 'Mở nhiều tin nhắn',
     'LBL_EMAIL_OPTIONS'                     => 'Lựa chọn',
-    'LBL_EMAIL_OPT_OUT'                     => 'Opted Out',
+    'LBL_EMAIL_OPT_OUT'                     => 'Chọn ra',
     'LBL_EMAIL_PAGE_AFTER'                  => 'của {0}',
     'LBL_EMAIL_PAGE_BEFORE'                 => 'trang',
     'LBL_EMAIL_PERFORMING_TASK'             => 'Thực hiện tác vụ',
@@ -2172,18 +2172,18 @@ $app_strings = array (
     'ERR_MISSING_REQUIRED_FIELDS' => 'Thiếu trường bắt buộc:',
     'ERR_INVALID_VALUE' => 'Giá trị không hợp lệ:',
     'ERR_NO_SUCH_FILE' =>'Tập tin không tồn tại trên hệ thống',
-    'ERR_NO_SINGLE_QUOTE' => 'Không thể sử dụng Cannot use the single quotation mark for ',
+    'ERR_NO_SINGLE_QUOTE' => 'Không thể sử dụng đánh dấu trích dẫn đơn cho ',
     'ERR_NOTHING_SELECTED' =>'Xin vui lòng thực hiện một sự lựa chọn trước khi tiếp tục.',
-    'ERR_OPPORTUNITY_NAME_DUPE' => 'An opportunity with the name %s already exists.  Please enter another name below.',
-    'ERR_OPPORTUNITY_NAME_MISSING' => 'An opportunity name was not entered.  Please enter an opportunity name below.',
-    'ERR_POTENTIAL_SEGFAULT' => 'A potential Apache segmentation fault was detected.  Please notify your system administrator to confirm this problem and have her/him report it to SugarCRM.',
-    'ERR_SELF_REPORTING' => 'User cannot report to him or herself.',
-    'ERR_SINGLE_QUOTE'  => 'Using the single quote is not supported for this field.  Please change the value.',
-    'ERR_SQS_NO_MATCH_FIELD' => 'No match for field: ',
-    'ERR_SQS_NO_MATCH' =>'No Match',
-    'ERR_ADDRESS_KEY_NOT_SPECIFIED' => 'Please specify \'key\' index in displayParams attribute for the Meta-Data definition',
-    'ERR_EXISTING_PORTAL_USERNAME'=>'Error: The Portal Name is already assigned to another contact.',
-    'ERR_COMPATIBLE_PRECISION_VALUE' => 'Field value is not compatible with precision value',
+    'ERR_OPPORTUNITY_NAME_DUPE' => 'Một cơ hội với tên %s đã có sẵn.  Xin hãy nhập tên khác vào bên dưới.',
+    'ERR_OPPORTUNITY_NAME_MISSING' => 'Tên một cơ hội đã không được nhập. Xin hãy nhập tên cơ hội vào bên dưới.',
+    'ERR_POTENTIAL_SEGFAULT' => 'Một khả năng Apache lỗi không hoàn thành đã được phát hiện. Xin hãy thông báo đến người quản trị để xác nhận lỗi và để người quản trị báo cho SugarCRM.',
+    'ERR_SELF_REPORTING' => 'Người dùng không thể tự báo cáo.',
+    'ERR_SINGLE_QUOTE'  => 'Sử dụng trích dẫn đơn không được hỗ trợ trong trường này. Xin hãy thay đổi giá trị.',
+    'ERR_SQS_NO_MATCH_FIELD' => 'Không hợp cho trường: ',
+    'ERR_SQS_NO_MATCH' =>'Không hợp',
+    'ERR_ADDRESS_KEY_NOT_SPECIFIED' => 'Xin vui lòng chỉ định \'key\' danh mục trong displayParams phân bổ cho định nghĩa Meta-Data ',
+    'ERR_EXISTING_PORTAL_USERNAME'=>'Lỗi: Tên cổng đã được chỉ định sẵn cho liên hệ khác.',
+    'ERR_COMPATIBLE_PRECISION_VALUE' => 'Giá trị của trường không tương thích với giá trị chuẩn',
 
     'LBL_ACCOUNT'=>'Tài khoản',
     'LBL_OLD_ACCOUNT_LINK'=>'Tài khoản cũ',
@@ -2208,9 +2208,9 @@ $app_strings = array (
     'LBL_ASSIGNED_TO_USER'=>'Giao cho người dùng',
     'LBL_ASSIGNED_TO' => 'Giao cho:',
     'LBL_BACK' => 'Trở lại',
-    'LBL_BILL_TO_ACCOUNT'=>'Bill to Account',
-    'LBL_BILL_TO_CONTACT'=>'Bill to Contact',
-    'LBL_BILLING_ADDRESS'=>'Billing Address',
+    'LBL_BILL_TO_ACCOUNT'=>'Hóa đơn tớ tài khoản',
+    'LBL_BILL_TO_CONTACT'=>'Hóa đơn đến liên hệ',
+    'LBL_BILLING_ADDRESS'=>'Hóa đơn đến địa chỉ',
 
 
 
@@ -2221,7 +2221,7 @@ $app_strings = array (
     'LBL_BY' => 'Bởi',
     'LBL_CALLS'=>'Gọi',
     'LBL_CALL'=>'Gọi',
-    'LBL_CAMPAIGNS_SEND_QUEUED' => 'Send Queued Campaign Emails',
+    'LBL_CAMPAIGNS_SEND_QUEUED' => 'Gửi thư chiến dịch đã lên lịch',
     'LBL_CANCEL_BUTTON_KEY' => 'X',
     'LBL_CANCEL_BUTTON_LABEL' => 'Hủy bỏ',
     'LBL_CANCEL_BUTTON_TITLE' => 'Hủy bỏ [Alt+X]',
@@ -2277,11 +2277,11 @@ $app_strings = array (
     'LBL_DONE_BUTTON_KEY' => 'X',
     'LBL_DONE_BUTTON_LABEL' => 'Xong',
     'LBL_DONE_BUTTON_TITLE' => 'Xong [Alt+X]',
-    'LBL_DST_NEEDS_FIXIN' => 'The application requires a Daylight Saving Time fix to be applied.  Please go to the <a href="index.php?module=Administration&action=DstFix">Repair</a> link in the Admin console and apply the Daylight Saving Time fix.',
+    'LBL_DST_NEEDS_FIXIN' => 'Ứng dụng này đòi hỏi một buổi sáng để chỉnh sửa trước khi được áp dụng. Xin hãy theo đường dẫn sau <a href="index.php?module=Administration&action=DstFix">Repair</a> để dẫn đến điều khiển của người quản trị và áp dụng sửa..',
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Trùng lặp',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Trùng lặp [Alt+U]',
-    'LBL_DUPLICATE_BUTTON' => 'trùng lặp',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Nhân đôi',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Nhân đôi [Alt+U]',
+    'LBL_DUPLICATE_BUTTON' => 'nhân đôi',
     'LBL_EDIT_BUTTON_KEY' => 'E',
     'LBL_EDIT_BUTTON_LABEL' => 'Chỉnh sửa',
     'LBL_EDIT_BUTTON_TITLE' => 'Chỉnh sửa [Alt+E]',
@@ -2317,8 +2317,8 @@ $app_strings = array (
     'LBL_CAMPAIGN_CONTACT'=>'Chiến dịch',
     'LBL_CAMPAIGN_ID'=>'campaign_id',
     'LBL_SITEMAP'=>'Sơ đồ',
-    'LBL_FOUND_IN_RELEASE'=>'Found In Release',
-    'LBL_FIXED_IN_RELEASE'=>'Fixed In Release',
+    'LBL_FOUND_IN_RELEASE'=>'Đã tìm trong biên nhận',
+    'LBL_FIXED_IN_RELEASE'=>'Đã sửa trong biện nhận',
     'LBL_LIST_ACCOUNT_NAME' => 'Tên tài khoản',
     'LBL_LIST_ASSIGNED_USER' => 'Người dùng',
     'LBL_LIST_CONTACT_NAME' => 'Tên liên lạc',
@@ -2349,7 +2349,7 @@ $app_strings = array (
     'LBL_MAILMERGE_KEY' => 'M',
     'LBL_MAILMERGE' => 'Nhập thư',
     'LBL_MASS_UPDATE' => 'Cập nhật cả khối',
-    'LBL_OPT_OUT_FLAG_PRIMARY' => 'Opt out Primary Email',
+    'LBL_OPT_OUT_FLAG_PRIMARY' => 'Chọn ra Email chính',
     'LBL_MEETINGS'=>'Họp',
     'LBL_MEETING'=>'Họp',
     'LBL_MEMBERS'=>'Thành viên',
@@ -2374,23 +2374,23 @@ $app_strings = array (
     'LBL_OPENTO_BUTTON_KEY' => 'T',
     'LBL_OPENTO_BUTTON_LABEL' => 'Mở đến: ',
     'LBL_OPENTO_BUTTON_TITLE' => 'Mở đến: [Alt+T]',
-    'LBL_OPPORTUNITIES'=>'Opportunities',
-    'LBL_OPPORTUNITY_NAME' => 'Opportunity Name',
-    'LBL_OPPORTUNITY'=>'Opportunity',
-    'LBL_OR' => 'OR',
-    'LBL_LOWER_OR' => 'or',
-    'LBL_PARENT_TYPE' => 'Parent Type',
+    'LBL_OPPORTUNITIES'=>'Cơ hội',
+    'LBL_OPPORTUNITY_NAME' => 'Tên cơ hội',
+    'LBL_OPPORTUNITY'=>'Cơ hội',
+    'LBL_OR' => 'Hoặc',
+    'LBL_LOWER_OR' => 'hoặc',
+    'LBL_PARENT_TYPE' => 'Dạng cha',
     'LBL_PERCENTAGE_SYMBOL' => '%',
     'LBL_PHASE' => 'Lượt',
     'LBL_POSTAL_CODE' => 'Mã bưu điện:',
-    'LBL_PRIMARY_ADDRESS_CITY' => 'Primary Address City:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
-    'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primary Address Postal Code:',
-    'LBL_PRIMARY_ADDRESS_STATE' => 'Primary Address State:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
-    'LBL_PRIMARY_ADDRESS_STREET' => 'Primary Address Street:',
-    'LBL_PRIMARY_ADDRESS' => 'Primary Address:',
+    'LBL_PRIMARY_ADDRESS_CITY' => 'Địa chỉ thành phố chính:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Địa chỉ nước chính:',
+    'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Mã bưu điện chính:',
+    'LBL_PRIMARY_ADDRESS_STATE' => 'Địa chỉ bang chính:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Địa chỉ đường chính 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Địa chỉ đường chính 3:',
+    'LBL_PRIMARY_ADDRESS_STREET' => 'Địa chỉ đường chính:',
+    'LBL_PRIMARY_ADDRESS' => 'Địa chỉ chính:',
     'LBL_PRODUCT_BUNDLES'=>'Các gói sản phẩm',
     'LBL_PRODUCT_BUNDLES'=>'Các gói sản phẩm',
     'LBL_PRODUCTS'=>'Sản Phẩm',
@@ -2398,12 +2398,12 @@ $app_strings = array (
     'LBL_PROJECTS'=>'Dự án',
     'LBL_PROJECTS'=>'Dự án',
     'LBL_QUOTE_TO_OPPORTUNITY_KEY' => 'O',
-    'LBL_QUOTE_TO_OPPORTUNITY_LABEL' => 'Create Opportunity from Quote',
-    'LBL_QUOTE_TO_OPPORTUNITY_TITLE' => 'Create Opportunity from Quote [Alt+O]',
-    'LBL_QUOTES_SHIP_TO'=>'Quotes Ship to',
-    'LBL_QUOTES'=>'Quotes',
-    'LBL_QUOTES_OBSOLETE'=>'Quotes(Obsolete)',
-    'LBL_RELATED' => 'Related',
+    'LBL_QUOTE_TO_OPPORTUNITY_LABEL' => 'Tạo Cơ Hội từ Báo giá',
+    'LBL_QUOTE_TO_OPPORTUNITY_TITLE' => 'Tạo Cơ Hội từ Báo giá [Alt+O]',
+    'LBL_QUOTES_SHIP_TO'=>'Báo giá gửi đến',
+    'LBL_QUOTES'=>'Báo giá',
+    'LBL_QUOTES_OBSOLETE'=>'Báo giá(Quá hạn)',
+    'LBL_RELATED' => 'Liên quan',
     'LBL_RELATED_INFORMATION' => 'Thông tin liên quan',
     'LBL_RELATED_RECORDS' => 'Bản ghi liên quan',
     'LBL_REMOVE' => 'Remove',
@@ -2465,7 +2465,7 @@ $app_strings = array (
     'LBL_SYNC' => 'Đồng bộ',
     'LBL_TABGROUP_ALL' => 'Tất cả',
     'LBL_TABGROUP_ACTIVITIES' => 'Hoạt động',
-    'LBL_TABGROUP_COLLABORATION' => 'Collaboration',
+    'LBL_TABGROUP_COLLABORATION' => 'Cộng tác',
     'LBL_TABGROUP_HOME' => 'Trang chủ',
     'LBL_TABGROUP_MARKETING' => 'Tiếp thị',
     'LBL_TABGROUP_MY_PORTALS' => 'Cổng điện tử của tôi',
@@ -2483,7 +2483,7 @@ $app_strings = array (
     'LBL_TRACK_EMAIL_BUTTON_KEY' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Lưu thư',
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Lưu thư [Alt+K]',
-    'LBL_UNAUTH_ADMIN' => 'Unauthorized access to administration',
+    'LBL_UNAUTH_ADMIN' => 'Truy cập quản lý trái phép',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Không xóa',
     'LBL_UNDELETE_BUTTON_TITLE' => 'Không xóa [Alt+D]',
     'LBL_UNDELETE_BUTTON' => 'Không xóa',
@@ -2493,50 +2493,50 @@ $app_strings = array (
     'LBL_USER_LIST' => 'Danh sách người dùng',
     'LBL_USERS_SYNC'=>'Đồng bộ người dùng',
     'LBL_USERS'=>'Người dùng',
-    'LBL_VERIFY_EMAIL_ADDRESS'=>'Checking for existing email entry...',
-    'LBL_VERIFY_PORTAL_NAME'=>'Checking for existing portal name...',
+    'LBL_VERIFY_EMAIL_ADDRESS'=>'Kiểm tra cho mục thư có sẵn...',
+    'LBL_VERIFY_PORTAL_NAME'=>'Kiểm tra cho tên cổng có sẵn...',
     'LBL_VIEW_PDF_BUTTON_KEY' => 'P',
-    'LBL_VIEW_PDF_BUTTON_LABEL' => 'Print as PDF',
-    'LBL_VIEW_PDF_BUTTON_TITLE' => 'Print as PDF [Alt+P]',
+    'LBL_VIEW_PDF_BUTTON_LABEL' => 'In ra như PDF',
+    'LBL_VIEW_PDF_BUTTON_TITLE' => 'In ra như PDF [Alt+P]',
 
-    'LNK_ABOUT' => 'About',
-    'LNK_ADVANCED_SEARCH' => 'Advanced Search',
-    'LNK_BASIC_SEARCH' => 'Basic Search',
-    'LNK_SAVED_VIEWS' => 'Saved Search & Layout',
-    'LNK_DELETE_ALL' => 'del all',
-    'LNK_DELETE' => 'del',
-    'LNK_EDIT' => 'edit',
-    'LNK_GET_LATEST'=>'Get latest',
-    'LNK_GET_LATEST_TOOLTIP'=>'Replace with latest version',
-    'LNK_HELP' => 'Help',
-    'LNK_LIST_END' => 'End',
-    'LNK_LIST_NEXT' => 'Next',
-    'LNK_LIST_PREVIOUS' => 'Previous',
-    'LNK_LIST_RETURN' => 'Return to List',
-    'LNK_LIST_START' => 'Start',
-    'LNK_LOAD_SIGNED'=>'Sign',
-    'LNK_LOAD_SIGNED_TOOLTIP'=>'Replace with signed document',
-    'LNK_PRINT' => 'Print',
-    'LNK_REMOVE' => 'rem',
-    'LNK_RESUME' => 'Resume',
-    'LNK_VIEW_CHANGE_LOG' => 'View Change Log',
+    'LNK_ABOUT' => 'Về chủ đề',
+    'LNK_ADVANCED_SEARCH' => 'Tìm kiếm nâng cao',
+    'LNK_BASIC_SEARCH' => 'Tìm kiếm cơ bản',
+    'LNK_SAVED_VIEWS' => 'Tìm kiếm đã lưu & Bố cục',
+    'LNK_DELETE_ALL' => 'Xóa hết',
+    'LNK_DELETE' => 'Xóa',
+    'LNK_EDIT' => 'Chỉnh sửa',
+    'LNK_GET_LATEST'=>'Lấy mới nhất',
+    'LNK_GET_LATEST_TOOLTIP'=>'Thay thế bởi phiên bản mới nhất',
+    'LNK_HELP' => 'Trợ giúp',
+    'LNK_LIST_END' => 'Kết thúc',
+    'LNK_LIST_NEXT' => 'Tiếp',
+    'LNK_LIST_PREVIOUS' => 'Trở lại',
+    'LNK_LIST_RETURN' => 'Quay lại danh sách',
+    'LNK_LIST_START' => 'Bắt đầu',
+    'LNK_LOAD_SIGNED'=>'Ký hiệu',
+    'LNK_LOAD_SIGNED_TOOLTIP'=>'Thay thế bởi ký hiệu tài liệu',
+    'LNK_PRINT' => 'In',
+    'LNK_REMOVE' => 'Di chuyển',
+    'LNK_RESUME' => 'Tiếp tục lại',
+    'LNK_VIEW_CHANGE_LOG' => 'Xem thông báo những thay đổi',
 
 
-    'NTC_CLICK_BACK' => 'Please click the browser back button and fix the error.',
+    'NTC_CLICK_BACK' => 'Xin hãy ấn vào nút back và sửa lại lỗi.',
     'NTC_DATE_FORMAT' => '(yyyy-mm-dd)',
     'NTC_DATE_TIME_FORMAT' => '(yyyy-mm-dd 24:00)',
-    'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Are you sure you want to delete selected record(s)?',
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
-    'NTC_DELETE_CONFIRMATION_NUM' => 'Are you sure you want to delete the ',
-    'NTC_UPDATE_CONFIRMATION_NUM' => 'Are you sure you want to update the ',
-    'NTC_DELETE_SELECTED_RECORDS' =>' selected record(s)?',
-    'NTC_LOGIN_MESSAGE' => 'Please enter your user name and password:',
+    'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Bạo có chắc muốn xóa (những)bản ghi này?',
+    'NTC_DELETE_CONFIRMATION' => 'Bạn có chắc muốn xóa bản ghi này?',
+    'NTC_DELETE_CONFIRMATION_NUM' => 'Bạn có chắc là  muốn xóa ',
+    'NTC_UPDATE_CONFIRMATION_NUM' => 'Bạn có chắc là  muốn cập nhật ',
+    'NTC_DELETE_SELECTED_RECORDS' =>' lựa chọn (những) bản ghi?',
+    'NTC_LOGIN_MESSAGE' => 'Xin hãy nhập tên người dùng và mật khẩu:',
     'NTC_NO_ITEMS_DISPLAY' => 'none',
-    'NTC_REMOVE_CONFIRMATION' => 'Are you sure you want to remove this relationship?',
-    'NTC_REQUIRED' => 'Indicates required field',
+    'NTC_REMOVE_CONFIRMATION' => 'Bạn có chắc muốn xóa mối quan hệ này?',
+    'NTC_REQUIRED' => 'Cho biết trường bắt buộc',
     'NTC_SUPPORT_SUGARCRM' => 'Support the SugarCRM open source project with a donation through PayPal - it\'s fast, free and secure!',
     'NTC_TIME_FORMAT' => '(24:00)',
-    'NTC_WELCOME' => 'Welcome',
+    'NTC_WELCOME' => 'Chào mừng',
     'NTC_YEAR_FORMAT' => '(yyyy)',
     'LOGIN_LOGO_ERROR'=> 'Please replace the SugarCRM logos.',
     'ERROR_FULLY_EXPIRED'=> "Your company's license for SugarCRM has expired for more than 30 days and needs to be brought up to date. Only admins may login.",
@@ -2571,18 +2571,18 @@ $app_strings = array (
 
 
 
-     'LBL_MERGE_DUPLICATES'  => 'Merge Duplicates',
-    'LBL_SAVED_SEARCH_SHORTCUT' => 'Saved Searches',
-    'LBL_SEARCH_POPULATE_ONLY'=> 'Perform a search using the search form above',
-    'LBL_DETAILVIEW'=>'Detail View',
-    'LBL_LISTVIEW'=>'List View',
-    'LBL_EDITVIEW'=>'Edit View',
-    'LBL_SEARCHFORM'=>'Search Form',
-    'LBL_SAVED_SEARCH_ERROR' => 'Please provide a name for this view.',
+     'LBL_MERGE_DUPLICATES'  => 'Hợp nhất bản sao',
+    'LBL_SAVED_SEARCH_SHORTCUT' => 'Lưu tìm kiếm',
+    'LBL_SEARCH_POPULATE_ONLY'=> 'Thực hiện việc tìm kiếm bằng cách sử dụng mẫu tìm kiếm ở trên',
+    'LBL_DETAILVIEW'=>'Xem chi tiết',
+    'LBL_LISTVIEW'=>'Xem danh sách',
+    'LBL_EDITVIEW'=>'Chỉnh sửa xem',
+    'LBL_SEARCHFORM'=>'Mẫu tìm kiếm',
+    'LBL_SAVED_SEARCH_ERROR' => 'Xin hãy chỉ định một tên cho Xem này.',
     'LBL_DISPLAY_LOG' => 'Hiện thông báo',
     'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Hệ thống',
-    'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Session Timeout',
-    'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Your session is about to timeout in 2 minutes. Please save your work.',
+    'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Phiên làm việc hết hạn',
+    'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Phiên làm việc của bạn sẽ hết hạn trong vòng 2 púht nữa. Xin hãy lưu công việc của bạn.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' =>'Chương trình đã hết thời gian.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nChương trình nghị sự: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Họp',
@@ -2595,9 +2595,9 @@ $app_strings = array (
     'LBL_ADD_TO_FAVORITES' => 'Thêm vào mục yêu thích',
     'LBL_MARK_AS_FAVORITES' => 'Đánh dấu như mục yêu thích',
     'LBL_CREATE_CONTACT' => 'Tạo liên lạc',
-    'LBL_CREATE_CASE' => 'Create Case',
+    'LBL_CREATE_CASE' => 'Tạo tình huống',
     'LBL_CREATE_NOTE' => 'Tạo ghi chú',
-    'LBL_CREATE_OPPORTUNITY' => 'Create Opportunity',
+    'LBL_CREATE_OPPORTUNITY' => 'Tạo cơ hội',
     'LBL_SCHEDULE_CALL' => 'Lịch trình gọi',
     'LBL_SCHEDULE_MEETING' => 'Lịch trình họp, hội nghị',
     'LBL_CREATE_TASK' => 'Tạo tác vụ',
@@ -2614,8 +2614,8 @@ $app_strings = array (
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Chỉ được phép nhúng ảnh',
     'LBL_REMOVE' => 'Remove',
     'LBL_TRAINING' => 'Training',
-    'ERR_DATABASE_CONN_DROPPED'=>'Error executing a query. Possibly, your database dropped the connection. Please refresh this page, you may need to restart you web server.',
-    'ERR_MSSQL_DB_CONTEXT' =>'Changed database context to',
+    'ERR_DATABASE_CONN_DROPPED'=>'Lỗi thực hiện một truy vấn. Có thể, cơ sở dữ liệu của bạn bỏ kết nối. Xin vui lòng làm mới lại trang này, bạn có thể cần phải khởi động lại máy chủ trang web bạn.',
+    'ERR_MSSQL_DB_CONTEXT' =>'Thay đổi bối cảnh cơ sở dữ liệu thành',
 
     //Meta-Data framework
     'ERR_MISSING_VARDEF_NAME' => 'Warning: field [[field]] does not have a mapped entry in [moduleDir] vardefs.php file',
@@ -2674,13 +2674,13 @@ $app_strings = array (
     'ERR_BLANK_PAGE_NAME' => 'Xin hãy gõ tên trang.',
     /* End MySugar Framework strings */
 
-    'LBL_NO_IMAGE' => 'No Image',
+    'LBL_NO_IMAGE' => 'Không có ảnh',
 
     'LBL_MODULE' => 'Module',
 
     //adding a label for address copy from left
-    'LBL_COPY_ADDRESS_FROM_LEFT' => 'Copy address from left:',
-    'LBL_SAVE_AND_CONTINUE' => 'Save and Continue',
+    'LBL_COPY_ADDRESS_FROM_LEFT' => 'Sao chép địa chỉ từ bên trái:',
+    'LBL_SAVE_AND_CONTINUE' => 'Lưu và tiếp tục',
 
     'LBL_SEARCH_HELP_TEXT' => '<p><br /><strong>Multiselect controls</strong></p><ul><li>Click on the values to select an attribute.</li><li>Ctrl-click&nbsp;to&nbsp;select multiple. Mac users use CMD-click.</li><li>To select all values between two attributes,&nbsp; click first value&nbsp;and then shift-click last value.</li></ul><p><strong>Advanced Search & Layout Options</strong><br><br>Using the <b>Saved Search & Layout</b> option, you can save a set of search parameters and/or a custom List View layout in order to quickly obtain the desired search results in the future. You can save an unlimited number of custom searches and layouts. All saved searches appear by name in the Saved Searches list, with the last loaded saved search appearing at the top of the list.<br><br>To customize the List View layout, use the Hide Columns and Display Columns boxes to select which fields to display in the search results. For example, you can view or hide details such as the record name, and assigned user, and assigned team in the search results. To add a column to List View, select the field from the Hide Columns list and use the left arrow to move it to the Display Columns list. To remove a column from List View, select it from the Display Columns list and use the right arrow to move it to the Hide Columns list.<br><br>If you save layout settings, you will be able to load them at any time to view the search results in the custom layout.<br><br>To save and update a search and/or layout:<ol><li>Enter a name for the search results in the <b>Save this search as</b> field and click <b>Save</b>.The name now displays in the Saved Searches list adjacent to the <b>Clear</b> button.</li><li>To view a saved search, select it from the Saved Searches list. The search results are displayed in the List View.</li><li>To update the properties of a saved search, select the saved search from the list, enter the new search criteria and/or layout options in the Advanced Search area, and click <b>Update</b> next to <b>Modify Current Search</b>.</li><li>To delete a saved search, select it in the Saved Searches list, click <b>Delete</b> next to <b>Modify Current Search</b>, and then click <b>OK</b> to confirm the deletion.</li></ol>' ,
 
@@ -2704,7 +2704,7 @@ $app_strings = array (
     'LBL_ITEM_ID' => 'Itiem Id',
     'LBL_ITEM_SUMMARY' => 'mục tóm tắt',
     'LBL_ACTION' => 'Hoạt động',
-    'LBL_SESSION_ID' => 'Session Id',
+    'LBL_SESSION_ID' => 'Id phiên',
     'LBL_VISIBLE' => 'Record Visible',
     'LBL_DATE_LAST_ACTION' => 'Ngày của hoạt động cuối cùng',
 
