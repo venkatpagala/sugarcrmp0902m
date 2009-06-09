@@ -1,0 +1,30 @@
+<?php
+// created: 2009-06-08 21:27:08
+$mod_strings = array (
+  'LBL_ACCESS_ALL' => 'Tất cả',
+  'LBL_ACCESS_NONE' => 'None',
+  'LBL_ACCESS_OWNER' => 'Sở hữu',
+  'LBL_ACCESS_NORMAL' => 'Bình thường',
+  'LBL_ACCESS_ADMIN' => 'Quản trị',
+  'LBL_ACCESS_ENABLED' => 'Cho phép',
+  'LBL_ACCESS_DISABLED' => 'Không cho phép',
+  'LBL_ACCESS_DEV' => 'Phát triển',
+  'LBL_ACCESS_ADMIN_DEV' => 'Quản trị và phát triển',
+  'LBL_NAME' => 'Tên',
+  'LBL_DESCRIPTION' => 'Mô tả',
+  'LIST_ROLES' => 'Danh sách vai trò',
+  'LBL_USERS_SUBPANEL_TITLE' => 'Người sử dụng',
+  'LIST_ROLES_BY_USER' => 'Danh sách vai trò theo người sử dụng',
+  'LBL_ROLES_SUBPANEL_TITLE' => 'Các vai trò của người sử dụng',
+  'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm',
+  'LBL_ACTION_VIEW' => 'Hiển thị',
+  'LBL_ACTION_EDIT' => 'Chỉnh sủa',
+  'LBL_ACTION_DELETE' => 'Xóa',
+  'LBL_ACTION_IMPORT' => 'Nhập vào',
+  'LBL_ACTION_EXPORT' => 'Xuất ra',
+  'LBL_ACTION_LIST' => 'Danh sách',
+  'LBL_ACTION_ACCESS' => 'Truy cập',
+  'LBL_ACTION_ADMIN' => 'Kiểu truy cập',
+  'LBL_ACCESS_DEFAULT' => 'Không thiết lập',
+);
+?>
