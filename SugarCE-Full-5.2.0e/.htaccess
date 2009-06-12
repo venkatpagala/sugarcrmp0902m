@@ -1,0 +1,18 @@
+# BEGIN SUGARCRM RESTRICTIONS
+RedirectMatch /SugarCE-Full-5.2.0e/logfiles/sugarcrm.log.* http://localhost/SugarCE-Full-5.2.0e/log_file_restricted.html
+RedirectMatch /SugarCE-Full-5.2.0e/logfiles/install.log http://localhost/SugarCE-Full-5.2.0e/log_file_restricted.html
+RedirectMatch /SugarCE-Full-5.2.0e/logfiles/upgradeWizard.log http://localhost/SugarCE-Full-5.2.0e/log_file_restricted.html
+RedirectMatch /SugarCE-Full-5.2.0e/logfiles/emailman.log http://localhost/SugarCE-Full-5.2.0e/log_file_restricted.html
+RedirectMatch /SugarCE-Full-5.2.0e/not_imported_(.*).txt http://localhost/SugarCE-Full-5.2.0e/log_file_restricted.html
+RedirectMatch /SugarCE-Full-5.2.0e/XTemplate/(.*)/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/data/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/examples/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/include/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/include/(.*)/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/log4php/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/log4php/(.*)/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/metadata/(.*)/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/modules/(.*)/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/soap/(.*).php http://localhost/SugarCE-Full-5.2.0e/index.php
+RedirectMatch /SugarCE-Full-5.2.0e/emailmandelivery.php http://localhost/SugarCE-Full-5.2.0e/index.php
+# END SUGARCRM RESTRICTIONS
