@@ -58,7 +58,7 @@ $mod_strings = array (
   'LBL_LIST_NAME' => 'Tên:',
   'LBL_LIST_LAST_NAME' => 'Họ tên:',
   'LBL_LIST_EMPLOYEE_NAME' => 'Tên nhân viên',
-  'LBL_LIST_DEPARTMENT' => 'Department',
+  'LBL_LIST_DEPARTMENT' => 'Văn phòng',
   'LBL_LIST_REPORTS_TO_NAME' => 'Báo cáo đến',
   'LBL_LIST_EMAIL' => 'Email',
   'LBL_LIST_PRIMARY_PHONE' => 'Số phone chính',
@@ -73,7 +73,7 @@ $mod_strings = array (
   'LBL_USER_NAME' => 'Tên người sử dụng:',
   'LBL_FIRST_NAME' => 'Tên:',
   'LBL_LAST_NAME' => 'Họ:',
-  'LBL_EMPLOYEE_SETTINGS' => 'Employee Settings',
+  'LBL_EMPLOYEE_SETTINGS' => 'Cài đặt cho nhân viên',
   'LBL_THEME' => 'Theme:',
   'LBL_LANGUAGE' => 'Ngôn ngữ:',
   'LBL_ADMIN' => 'Quản trị viên:',
@@ -84,13 +84,13 @@ $mod_strings = array (
   'LBL_OTHER_PHONE' => 'Khác:',
   'LBL_OTHER_EMAIL' => 'Email khác:',
   'LBL_NOTES' => 'Ghi chú:',
-  'LBL_DEPARTMENT' => 'Department:',
+  'LBL_DEPARTMENT' => 'Văn phòng:',
   'LBL_TITLE' => 'Tiêu đề:',
   'LBL_ANY_PHONE' => 'Tất cả Phone:',
   'LBL_ANY_EMAIL' => 'Tất cả Email:',
   'LBL_ADDRESS' => 'Địa chỉ:',
   'LBL_CITY' => 'Thành phố:',
-  'LBL_STATE' => 'State:',
+  'LBL_STATE' => 'Tỉnh:',
   'LBL_POSTAL_CODE' => 'Mã bưư điện:',
   'LBL_COUNTRY' => 'Quốc gia:',
   'LBL_NAME' => 'Tên:',
@@ -126,11 +126,11 @@ $mod_strings = array (
 
   'LBL_LIST_EMPLOYEE_STATUS' => 'Trạng thái',
 
-  'LBL_SUGAR_LOGIN' => 'Is Sugar User',  
-  'LBL_RECEIVE_NOTIFICATIONS' => 'Notify on Assignment',  
+  'LBL_SUGAR_LOGIN' => 'Là người dùng Sugar',  
+  'LBL_RECEIVE_NOTIFICATIONS' => 'Báo cáo cho người trợ lý',  
   'LBL_IS_ADMIN' => 'Là quản trị viên',  
   'LBL_GROUP' => 'Nhóm người dùng',
-  'LBL_PORTAL_ONLY'	=> 'Portal Only User',
+  'LBL_PORTAL_ONLY'	=> 'Cổng điện tử cho duy nhất một người dùng',
 );
 
 

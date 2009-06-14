@@ -78,7 +78,7 @@ $mod_strings = array (
   'LBL_DATE_LAST_MODIFIED' => 'Ngày chỉnh sửa: ',
 
   'LNK_NEW_CAMPAIGN' => 'Tạo chiến dịch',
-  'LNK_CAMPAIGN_LIST' => 'Những chiến dịch',
+  'LNK_CAMPAIGN_LIST' => 'Chiến dịch',
   'LNK_NEW_PROSPECT_LIST' => 'Tạo danh sách có chủ định',
   'LNK_PROSPECT_LIST_LIST' => 'Tạo danh sách',
   'LNK_NEW_PROSPECT' => 'Mục tiêu được chọn',
