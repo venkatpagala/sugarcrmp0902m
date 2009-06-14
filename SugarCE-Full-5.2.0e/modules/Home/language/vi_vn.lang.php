@@ -51,7 +51,7 @@ $mod_strings = array (
   'LBL_LIST_LAST_NAME' => 'Tên',
   'LBL_PHONE' => 'Phone:',
   'LBL_EMAIL_ADDRESS' => 'Email:',
-  'LBL_MY_PIPELINE_FORM_TITLE' => 'My Pipeline',
+  'LBL_MY_PIPELINE_FORM_TITLE' => 'Đường dẫn cá nhân',
   'LBL_PIPELINE_FORM_TITLE' => 'Pipeline By Sales Stage',
   'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Chiến dịch ROI',
   'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'My Closed Opportunities Gauge',
@@ -61,7 +61,7 @@ $mod_strings = array (
 
 
 
-  'LNK_NEW_LEAD' => 'Create Lead',
+  'LNK_NEW_LEAD' => 'Tạo tiềm năng',
   'LNK_NEW_CASE' => 'Tạo tình huống',
   'LNK_NEW_NOTE' => 'Tạo ghi chú hoặc đính kèm',
   'LNK_NEW_CALL' => 'Lịch cuộc gọi',
@@ -81,7 +81,7 @@ $mod_strings = array (
   'LBL_NO_RESULTS_TIPS' => '<h3>Search Tips:</h3><ul><li>Hãy chắc chắn rằng bạn đã chọn đúng chuyên mục đã chọn ở trên.</li><li>Mở rộng các tiêu chí tìm kiếm của bạn.</li><li>Nếu bạn vẫn không thể tìm thấy bất kỳ kết quả nào hãy thử những lựa chọn Tìm kiếm nâng cao.</li></ul>',
 
   'LBL_RELOAD_PAGE' => 'Hãy<a href="javascript: window.location.reload()">Tải lại cửa số</a> để sử dụng bảng điều khiển Sugar này.',
-  'LBL_ADD_DASHLETS' => 'ThSugar Dashlets',
+  'LBL_ADD_DASHLETS' => 'Thêm bảng điều khiển',
   'LBL_ADD_PAGE' => 'Thêm trang',
   'LBL_DELETE_PAGE' => 'Xóa trang',
   'LBL_CHANGE_LAYOUT' => 'Thay đổi bố cục',
@@ -116,16 +116,16 @@ $mod_strings = array (
   // Dashlet Categories
   'dashlet_categories_dom' => array(
       'Module Views' => 'Xem các Module',
-      'Portal' => 'Portal',
+      'Portal' => 'Cổng điện tử',
       'Charts' => 'Những biểu đồ',
       'Tools' => 'Các dụng cụ',
       'Miscellaneous' => 'Miscellaneous'),
   'LBL_MAX_DASHLETS_REACHED' => 'Bạn đã đạt đến số lượng tối đa quản trị viên của bạn đã thiết lập trong bảng điều khiển Sugar. Xin vui lòng loại bỏ một bảng điều khiển Sugar để thêm một hình mới.',
-  'LBL_ADDING_DASHLET' => 'Thêm Sugar Dashlet ...',
+  'LBL_ADDING_DASHLET' => 'Thêm bảng điều khiển Sugar ...',
   'LBL_ADDED_DASHLET' => 'Đã thêm Sugar Dashlet',
   'LBL_REMOVE_DASHLET_CONFIRM' => 'Bạn có chắc rằng muốn xóa Sugar Dashlet?',
-  'LBL_REMOVING_DASHLET' => 'Đang xóa Sugar Dashlet ...',
-  'LBL_REMOVED_DASHLET' => 'Đã xóa Sugar Dashlet',
+  'LBL_REMOVING_DASHLET' => 'Đang xóa bảng điều Sugar ...',
+  'LBL_REMOVED_DASHLET' => 'Đã xóa bảng điều khiển Sugar',
   'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
   'LBL_DASHLET_CONFIGURE_FILTERS' => 'Bộ lọc',
   'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Duy nhất mục của tôi',
@@ -133,20 +133,20 @@ $mod_strings = array (
   'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Hiện thị những hàng',
 //  'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'My Items Only',
 
-  'LBL_DASHLET_DELETE' => 'Xóa Sugar Dashlet',
-  'LBL_DASHLET_REFRESH' => 'Làm mới Sugar Dashlet',
-  'LBL_DASHLET_EDIT' => 'Chỉnh sửa Sugar Dashlet',
+  'LBL_DASHLET_DELETE' => 'Xóa bảng điều khiển Sugar',
+  'LBL_DASHLET_REFRESH' => 'Làm mới bảng điều khiển Sugar',
+  'LBL_DASHLET_EDIT' => 'Chỉnh sửa bảng điều khiển Sugar',
 
   'LBL_TRAINING_TITLE' => 'Đào tạo',
 
   'LBL_CREATING_NEW_PAGE' => 'Đang tạo một trang mới...',
-  'LBL_NEW_PAGE_FEEDBACK' => 'Bạn đã tạo ra một trang mới. Bạn có thể thêm nội dung mới với các tùy chọn thêm  Sugar Dashlets.',
+  'LBL_NEW_PAGE_FEEDBACK' => 'Bạn đã tạo ra một trang mới. Bạn có thể thêm nội dung mới với các tùy chọn thêm bảng điều khiển Sugar.',
   'LBL_DELETE_PAGE_CONFIRM' => 'Bạn có chắc muốn xóa một trang này?',
   'LBL_SAVING_PAGE_TITLE' => 'Lữu giữ tiêu đề trang này...',
   'LBL_RETRIEVING_PAGE' => 'Lấy trang...',
 
   // Default out-of-box names for tabs
-  'LBL_HOME_PAGE_1_NAME' => 'My Sugar',
+  'LBL_HOME_PAGE_1_NAME' => 'Sugar cá nhân',
   'LBL_HOME_PAGE_2_NAME' => 'Trang Sales',
   'LBL_HOME_PAGE_3_NAME' => 'Trang hỗ trợ & quảng cáo',
   'LBL_HOME_PAGE_4_NAME' => 'Tracker',
@@ -161,12 +161,12 @@ $mod_strings = array (
   'LBL_BASIC_CHARTS' => 'Biểu đồ cơ hản',
   'LBL_REPORT_CHARTS' => 'Biểu đồ báo cáo',
 
-  'LBL_MY_FAVORITE_REPORT_CHARTS' => 'Báo cáo yêu thích của tôi',
+  'LBL_MY_FAVORITE_REPORT_CHARTS' => 'Báo cáo yêu thích của cá nhân',
   'LBL_GLOBAL_REPORT_CHARTS' => 'Đội ngũ báo cáo toàn cầu',
   'LBL_MY_TEAM_REPORT_CHARTS' => 'Nhóm báo cáo của tôi',
   'LBL_MY_SAVED_REPORT_CHARTS' => 'Lưu giữ báo cáo của tôi',
 
-  'LBL_DASHLET_SEARCH' => 'Tìm kiếm Sugar Dashlet',
+  'LBL_DASHLET_SEARCH' => 'Tìm kiếm bảng điều khiển Sugar',
 
 //ABOUT page
   'LBL_VERSION' => 'Phiên bản',
@@ -198,15 +198,15 @@ $mod_strings = array (
   'LBL_GET_SUGARCRM_RSS' => 'Get SugarCRM RSS',
   'LBL_SUGARCRM_NEWS' => 'SugarCRM News',
   'LBL_SUGARCRM_TRAINING_NEWS' => 'Đào tạo SugarCRM News',
-  'LBL_SUGARCRM_FORUMS' => 'SugarCRM Forums',
-  'LBL_SUGARFORGE_NEWS' => 'SugarForge News',
-  'LBL_ALL_NEWS' => 'All News',
+  'LBL_SUGARCRM_FORUMS' => 'Diễn đàn SugarCRM',
+  'LBL_SUGARFORGE_NEWS' => 'SugarForge mới',
+  'LBL_ALL_NEWS' => 'Tất cả tin tức',
   'LBL_LINK_CURRENT_CONTRIBUTORS' => 'Nhấp vào liên kết này hiện nay cho một danh sách các người trên Sugar CRM!',
   'LBL_SOURCE_CODE' => 'Mã nguồn',
   'LBL_SOURCE_SUGAR' => 'Sugar CRM - Lượng bán hàng tự động hóa ứng dụng được tạo ra bởi SugarCRM Inc',
   'LBL_SOURCE_XTEMPLATE' => 'XTemplate - Một kiểu mẫu động cho PHP được tạo ra bởi Barnabás Debreceni',
   'LBL_SOURCE_NUSOAP' => 'NuSOAP - Một tập hợp các lớp học PHP cho phép các nhà phát triển để tạo ra và tiêu thụ các dịch vụ tạo trang web của Công ty cổ phần và NuSphere Dietrich Ayala',
-  'LBL_SOURCE_JSCALENDAR' => 'JS Calendar -Vấn đáp lịch cho ngày nhập được tạo ra bởi Mihai Bazon',
+  'LBL_SOURCE_JSCALENDAR' => 'JS lịch làm việc -Vấn đáp lịch cho ngày nhập được tạo ra bởi Mihai Bazon',
   'LBL_SOURCE_PHPPDF' => 'PHP PDF - Một thư viện cho việc tạo các tài liệu PDF tạo ra bởi Wayne Munro',
   'LBL_SOURCE_DOMIT' => 'DOMIT! - Một xml parser cho PHP, dựa vào các tài liệu Object Model (DOM) Cấp bậc 2 Spec hoán đổi.',
   'LBL_SOURCE_DOMITRSS' => 'DOMIT RSS - An RSS feed parser based on the DOMIT pure PHP XML parser.',
@@ -228,7 +228,7 @@ $mod_strings = array (
   'LBL_SOURCE_JSMIN' => 'JSMin - bộ lọc có loại bỏ ý kiến và không cần thiết từ các tập tin JavaScript.',
   'LBL_SOURCE_SWFOBJECT' => 'SWFObject - Javascript Flash Player phát hiện và tập lệnh nhúng.',
   'LBL_SOURCE_TINYMCE' => 'TinyMCE - Một trình soạn thảo WYSIWYG kiểm soát đối với các trình duyệt web cho phép người sử dụng mã HTML để chỉnh sửa nội dung',
-  'LBL_SOURCE_EXT' => 'Ext - Javascript xây dựng các ứng dụng web trên máy tính cho phia khach hàng.',
+  'LBL_SOURCE_EXT' => 'Ext - Javascript xây dựng các ứng dụng web trên máy tính cho phía khách hàng.',
   'LBL_SOURCE_RECAPTCHA' => 'reCAPTCHA giúp ngăn ngừa sự lạm dụng tự động của trang web của bạn (chẳng hạn như bình luận thư rác hoặc đăng ký không có thật) bằng cách sử dụng một CAPTCHA để bảo đảm rằng chỉ có con người thực hiện một số hành động.',
 
 
