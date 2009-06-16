@@ -89,63 +89,63 @@ Các Readme sẽ có sẵn tại thời điểm cài đặt.',
 
 
 
-		'create'=>'Cung cấp một<b>Name</b> cho modul.<b> Nhãn </ b> mà bạn cung cấp sẽ xuất hiện trong thẻ tab chuyển hướng. <br/>
+		'create'=>'Cung cấp một<b>Name</b> cho module.<b> Nhãn </ b> mà bạn cung cấp sẽ xuất hiện trong thẻ tab chuyển hướng. <br/>
 <br/>
-Chọn để hiển thị một chuyển hướng thẻ cho các mô-đun bằng cách kiểm tra <b> Danh mục chính tab </ b> ô trống.<br/>
+Chọn để hiển thị một chuyển hướng thẻ cho các module bằng cách kiểm tra <b> Danh mục chính tab </ b> ô trống.<br/>
 <br/>
-Sau đó, chọn kiểu mô-đun, bạn muốn tạo. <br/>
+Sau đó, chọn kiểu module, bạn muốn tạo. <br/>
 <br/>
-Chọn một kiểu mẫu. Mỗi mẫu có chứa một bộ các lĩnh vực cụ thể, cũng như được xác định trước khi bố trí, sử dụng như là một cơ sở cho các mô-đun của bạn. <br/>
+Chọn một kiểu mẫu. Mỗi mẫu có chứa một bộ các lĩnh vực cụ thể, cũng như được xác định trước khi bố trí, sử dụng như là một cơ sở cho các module của bạn. <br/>
 <br/>
-Click <b>Save</b> để tạo modul.',
+Click <b>Save</b> để tạo module.',
 
-		'modify'=>'Bạn có thể thay đổi các mô-đun tài sản hoặc tùy chỉnh <b> trường </ b>, <b> Quan hệ </ b> và <b> bày </ b> có liên quan đến các mô-đun.',
-		'importable'=>'Kiểm tra <b>Importable</b> ô trống sẽ cho phép nhập khẩu cho các mô-đun này.<br>
+		'modify'=>'Bạn có thể thay đổi các module tài sản hoặc tùy chỉnh <b> trường </ b>, <b> Quan hệ </ b> và <b> bày </ b> có liên quan đến các module.',
+		'importable'=>'Kiểm tra <b>Importable</b> ô trống sẽ cho phép nhập khẩu cho các module này.<br>
 <br>
-Một liên kết tới nhập Wizard sẽ xuất hiện trong các phím tắt trong bảng điều khiển mô-đun.The Wizard tạo điều kiện nhập, nhập của các nguồn dữ liệu từ bên ngoài vào các tùy chỉnh mô-đun.',
-		'team_security'=>'Kiểm tra<b>Team Security</b> ô trống sẽ cho phép đội ngũ bảo mật này cho các mô-đun. <br/>
+Một liên kết tới nhập Wizard sẽ xuất hiện trong các phím tắt trong bảng điều khiển module.The Wizard tạo điều kiện nhập, nhập của các nguồn dữ liệu từ bên ngoài vào các tùy chỉnh module.',
+		'team_security'=>'Kiểm tra<b>Team Security</b> ô trống sẽ cho phép đội ngũ bảo mật này cho các module. <br/>
 <br/>
-Nếu đội ngũ bảo mật được kích hoạt, các đội lựa chọn lĩnh vực này sẽ xuất hiện trong các bản ghi trong các mô-đun ',
-		'reportable'=>'Kiểm tra các hộp này sẽ cho phép các mô-đun này để có bảng báo cáo hoạt động của nó.',
-		'assignable'=>'Kiểm tra các hộp này sẽ cho phép ghi lại trong một mô-đun này sẽ được giao cho một người sử dụng lựa chọn.',
-		'has_tab'=>'Kiểm tra <b>Navigation Tab</b>sẽ cung cấp một thẻ chuyển hướng cho các mô-đun.',
+Nếu đội ngũ bảo mật được kích hoạt, các đội lựa chọn lĩnh vực này sẽ xuất hiện trong các bản ghi trong các module ',
+		'reportable'=>'Kiểm tra các hộp này sẽ cho phép các module này để có bảng báo cáo hoạt động của nó.',
+		'assignable'=>'Kiểm tra các hộp này sẽ cho phép ghi lại trong một module này sẽ được giao cho một người sử dụng lựa chọn.',
+		'has_tab'=>'Kiểm tra <b>Navigation Tab</b>sẽ cung cấp một thẻ chuyển hướng cho các module.',
 		'acl'=>'Kiểm tra các hộp này sẽ cho phép kiểm soát truy cập vào mô đun này, bao gồm cả cấp bậc lĩnh vực an ninh.',
 		'studio'=>'Kiểm tra các hộp này sẽ cho phép các quản trị viên này để tùy chỉnh mô-đun trong vòng Studio.',
-		'audit'=>'Kiểm tra các hộp này sẽ cho phép kiểm toán cho các mô đun này. Thay đổi đối với một số lĩnh vực sẽ được ghi lại để các quản trị viên có thể xem xét việc thay đổi lịch sử.',
+		'audit'=>'Kiểm tra các hộp này sẽ cho phép kiểm toán cho các module này. Thay đổi đối với một số lĩnh vực sẽ được ghi lại để các quản trị viên có thể xem xét việc thay đổi lịch sử.',
 		'viewfieldsbtn'=>'Nhấp vào <b>View Fields</b>để xem các trường liên kết với các mô-đun và để tạo và chỉnh sửa các tuỳ chỉnh lĩnh vực.',
 		'viewrelsbtn'=>'Nhấp vào <b> xem quan hệ </ b> để xem những mối quan hệ liên kết với các phân hệ này và để tạo ra các mối quan hệ mới.',
-		'viewlayoutsbtn'=>'Nhấp vào <b>xem & bày </ b> để xem bố trí cho các mô-đun và để tùy chỉnh trong lĩnh vực sắp xếp bố trí.',
-		'duplicatebtn'=>'Nhấp vào <b>Duplicate</b>để sao chép thuộc tính của các mô-đun mới vào một mô-đun và để hiển thị các mô-đun mới. <br/>
+		'viewlayoutsbtn'=>'Nhấp vào <b>xem & bày </ b> để xem bố trí cho các module và để tùy chỉnh trong lĩnh vực sắp xếp bố trí.',
+		'duplicatebtn'=>'Nhấp vào <b>Duplicate</b>để sao chép thuộc tính của các module mới vào một module và để hiển thị các module mới. <br/>
 <br/>
-Đối với các modul mới, tên mới sẽ được tạo ra tự động của một số appending vào cuối tên của mô-đun được sử dụng để tạo mới.',
+Đối với các module mới, tên mới sẽ được tạo ra tự động của một số appending vào cuối tên của module được sử dụng để tạo mới.',
 		'deletebtn'=>'Nhấp vào <b> Delete </ b> để xóa mô-đun này.',
-		'name'=>'Đây là <b>Tên</b> hiện tại của modul.<br/>
+		'name'=>'Đây là <b>Tên</b> hiện tại của module.<br/>
 <br/>
 Tên phải được alphanumeric, và phải bắt đầu bằng một chữ cái và các nội dung không có dấu cách. (Ví dụ: HR_Management)',
-		'label'=>'Đây là <b> Nhãn </ b> sẽ xuất hiện trong các thẻ tab chuyển hướng cho các mô-đun. ',
-		'savebtn'=>'Nhấp vào <b>Lưu</ b> để lưu tất cả các dữ liệu nhập liên quan tới các mô-đun.',
+		'label'=>'Đây là <b> Nhãn </ b> sẽ xuất hiện trong các thẻ tab chuyển hướng cho các module. ',
+		'savebtn'=>'Nhấp vào <b>Lưu</ b> để lưu tất cả các dữ liệu nhập liên quan tới các module.',
 		'type_basic'=>'<b> Cơ bản </ b> cung cấp các loại mẫu cơ bản lĩnh vực, chẳng hạn như tên, chỉ để, đội, ngày tạo mô tả và các lĩnh vực.',
 		'type_company'=>'<b> Công ty </ b> tổ chức cung cấp các loại mẫu-lĩnh vực cụ thể, chẳng hạn như Công ty, Công nghiệp và Địa chỉ. <br/>
 <br/>
-Sử dụng mẫu này để tạo ra mô-đun được tương tự với những tiêu chuẩn tài khoản mô-đun.',
+Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn tài khoản module.',
 		'type_issue'=>'<b> Số </ b> cung cấp các loại mẫu trường hợp-và-lỗi lĩnh vực cụ thể, chẳng hạn như số, tình trạng, và ưu tiên mô tả. <br/>
 <br/>
-Sử dụng mẫu này để tạo ra mô-đun được tương tự với những tiêu chuẩn trường hợp và mô-đun lỗi Tracker.',
+Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn trường hợp và module lỗi Tracker.',
 		'type_person'=>'<b> Cá nhân </ b> cung cấp các loại mẫu riêng lĩnh vực cụ thể, chẳng hạn như Salutation, tiêu đề, tên, địa chỉ và số điện thoại. <br/>
 <br/>
-Sử dụng mẫu này để tạo ra mô-đun được tương tự với những tiêu chuẩn địa chỉ liên lạc và Lead mô-đun.',
+Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn địa chỉ liên lạc và module tiềm năng.',
 		'type_sale'=>'<b> Bán </ b> cung cấp các loại mẫu cơ hội lĩnh vực cụ thể, chẳng hạn như Lead tháng, giai đoạn, số lượng và Probability. <br/>
 <br/>
-sử dụng mẫu này để tạo ra mô-đun tương tự với những tiêu chuẩn cơ hội mô-đun.',
-		'type_file'=>'<b> File </ b> cung cấp các mẫu văn bản lĩnh vực cụ thể, chẳng hạn như tên file, loại hình tài liệu, và ngày xuất bản. <br>
+sử dụng mẫu này để tạo ra module tương tự với những tiêu chuẩn cơ hội module.',
+		'type_file'=>'<b> Tệp tin </ b> cung cấp các mẫu văn bản lĩnh vực cụ thể, chẳng hạn như tên tập tin, loại hình tài liệu, và ngày xuất bản. <br>
 <br>
-Sử dụng mẫu này để tạo ra mô-đun tương tự với những tiêu chuẩn văn bản mô-đun.',
+Sử dụng mẫu này để tạo ra module tương tự với những tiêu chuẩn văn bản module.',
 
 	),
 	'dropdowns'=>array(
 		'default' => 'Tất cả các <b> Dropdowns </ b> cho các ứng dụng được liệt kê ở đây.<br>
 <br>
-Các dropdowns có thể được sử dụng cho các lĩnh vực dropdown trong bất kỳ mô-đun.<br>
+Các dropdowns có thể được sử dụng cho các lĩnh vực dropdown trong bất kỳ module.<br>
 <br>
 Để thực hiện thay đổi cho một dropdown hiện tại, bấm vào tên dropdown.<br>
 <br>
@@ -177,7 +177,7 @@ Nhấp vào <b>Lưu </ b> để lưu danh sách các dropdown.',
 	<b> Mặc định </ b> cột chứa các lĩnh vực được hiển thị trong khi Subpanel.<br/>
 <br/>
 	<b> Hidden </ b> cột chứa các lĩnh vực mà có thể được thêm vào các cột mặc định.',
-		'savebtn'	=> 'Nhấp vào Lưu & Triển khai <b> </ b> để lưu các thay đổi bạn đã thực hiện và để làm cho chúng hoạt động trong các mô-đun.',
+		'savebtn'	=> 'Nhấp vào Lưu & Triển khai <b> </ b> để lưu các thay đổi bạn đã thực hiện và để làm cho chúng hoạt động trong các module.',
 		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử của trang.',
 		'Hidden' 	=> '<b> Hidden </ b> lĩnh vực không xuất hiện trong các subpanel.',
 		'Default'	=> '<b> mặc định </ b> xuất hiện trong các lĩnh vực subpanel.',
@@ -219,7 +219,7 @@ Nhấp vào <b>Lưu </ b> để lưu danh sách các dropdown.',
 Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí.',
 		'defaultquickcreate'=>'<b> Bố trí </ b> khu vực chứa các lĩnh vực mà hiện đang được hiển thị trong vòng <b> QuickCreate </ b> hình thức.<br>
 <br>
-	Các QuickCreate hình thức xuất hiện trong subpanels cho các mô-đun khi được bấm vào nút Tạo.<br/>
+	Các QuickCreate hình thức xuất hiện trong subpanels cho các module khi được bấm vào nút Tạo.<br/>
 <br/>
 	<b> Công cụ </ b> chứa các <b> Recycle Bin </ b> và các lĩnh vực bố trí và yếu tố có thể được thêm vào bố trí.<br>
 <br>
@@ -235,14 +235,14 @@ Nhấp vào <b>Lưu </ b> để lưu danh sách các dropdown.',
 <br>
 	Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí		'saveBtn'	=> 'Nhấp vào <b>Lưu </ b> để lưu giữ những thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó.<br>
 <br>
-Những thay đổi sẽ không được hiển thị trong mô-đun, cho đến khi bạn lưu triển khai những thay đổi.',
+Những thay đổi sẽ không được hiển thị trong module, cho đến khi bạn lưu triển khai những thay đổi.',
 		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử
 > hoán đổi
 		.',
-		'publishBtn'=> 'Nhấp vào <b>Lưu & Triển khai</ b> để lưu tất cả các thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó, và để   thực hiện những thay đổi tích cực trong các mô-đun.<br>
+		'publishBtn'=> 'Nhấp vào <b>Lưu & Triển khai</ b> để lưu tất cả các thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó, và để   thực hiện những thay đổi tích cực trong các module.<br>
 <br>
 	
-Việc bố trí ngay lập tức sẽ được hiển thị trong các mô-đun.',
+Việc bố trí ngay lập tức sẽ được hiển thị trong các module.',
 		'toolbox'	=> '<b> Công cụ </ b> chứa các <b> Recycle Bin </ b>, thêm các yếu tố bố trí và thiết lập các lĩnh vực có sẵn để thêm vào việc bố trí.<br/>
 <br/>
 Các thành phần và các trường trong các lĩnh vực có thể được kéo và thả vào trong hộp công cụ.<br>
@@ -252,7 +252,7 @@ Các thành phần và các trường trong các lĩnh vực có thể được 
 	Kéo và thả bất kỳ trường nào vào hộp công cụ hoặc bố trí vào một vị trí để trao đổi các địa điểm của cả hai trường.<br/>
 <br/>
 	<b> Filler </ b> tạo ra không gian trống trong bố trí nơi mà nó được đặt.',
-		'panels'	=> '<b> Bố trí </ b> khu vực cung cấp một quan điểm về cách thức bố trí sẽ xuất hiện trong các mô-đun khi những thay đổi đã thực hiện bố trí được tuyển dụng.<br/>
+		'panels'	=> '<b> Bố trí </ b> khu vực cung cấp một quan điểm về cách thức bố trí sẽ xuất hiện trong các module khi những thay đổi đã thực hiện bố trí được tuyển dụng.<br/>
 <br/>
 Bạn có thể reposition lĩnh vực, các hàng và bảng bằng cách kéo và thả chúng ở vị trí mong muốn .<br/>
 <br/>
@@ -262,25 +262,25 @@ Hủy bỏ yếu tố bằng cách kéo và thả chúng ở trong <b> Recycle B
 <b>Tab Order</b> kiểm soát những tab yêu cầu key giữa các trường.',
 	),
 	'fieldsEditor'=>array(
-		'default'	=> '<b> Trường tên</ b> có sẵn cho các mô-đun được liệt kê ở đây<br>
+		'default'	=> '<b> Trường tên</ b> có sẵn cho các module được liệt kê ở đây<br>
 <br>
-	Tuỳ chỉnh cho các trường tạo ra mô-đun xuất hiện ở trên các trường mà có sẵn cho các mô đun mặc định.<br>
+	Tuỳ chỉnh cho các trường tạo ra mô-đun xuất hiện ở trên các trường mà có sẵn cho các module mặc định.<br>
 <br>
 	Để chỉnh sửa một trường, bấm vào <b> Trường Tên </ b>.<br/>
 <br/>
 	Để tạo một lĩnh vực mới, bấm vào <b> Thêm Trường </ b>.',
-		'mbDefault'=>'<b> Trường </ b> có sẵn cho các mô-đun được liệt kê ở đây bởi Trường Tên.<br>
+		'mbDefault'=>'<b> Trường </ b> có sẵn cho các module được liệt kê ở đây bởi Trường Tên.<br>
 <br>
  	Để tùy chỉnh nhãn của các trường mẫu, hãy nhấp vào Trường Tên.<br>
 <br>
 Để tạo một lĩnh vực mới, bấm vào <b> Thêm Trường </ b>. Các nhãn cùng với các tài sản khác của các lĩnh vực mới có thể được sửa đổi sau khi tạo ra bằng cách nhấp vào trường Tên.<br>
 <br>
-	Sau khi triển khai mô-đun là, các lĩnh vực mới tạo trong Module Builder được coi như là tiêu chuẩn trong các lĩnh vực triển khai mô-đun trong Studio',
+	Sau khi triển khai module là, các lĩnh vực mới tạo trong Module Builder được coi như là tiêu chuẩn trong các lĩnh vực triển khai module trong Studio',
         'addField'	=> 'Chọn một <b>Loại Dữ liệu </ b> cho các lĩnh vực mới. Loại xác định những gì mà bạn chọn loại ký tự có thể được nhập vào cho các trường. Ví dụ, chỉ số điện thoại là số nguyên có thể được tham gia vào trường<br>
 <br>
 Cung cấp một <b> Tên </ b> cho các lĩnh vực. Tên phải được alphanumeric và phải không được chứa bất kỳ dấu cách. Dưới là hợp lệ.<br>
 <br>
-	Hiển thị <b> Nhãn </ b> là các nhãn mà sẽ xuất hiện cho các trường bố trí trong các mô-đun. Các hệ thống <b> Nhãn </ b> được sử dụng để tham khảo các trường trong các mã.<br>
+	Hiển thị <b> Nhãn </ b> là các nhãn mà sẽ xuất hiện cho các trường bố trí trong các module. Các hệ thống <b> Nhãn </ b> được sử dụng để tham khảo các trường trong các mã.<br>
 <br>
 	Tùy thuộc vào loại dữ liệu được lựa chọn cho các lĩnh vực, một số hoặc tất cả các tài sản sau đây có thể được thiết lập cho các lĩnh vực:<br>
 <br>
@@ -331,52 +331,52 @@ Sau đó bấm vào <b> Xuất ra </ b> để tạo một tập tin. Zip tập t
 		'mainHelp' 	=> 'Chào mừng bạn đến với khu vực <b> phát triển công cụ </ b>. <br/>
 <br/>
 Sử dụng các công cụ trong khu vực này để tạo và quản lý theo tiêu chuẩn và tùy chỉnh mô-đun và các trường.',
-		'studioBtn'	=> 'Sử dụng <b> Studio </ b> để tùy chỉnh, triển khai mô-đun.',
-		'mbBtn'		=> 'Sử dụng <b> Module Builder </ b> để tạo ra mô-đun mới.',
+		'studioBtn'	=> 'Sử dụng <b> Studio </ b> để tùy chỉnh, triển khai module.',
+		'mbBtn'		=> 'Sử dụng <b> Module Builder </ b> để tạo ra module mới.',
 		'sugarPortalBtn' => 'Sử dụng <b>Biên soạn Sugar Portal </ b> để quản lý và tuỳ chỉnh Sugar Portal,.',
 		'dropDownEditorBtn' => 'Sử dụng <b>Biên soạn Dropdown</ b> để thêm và chỉnh sửa dropdowns toàn cầu cho các lĩnh vực dropdown.',
 		'appBtn' 	=> 'Áp dụng chế độ là nơi bạn có thể tuỳ chỉnh các thuộc tính của chương trình, chẳng hạn như có bao nhiêu TPS các báo cáo được hiển thị trên trang chủ',
 		'backBtn'	=> 'Quay trở lại trang trước',
-		'studioHelp'=> 'Sử dụng <b> Studio </ b> để xác định xem những gì và làm thế nào để thông tin được hiển thị trong các mô-đun.',
-		'moduleBtn'	=> 'Nhấp vào để chỉnh sửa mô-đun này.',
+		'studioHelp'=> 'Sử dụng <b> Studio </ b> để xác định xem những gì và làm thế nào để thông tin được hiển thị trong các module.',
+		'moduleBtn'	=> 'Nhấp vào để chỉnh sửa module này.',
 		'moduleHelp'=> 'Các thành phần mà bạn có thể tùy chỉnh cho các mô-đun xuất hiện ở đây.<br>
 <br>
 Click vào một biểu tượng để lựa chọn thành phần để chỉnh sửa.',
-		'fieldsBtn'	=> 'Tạo và chỉnh <b> trường </ b> để lưu trữ thông tin trong các mô-đun.',
-		'labelsBtn' => 'Hiệu chỉnh <b> Nhãn </ b> là hiển thị cho các trường và các tiêu đề trong các mô-đun.'	,
-	    'relationshipsBtn' => 'Thêm mới hoặc xem tồn tại <b> Quan hệ </ b> cho các mô-đun.' ,
-		'layoutsBtn'=> 'Tuỳ chỉnh mô-đun <b>Layout </ b>.Quan điểm của các modul contaning lĩnh vực là khác nhau.<br>
+		'fieldsBtn'	=> 'Tạo và chỉnh <b> trường </ b> để lưu trữ thông tin trong các module.',
+		'labelsBtn' => 'Hiệu chỉnh <b> Nhãn </ b> là hiển thị cho các trường và các tiêu đề trong các module.'	,
+	    'relationshipsBtn' => 'Thêm mới hoặc xem tồn tại <b> Quan hệ </ b> cho các module.' ,
+		'layoutsBtn'=> 'Tuỳ chỉnh module <b>Layout </ b>.Quan điểm của các module contaning lĩnh vực là khác nhau.<br>
 <br>
 Bạn có thể quyết định những trường xuất hiện và cách thức chúng được bố trí trong mỗi tổ chức.',
 		'subpanelBtn'=> 'Quyết định những lĩnh vực xuất hiện trong các <b> Subpanels </ b> trong các mô-đun.',
-		'portalBtn' =>'Tuỳ chỉnh modul <b>Layout</ b> mà xuất hiện trong các <b> Sugar Portal </ b>.',
-		'layoutsHelp'=> 'Những modul <b> Layout </ b> có thể được tùy biến xuất hiện ở đây.<br>
+		'portalBtn' =>'Tuỳ chỉnh module <b>Layout</ b> mà xuất hiện trong các <b> Sugar Portal </ b>.',
+		'layoutsHelp'=> 'Những module<b> Layout </ b> có thể được tùy biến xuất hiện ở đây.<br>
 <br>
 Các lĩnh vực bố trí hiển thị và các dữ liệu<br>
 <br>
 Nhấp vào một biểu tượng để lựa chọn bố trí để chỉnh sửa.',
-		'subpanelHelp'=> '<b> Subpanels </ b> trong các mô-đun có thể được tùy biến xuất hiện ở đây.<br>
+		'subpanelHelp'=> '<b> Subpanels </ b> trong các module có thể được tùy biến xuất hiện ở đây.<br>
 <br>
 Nhấp vào vào một biểu tượng để lựa chọn modul để chỉnh sửa.',
         'newPackage'=>'Nhấp vào <b>Gói mới</ b> để tạo ra một gói phần mềm mới.',
-        'exportBtn' => 'Nhấp vào <b>Tùy chỉnh hàng xuất ra</ b> để tạo ra và tải về một gói phần mềm có chứa tuỳ chỉnh và được thực hiện trong Studio cho mô-đun.',
-        'mbHelp'    => 'Sử dụng <b> Module Builder </ b> để tạo ra các gói có chứa mô-đun tuỳ chỉnh dựa trên tiêu chuẩn hay tùy chỉnh các đối tượng.',
-	    'viewBtnEditView' => 'Tuỳ chỉnh mô-đun \ 's <b> EditView </ b> Layout.<br>
+        'exportBtn' => 'Nhấp vào <b>Tùy chỉnh hàng xuất ra</ b> để tạo ra và tải về một gói phần mềm có chứa tuỳ chỉnh và được thực hiện trong Studio cho module.',
+        'mbHelp'    => 'Sử dụng <b> Module Builder </ b> để tạo ra các gói có chứa module tuỳ chỉnh dựa trên tiêu chuẩn hay tùy chỉnh các đối tượng.',
+	    'viewBtnEditView' => 'Tuỳ chỉnh module \ 's <b> EditView </ b> Layout.<br>
 <br>
 Các EditView là một hình thức có chứa dữ liệu vào lĩnh vực capturing cho người sử dụng nhập dữ liệu.',
-	    'viewBtnDetailView' => 'Tuỳ chỉnh mô-đun \<b> DetailView </ b> Layout.<br>
+	    'viewBtnDetailView' => 'Tuỳ chỉnh module \<b> DetailView </ b> Layout.<br>
 <br>
 Các DetailView hiển thị cho người dùng nhập vào trường dữ liệu.',
-		'viewBtnDashlet' => 'Tuỳ chỉnh mô-đun \  <b> Sugar Dashlet </ b>, bao gồm cả việc Sugar Dashlet \' s ListView và Tìm kiếm.<br>
+		'viewBtnDashlet' => 'Tuỳ chỉnh module \  <b> Sugar Dashlet </ b>, bao gồm cả việc Sugar Dashlet \' s ListView và Tìm kiếm.<br>
 <br>
 Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong mô-đun Trang chủ.',
-	    'viewBtnListView' => 'Tuỳ chỉnh mô-đun \ <b> ListView </ b> Layout.<br>
+	    'viewBtnListView' => 'Tuỳ chỉnh module\ <b> ListView </ b> Layout.<br>
 <br>
 Các kết quả tìm kiếm xuất hiện trong ListView.',
-	    'searchBtn' => 'Tuỳ chỉnh mô-đun \ <b> Tìm kiếm </ b> Layout.<br>
+	    'searchBtn' => 'Tuỳ chỉnh module \ <b> Tìm kiếm </ b> Layout.<br>
 <br>
 Xác định những trường có thể được dùng để lọc các hồ sơ liên quan xuất hiện trong ListView.',
-		'viewBtnQuickCreate' =>  'Tuỳ chỉnh mô-đun \ <b> ListView </ b> Layout.<br>
+		'viewBtnQuickCreate' =>  'Tuỳ chỉnh module \ <b> ListView </ b> Layout.<br>
 <br>
 Các hình thức tạo nhanh xuất hiện trong subpanels và email trong modul.',
 
@@ -387,7 +387,7 @@ Các hình thức tìm kiếm chứa các lĩnh vực để lọc các bộ hồ
 Nhấp vào một biểu tượng để lựa chọn bố trí tìm kiếm để chỉnh sửa.',
 	    'dashletHelp' =>'<b>Sugar Dashlet </ b>Layout có thể được tùy biến xuất hiện ở đây.<br>
 <br>
-Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong modul Trang chủ.',
+Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong module Trang chủ.',
 	    'DashletListViewBtn' =>'	
 <b> Mía đường Dashlet ListView </ b> sẽ hiển thị hồ sơ, dựa vào các Dashlet Mía đường tìm kiếm các bộ lọc.',
 	    'DashletSearchViewBtn' =>'<b> Sugar Dashlet Tìm kiếm </ b> các bộ lọc hồ sơ cho các danh sách xem Dashlet.',
@@ -396,8 +396,8 @@ Các Sugar Dashlet sẽ có sẵn để thêm vào các trang web trong modul Tr
 	    'portalHelp' => 'Quản lý và tuỳ chỉnh <b> Sugar Portal </ b>.',
 	    'SPUploadCSS' => 'Tải lên <b>phong cách trang Sheet</b> cho Sugar Portal.',
 	    'SPSync' => '<b> Đồng bộ hoá </ b> tuỳ chỉnh cho Sugar Portal.',
-	    'Layouts' => 'Tuỳ chỉnh <b> Layout </ b> của Sugar Portal, modul.',
-	    'portalLayoutHelp' => 'Những modul trong Sugar Portal, xuất hiện trong khu vực này.<br>
+	    'Layouts' => 'Tuỳ chỉnh <b> Layout </ b> của Sugar Portal, module.',
+	    'portalLayoutHelp' => 'Những module trong Sugar Portal, xuất hiện trong khu vực này.<br>
 <br>
 Chọn một modul để chỉnh sửa <b> Layout </ b>.',
 		'relationshipsHelp' => 'Tất cả các <b> Quan hệ </ b> mà còn tồn tại giữa các phân hệ và mô-đun triển khai khác xuất hiện ở đây.<br>
@@ -406,7 +406,7 @@ Các mối quan hệ <b> Tên </ b> là các hệ thống tạo ra tên cho mố
 <br>
 <b>Modul chính thức</ b> là các modul đó sở hữu các mối quan hệ. Ví dụ, tất cả các thuộc tính của các mối quan hệ đó có tài khoản cho các mô-đun chính là mô-đun sẽ được lưu trong cơ sở dữ liệu tài khoản.<br>
 <br>
-<b> Type </ b> là loại có thể có được mối quan hệ giữa các Modul chính và các <b> Modul liên quan </ b>. <br>
+<b> Type </ b> là loại có thể có được mối quan hệ giữa các module chính và các <b> module liên quan </ b>. <br>
 <br>
 Nhấp vào một tiêu đề cột để sắp xếp theo cột.<br>
 <br>
@@ -415,23 +415,23 @@ Nhấp vào một hàng trong các mối quan hệ bảng để xem những tài
 Nhấp vào  <b>Thêm mối quan hệ </ b> để tạo ra một mối quan hệ mới.<br>
 <br>
 Quan hệ có thể được tạo ra bất kỳ giữa hai modul triển khai .',
-        'relationshipHelp'=>'<b> Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và mô-đun triển khai .<br>
+        'relationshipHelp'=>'<b> Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và module triển khai .<br>
 <br>
-Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong hồ sơ modul.<br>
+Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong hồ sơ module.<br>
 <br>
 Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các Modul:<br>
 <br>
 	
-<b>Một - Một </ b> - Cả hai Modul \sẽ chứa các trường hồ sơ liên quan.<br>
+<b>Một - Một </ b> - Cả hai module \sẽ chứa các trường hồ sơ liên quan.<br>
 <br>
-<b>	Một - Nhiều </ b> - Các Modul chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
+<b>	Một - Nhiều </ b> - Các module chính \ hồ sơ sẽ chứa một subpanel, và module liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
 <br>
 <b>	
-Nhiều - Nhiều </ b> - Cả hai Modul \hồ sơ sẽ hiển thị subpanels.<br>
+Nhiều - Nhiều </ b> - Cả hai module \hồ sơ sẽ hiển thị subpanels.<br>
 <br>
-Chọn <b> Modul liên quan </ b> cho các mối quan hệ. <br>
+Chọn <b> module liên quan </ b> cho các mối quan hệ. <br>
 <br>
-Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subpanel xem thích hợp cho các Modul.<br>
+Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subpanel xem thích hợp cho các module.<br>
 <br>
 	
 Nhấp vào <b>Lưu</ b> để tạo ra các mối quan hệ',
@@ -439,7 +439,7 @@ Nhấp vào <b>Lưu</ b> để tạo ra các mối quan hệ',
 		'addDropDownBtn' => 'Thêm mới toàn bộ Dropdown',
 	),
 	'fieldsHelp'=>array(
-		'default'=>'<b> Trường </ b> trong các Modul được liệt kê ở đâu bởi Trường Tên.<br>
+		'default'=>'<b> Trường </ b> trong các module được liệt kê ở đâu bởi Trường Tên.<br>
 <br>
 Một mẫu Modul bao gồm các trường trước khi quyết định<br>
 <br>
@@ -450,13 +450,13 @@ Một mẫu Modul bao gồm các trường trước khi quyết định<br>
 Sau khi triển khai Modul là, các trường mới tạo trong Module Builder, cùng với các mẫu trường, được coi như là tiêu chuẩn trong lĩnh vực Studio.',
 	),
 	'relationshipsHelp'=>array(
-		'default'=>'<b> Quan hệ </ b> đã được tạo ra giữa các Modul và các Modul được xuất hiện ở đây.<br>
+		'default'=>'<b> Quan hệ </ b> đã được tạo ra giữa các module và các module được xuất hiện ở đây.<br>
 <br>
 Các mối quan hệ <b> Tên </ b> là các hệ thống tạo ra tên cho mối quan hệ. <br>
 <br>
-<b> Modul chính thức </ b> là các Modul sở hữu các mối quan hệ. Các mối quan hệ thuộc tính sẽ được lưu trong cơ sở dữ liệu của bảng và phụ thuộc vào chính Modul. <br>
+<b> Modul chính thức </ b> là các module sở hữu các mối quan hệ. Các mối quan hệ thuộc tính sẽ được lưu trong cơ sở dữ liệu của bảng và phụ thuộc vào chính module. <br>
 <br>
-<b> Loại </ b> là loại có thể có được mối quan hệ giữa các Modul chính và các <b> Modul liên quan </ b>. <br>
+<b> Loại </ b> là loại có thể có được mối quan hệ giữa các module chính và các <b> module liên quan </ b>. <br>
 <br>
 Nhấp vào một tiêu đề cột để sắp xếp theo cột<br>
 <br>
@@ -464,19 +464,19 @@ Nhấp vào một hàng trong các mối quan hệ bảng để xem và chỉnh 
 <br>
 Nhấp vào <b>Thêm mối quan hệ </ b> để tạo ra một mối quan hệ mới.',
 		'addrelbtn'=>'Di chuột lên để thêm mối quan hệ..',
-		'addRelationship'=>'<b>Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và tùy chỉnh mô-đun hoặc một Modul triển khai<br>
+		'addRelationship'=>'<b>Quan hệ </ b> có thể được tạo ra giữa các phân hệ khác và tùy chỉnh module hoặc một module triển khai<br>
 <br>
-Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong  hồ sơ Modul.<br>
+Được bày tỏ mối quan hệ trực quan thông qua subpanels và các lĩnh vực liên quan trong  hồ sơ module.<br>
 <br>
-Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các Modul:<br>
+Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các module:<br>
 <br>
-<b>Một - Một </ b> - Cả hai Modul \sẽ chứa các trường hồ sơ liên quan.<br>
+<b>Một - Một </ b> - Cả hai module \sẽ chứa các trường hồ sơ liên quan.<br>
 <br>
-<b>	Một - Nhiều </ b> - Các Modul chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
+<b>	Một - Nhiều </ b> - Các module chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
 <br>
-<b>Nhiều - Nhiều </ b> - Cả hai Modul \hồ sơ sẽ hiển thị subpanels.<br>
+<b>Nhiều - Nhiều </ b> - Cả hai module \hồ sơ sẽ hiển thị subpanels.<br>
 <br>
-Chọn <b>Modul liên quan</ b> cho các mối quan hệ. <br>
+Chọn <b>module liên quan</ b> cho các mối quan hệ. <br>
 <br>
 Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subpanel xem cho các Modul thích hợp.<br>
 <br>
@@ -748,7 +748,7 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_FIELDS'=>'Trường',
 'LBL_FAILED_TO_SAVE' => 'Không để lưu',
 'LBL_FAILED_PUBLISHED' => 'Không thể xuất bản',
-'LBL_HOMEPAGE_PREFIX' => 'Của tôi',
+'LBL_HOMEPAGE_PREFIX' => 'Của cá nhân',
 'LBL_LAYOUT_PREVIEW'=>'Layout Preview',
 'LBL_LAYOUTS'=>'Layouts',
 'LBL_LISTVIEW'=>'Xem danh sách',

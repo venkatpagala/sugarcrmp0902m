@@ -47,7 +47,7 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm hợp nhất',
   'LBL_LIST_FORM_TITLE' => 'Danh sách hợp nhất',
 
-  'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Bước 1: Tìm kiếm hồ sơ hợp nhất Với',
+  'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Bước 1: Tìm kiếm hồ sơ hợp nhất với',
   'LBL_AVAIL_FIELDS' => 'Các trường sẵn có',
   'LBL_FILTER_COND' => 'Điều kiện lọc',
   'LBL_SELECTED_FIELDS' => 'Lựa chọn trường',
