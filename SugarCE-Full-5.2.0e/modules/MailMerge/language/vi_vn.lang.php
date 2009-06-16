@@ -43,7 +43,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-  'LBL_STEP_1' => 'Bước 1: Chọn Module và Mẫu',
+  'LBL_STEP_1' => 'Bước 1: Chọn Module và mẫu',
   'LBL_MAILMERGE_MODULE' => 'Lựa chọn modul: ',
   'LBL_MAILMERGE_SELECTED_MODULE' => 'Lựa chọn modul: ',
   'LBL_MAILMERGE_TEMPLATES' => 'Tạo mẫu: ',
@@ -51,7 +51,7 @@ $mod_strings = array (
   'LBL_MAILMERGE_OBJECTS' => 'Lựa chọn đối tượng: ',
   'LBL_STEP_3' => 'Thiết lập hội liên lạc ',
   'LBL_STEP_4' => 'Xem xét lại và hoàn thành',
-  'LBL_SELECTED_MODULE' => 'Lựa chọn modul: ',
+  'LBL_SELECTED_MODULE' => 'Lựa chọn module: ',
   'LBL_SELECTED_TEMPLATE' => 'Lựa chọn mẫu: ',
   'LBL_SELECTED_ITEMS' => 'Lựa chọn mẫu: ',
   'LBL_STEP_5' => 'Hoàn thành Mail hợp nhất',
