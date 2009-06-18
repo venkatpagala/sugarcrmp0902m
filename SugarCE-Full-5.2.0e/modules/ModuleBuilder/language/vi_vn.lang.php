@@ -233,7 +233,8 @@ Nhấp vào <b>Lưu </ b> để lưu danh sách các dropdown.',
 <br>
 	Thực hiện các thay đổi cho trường bằng cách kéo và thả yếu tố và các lĩnh vực giữa các <b> Công cụ </ b> và <b> Bố cục </ b> và bố trí trong chính nó.<br>
 <br>
-	Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí		'saveBtn'	=> 'Nhấp vào <b>Lưu </ b> để lưu giữ những thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó.<br>
+	Để loại bỏ một trường từ bố cục, kéo các lĩnh vực để <b> Recycle Bin </ b>. Các lĩnh vực sau đó sẽ có sẵn trong Công cụ để thêm vào việc bố trí',	
+'saveBtn'	=> 'Nhấp vào <b>Lưu </ b> để lưu giữ những thay đổi bạn đã thực hiện từ bố trí thời gian qua bạn đã lưu nó.<br>
 <br>
 Những thay đổi sẽ không được hiển thị trong module, cho đến khi bạn lưu triển khai những thay đổi.',
 		'historyBtn'=> 'Nhấp vào <b> Xem Lịch sử </ b> để xem và khôi phục lại một cách bố trí đã lưu trước đó từ lịch sử
@@ -361,7 +362,7 @@ Nhấp vào vào một biểu tượng để lựa chọn modul để chỉnh s�
         'newPackage'=>'Nhấp vào <b>Gói mới</ b> để tạo ra một gói phần mềm mới.',
         'exportBtn' => 'Nhấp vào <b>Tùy chỉnh hàng xuất ra</ b> để tạo ra và tải về một gói phần mềm có chứa tuỳ chỉnh và được thực hiện trong Studio cho module.',
         'mbHelp'    => 'Sử dụng <b> Module Builder </ b> để tạo ra các gói có chứa module tuỳ chỉnh dựa trên tiêu chuẩn hay tùy chỉnh các đối tượng.',
-	    'viewBtnEditView' => 'Tuỳ chỉnh module \ 's <b> EditView </ b> Layout.<br>
+	    'viewBtnEditView' => 'Tuỳ chỉnh module <b> EditView </ b> Layout.<br>
 <br>
 Các EditView là một hình thức có chứa dữ liệu vào lĩnh vực capturing cho người sử dụng nhập dữ liệu.',
 	    'viewBtnDetailView' => 'Tuỳ chỉnh module \<b> DetailView </ b> Layout.<br>
@@ -447,14 +448,14 @@ Một mẫu Modul bao gồm các trường trước khi quyết định<br>
 <br>
 Để chỉnh sửa một trường, bấm vào <b> Tên Trường </ b>. <br/>
 <br/>
-Sau khi triển khai Modul là, các trường mới tạo trong Module Builder, cùng với các mẫu trường, được coi như là tiêu chuẩn trong lĩnh vực Studio.',
+Sau khi triển khai module là, các trường mới tạo trong mục xây dựng module, cùng với các mẫu trường, được coi như là tiêu chuẩn trong lĩnh vực Studio.',
 	),
 	'relationshipsHelp'=>array(
 		'default'=>'<b> Quan hệ </ b> đã được tạo ra giữa các module và các module được xuất hiện ở đây.<br>
 <br>
 Các mối quan hệ <b> Tên </ b> là các hệ thống tạo ra tên cho mối quan hệ. <br>
 <br>
-<b> Modul chính thức </ b> là các module sở hữu các mối quan hệ. Các mối quan hệ thuộc tính sẽ được lưu trong cơ sở dữ liệu của bảng và phụ thuộc vào chính module. <br>
+<b> Module chính thức </ b> là các module sở hữu các mối quan hệ. Các mối quan hệ thuộc tính sẽ được lưu trong cơ sở dữ liệu của bảng và phụ thuộc vào chính module. <br>
 <br>
 <b> Loại </ b> là loại có thể có được mối quan hệ giữa các module chính và các <b> module liên quan </ b>. <br>
 <br>
@@ -472,7 +473,7 @@ Chọn một trong những mối quan hệ sau đây <b> Loại </ b> cho các m
 <br>
 <b>Một - Một </ b> - Cả hai module \sẽ chứa các trường hồ sơ liên quan.<br>
 <br>
-<b>	Một - Nhiều </ b> - Các module chính \ hồ sơ sẽ chứa một subpanel, và Modul liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
+<b>	Một - Nhiều </ b> - Các module chính \ hồ sơ sẽ chứa một subpanel, và Module liên quan  \hồ sơ sẽ chứa một trường liên quan.<br>
 <br>
 <b>Nhiều - Nhiều </ b> - Cả hai module \hồ sơ sẽ hiển thị subpanels.<br>
 <br>
@@ -483,7 +484,7 @@ Nếu các loại hình liên quan đến mối quan hệ subpanels, chọn subp
 Nhấp vào<b>Lưu</ b> để tạo ra các mối quan hệ.',
 	),
 	'labelsHelp'=>array(
-		'default'=> '<b> Nhãn </ b> cho các trường và các tiêu đề trong các Modul có thể được thay đổi.<br>
+		'default'=> '<b> Nhãn </ b> cho các trường và các tiêu đề trong các Module có thể được thay đổi.<br>
 <br>
 Hiệu chỉnh các nhãn bằng cách nhấp chuột vào bên trong trường, nhập vào một nhãn mới và nhấp vào <b>Lưu</ b>.<br>
 <br>
@@ -728,29 +729,29 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_BASIC_SEARCH'=>'Tìm kiếm cơ bản',
 'LBL_CURRENT_LAYOUT'=>'Layout',
 'LBL_CURRENCY' => 'Currency',
-'LBL_DASHLET'=>'Sugar Dashlet',
-'LBL_DASHLETLISTVIEW'=>'Xem danh sách Sugar Dashlet',
-'LBL_DASHLETSEARCH'=>'Tìm kiếm Sugar Dashlet',
-'LBL_DASHLETSEARCHVIEW'=>'Tìm kiếm Sugar Dashlet',
+'LBL_DASHLET'=>'Bảng điều khiển Sugar',
+'LBL_DASHLETLISTVIEW'=>'Xem danh sách bảng điều khiển Sugar',
+'LBL_DASHLETSEARCH'=>'Tìm kiếm bảng điều khiển Sugar',
+'LBL_DASHLETSEARCHVIEW'=>'Tìm kiếm bảng điều khiển Sugar',
 'LBL_DISPLAY_HTML'=>'Hiển thị mã HTML',
 'LBL_DETAILVIEW'=>'Xem chi tiết',
 'LBL_DROP_HERE' => '[Xóa ở đây]',
 'LBL_EDIT'=>'Chỉnh sửa',
-'LBL_EDIT_LAYOUT'=>'Edit Layout',
+'LBL_EDIT_LAYOUT'=>'Chỉnh sửa bố trí',
 'LBL_EDIT_ROWS'=>'Sửa đổi hàng',
 'LBL_EDIT_COLUMNS'=>'Sửa đổi cột',
 'LBL_EDIT_LABELS'=>'Sửa đổi nhãn',
 'LBL_EDIT_FIELDS'=>'Tùy chỉnh trường',
 'LBL_EDIT_PORTAL'=>'Chỉnh sửa cổng điện tử ',
 'LBL_EDIT_FIELDS'=>'Chỉnh sửa trường',
-'LBL_EDITVIEW'=>'EditView',
+'LBL_EDITVIEW'=>'Xem và sửa',
 'LBL_FILLER'=>'(Bộ lọc)',
 'LBL_FIELDS'=>'Trường',
 'LBL_FAILED_TO_SAVE' => 'Không để lưu',
 'LBL_FAILED_PUBLISHED' => 'Không thể xuất bản',
 'LBL_HOMEPAGE_PREFIX' => 'Của cá nhân',
-'LBL_LAYOUT_PREVIEW'=>'Layout Preview',
-'LBL_LAYOUTS'=>'Layouts',
+'LBL_LAYOUT_PREVIEW'=>'Xem bố cục',
+'LBL_LAYOUTS'=>'Bố cục',
 'LBL_LISTVIEW'=>'Xem danh sách',
 'LBL_MODULES'=>'Modules',
 'LBL_MODULE_TITLE' => 'Studio',
@@ -761,7 +762,7 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_PUBLISHING' => 'Publishing ...',
 'LBL_PUBLISHED' => 'Đã xuất bản',
 'LBL_SELECT_FILE'=> 'Lựa chọn tập tin',
-'LBL_SAVE_LAYOUT'=> 'Save Layout',
+'LBL_SAVE_LAYOUT'=> 'Lưu bố cục',
 'LBL_SELECT_A_SUBPANEL' => 'Lựa chọn một Subpanel',
 'LBL_SELECT_SUBPANEL' => 'Lựa chọn Subpanel',
 'LBL_SUBPANELS' => 'Subpanels',
@@ -769,14 +770,14 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_SEARCH_FORMS' => 'Tìm kiếm',
 'LBL_SEARCH'=>'Tìm kiếm',
 'LBL_STAGING_AREA' => 'Staging Area (kéo thả các bản ghi ở đây)',
-'LBL_SUGAR_FIELDS_STAGE' => 'Sugar Fields (click items to add to staging area)',
-'LBL_SUGAR_BIN_STAGE' => 'Sugar Bin (click items to add to staging area)',
+'LBL_SUGAR_FIELDS_STAGE' => 'Trường Sugar (Nhấp vào mục để thêm staging area)',
+'LBL_SUGAR_BIN_STAGE' => 'Sugar Bin (Nhấp vào mục để thêm staging area)',
 'LBL_TOOLBOX' => 'Hộp công cụ',
 'LBL_VIEW_SUGAR_FIELDS' => 'Xem trường Sugar',
-'LBL_VIEW_SUGAR_BIN' => 'View Sugar Bin',
+'LBL_VIEW_SUGAR_BIN' => 'Xem Sugar Bin',
 'LBL_QUICKCREATE' => 'Tạo nhanh',
-'LBL_EDIT_DROPDOWNS' => 'Edit a Global Dropdown',
-'LBL_ADD_DROPDOWN' => 'Add a new Global Dropdown',
+'LBL_EDIT_DROPDOWNS' => 'Chỉnh sửa Global Dropdown',
+'LBL_ADD_DROPDOWN' => 'Thêm Global Dropdown mới',
 'LBL_BLANK' => '-blank-',
 'LBL_TAB_ORDER' => 'Tab Order',
 
@@ -792,7 +793,7 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_LHS_MODULE'=>'Module chính',
 'LBL_CUSTOM_RELATIONSHIPS' => '* Tạo ra mối quan hệ giữa Studio và Module Builder',
 'LBL_RELATIONSHIPS'=>'Quan hệ',
-'LBL_RELATIONSHIP_EDIT' => 'Chỉnh sửa Relationship',
+'LBL_RELATIONSHIP_EDIT' => 'Chỉnh sửa mối quan hệ',
 'LBL_REL_NAME' => 'Tên',
 'LBL_REL_LABEL' => 'Nhãn',
 'LBL_REL_TYPE' => 'Loại',
@@ -814,7 +815,7 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_QUESTION_EDIT' => 'Lựa chọn một module để chỉnh sửa.',
 'LBL_QUESTION_LAYOUT' => 'Lựa chọn một layout để chỉnh sửa.',
 'LBL_QUESTION_SUBPANEL' => 'Lựa chọn một subpanel để chỉnh sửa.',
-'LBL_QUESTION_SEARCH' => 'Lựa chọn tìm kiếm layout để chỉnh sửa',
+'LBL_QUESTION_SEARCH' => 'Lựa chọn tìm kiếm bố cục để chỉnh sửa',
 'LBL_QUESTION_MODULE' => 'Lựa chọn một thành phần của module để chỉnh sửa.',
 'LBL_QUESTION_PACKAGE' => 'Chọn một gói phần mềm để chỉnh sửa, hoặc tạo ra một gói phần mềm mới.',
 'LBL_QUESTION_EDITOR' => 'Lựa chọn một công cụ.',
@@ -830,8 +831,8 @@ Examples: You might want to create a package containing one custom module that i
 'LBL_DEFAULT_VALUE'=>'Giá trị mặc định',
 'LBL_REQUIRED'=>'Yêu cầu',
 'LBL_DATA_TYPE'=>'Loại',
-'LBL_HCUSTOM'=>'CUSTOM',
-'LBL_HDEFAULT'=>'MẶC ĐỊNH',
+'LBL_HCUSTOM'=>'Lựa chọn',
+'LBL_HDEFAULT'=>'Mặc định',
 'LBL_LANGUAGE'=>'Ngôn ngữ:',
 
 
@@ -871,7 +872,7 @@ Examples: You might want to create a package containing one custom module that i
 
 //BUTTONS
 'LBL_BTN_ADD'=>'Thêm vào',
-'LBL_BTN_SAVE'=>'Lưu giữ',
+'LBL_BTN_SAVE'=>'Lưu ',
 'LBL_BTN_SAVE_CHANGES'=>'Lưu giữ thay đổi',
 'LBL_BTN_DONT_SAVE'=>'Hủy thay đổi',
 'LBL_BTN_CANCEL'=>'Hủy bỏ',
@@ -946,94 +947,94 @@ Examples: You might want to create a package containing one custom module that i
 
 
 //PACKAGE AND MODULE BUILDER
-'LBL_PACKAGE_NAME'=>'Package Name:',
-'LBL_MODULE_NAME'=>'Module Name:',
-'LBL_AUTHOR'=>'Author:',
-'LBL_DESCRIPTION'=>'Description:',
-'LBL_KEY'=>'Key:',
+'LBL_PACKAGE_NAME'=>'Tên gói:',
+'LBL_MODULE_NAME'=>'Tên Module:',
+'LBL_AUTHOR'=>'Tác giả:',
+'LBL_DESCRIPTION'=>'Mô tả:',
+'LBL_KEY'=>'Khóa:',
 'LBL_ADD_README'=>' Readme',
 'LBL_MODULES'=>'Modules:',
-'LBL_LAST_MODIFIED'=>'Last Modified:',
-'LBL_NEW_MODULE'=>'New Module',
-'LBL_LABEL'=>'Label:',
-'LBL_LABEL_TITLE'=>'Label',
-'LBL_WIDTH'=>'Width',
-'LBL_PACKAGE'=>'Package:',
-'LBL_TYPE'=>'Type:',
-'LBL_TEAM_SECURITY'=>'Team Security',
-'LBL_ASSIGNABLE'=>'Assignable',
-'LBL_PERSON'=>'Person',
-'LBL_COMPANY'=>'Company',
+'LBL_LAST_MODIFIED'=>'Chỉnh sửa lần cuối:',
+'LBL_NEW_MODULE'=>'Module mới',
+'LBL_LABEL'=>'Nhãn:',
+'LBL_LABEL_TITLE'=>'Nhãn',
+'LBL_WIDTH'=>'Chiều rộng',
+'LBL_PACKAGE'=>'Gói:',
+'LBL_TYPE'=>'Loại:',
+'LBL_TEAM_SECURITY'=>'Đội bảo mật',
+'LBL_ASSIGNABLE'=>'Trợ lý',
+'LBL_PERSON'=>'Cá nhân',
+'LBL_COMPANY'=>'Công ty',
 'LBL_ISSUE'=>'Issue',
 'LBL_SALE'=>'Sale',
-'LBL_FILE'=>'File',
+'LBL_FILE'=>'Tập tin',
 'LBL_NAV_TAB'=>'Navigation Tab',
-'LBL_CREATE'=>'Create',
-'LBL_LIST'=>'List',
-'LBL_LIST_VIEW'=>'List View',
-'LBL_HISTORY'=>'View History',
-'LBL_ACTIVITIES'=>'Activities',
-'LBL_SEARCH'=>'Search',
-'LBL_NEW'=>'New',
-'LBL_TYPE_BASIC'=>'basic',
-'LBL_TYPE_COMPANY'=>'company',
-'LBL_TYPE_PERSON'=>'person',
+'LBL_CREATE'=>'Tạo ra',
+'LBL_LIST'=>'Danh sách',
+'LBL_LIST_VIEW'=>'Xem danh sách',
+'LBL_HISTORY'=>'Xem lịch sử',
+'LBL_ACTIVITIES'=>'Hoạt động',
+'LBL_SEARCH'=>'Tìm kiếm',
+'LBL_NEW'=>'Tin tức',
+'LBL_TYPE_BASIC'=>'Cơ bản',
+'LBL_TYPE_COMPANY'=>'Công ty',
+'LBL_TYPE_PERSON'=>'Cá nhân',
 'LBL_TYPE_ISSUE'=>'issue',
 'LBL_TYPE_SALE'=>'sale',
-'LBL_TYPE_FILE'=>'file',
-'LBL_RSUB'=>'This is the subpanel that will be displayed in your module',
+'LBL_TYPE_FILE'=>'Tập tin',
+'LBL_RSUB'=>'Đây là subpanel sẽ được xuất hiên trong module của cá nhân',
 'LBL_MSUB'=>'This is the subpanel that your module provides to the related module for display',
-'LBL_MB_IMPORTABLE'=>'Importing',
-'LBL_PACKAGE_WAS_DELETED'=>'[[package]] was deleted',
+'LBL_MB_IMPORTABLE'=>'Nhập vào',
+'LBL_PACKAGE_WAS_DELETED'=>'[[Gói]] đã được xóa bỏ',
 
 //EXPORT CUSTOMS
-'LBL_EC_TITLE'=>'Export Customizations',
-'LBL_EC_NAME'=>'Package Name:',
-'LBL_EC_AUTHOR'=>'Author:',
-'LBL_EC_DESCRIPTION'=>'Description:',
-'LBL_EC_KEY'=>'Key:',
-'LBL_EC_CHECKERROR'=>'Please select a module.',
-'LBL_EC_CUSTOMFIELD'=>'customized field(s)',
-'LBL_EC_CUSTOMLAYOUT'=>'customized layout(s)',
-'LBL_EC_NOCUSTOM'=>'No modules have been customized.',
+'LBL_EC_TITLE'=>'Tuỳ chỉnh xuất nhập ',
+'LBL_EC_NAME'=>'Tên gói:',
+'LBL_EC_AUTHOR'=>'Tác giả:',
+'LBL_EC_DESCRIPTION'=>'Mô tả:',
+'LBL_EC_KEY'=>'Khóa:',
+'LBL_EC_CHECKERROR'=>'Hãy lựa chọn module.',
+'LBL_EC_CUSTOMFIELD'=>'Chỉnh lý trường',
+'LBL_EC_CUSTOMLAYOUT'=>'Chỉnh lý bố cục',
+'LBL_EC_NOCUSTOM'=>'Không có module được chỉnh lý.',
 'LBL_EC_EMPTYCUSTOM'=>'has empty customizations.',
-'LBL_EC_EXPORTBTN'=>'Export',
-'LBL_MODULE_DEPLOYED' => 'Module has been deployed.',
-'LBL_UNDEFINED' => 'undefined',
+'LBL_EC_EXPORTBTN'=>'Xuất ra',
+'LBL_MODULE_DEPLOYED' => 'Module đã bị hủy.',
+'LBL_UNDEFINED' => 'Không định nghĩa',
 
 //AJAX STATUS
-'LBL_AJAX_FAILED_DATA' => 'Failed to retrieve data',
-'LBL_AJAX_TIME_DEPENDENT' => 'A time dependent action is in progress. Please wait and try again in a few seconds.',
-'LBL_AJAX_LOADING' => 'Loading...',
-'LBL_AJAX_DELETING' => 'Deleting...',
-'LBL_AJAX_BUILDPROGRESS' => 'Build In Progress...',
-'LBL_AJAX_DEPLOYPROGRESS' => 'Deploy In Progress...',
+'LBL_AJAX_FAILED_DATA' => 'Dữ liệu nhận đã thất bại',
+'LBL_AJAX_TIME_DEPENDENT' => 'Một thời gian phụ thuộc vào hành động trong tiến trình. Xin vui lòng chờ và thử lại trong một vài giây.',
+'LBL_AJAX_LOADING' => 'Đang tải...',
+'LBL_AJAX_DELETING' => 'Đang xóa...',
+'LBL_AJAX_BUILDPROGRESS' => 'Xây dựng quá trình...',
+'LBL_AJAX_DEPLOYPROGRESS' => 'Hủy quá trình...',
 
 //JS
-'LBL_JS_REMOVE_PACKAGE' => 'Are you sure you wish to remove this package? This will permanently delete all files associated with this package.',
+'LBL_JS_REMOVE_PACKAGE' => 'Bạn có muốn xóa gói này? Điều này sẽ xoá vĩnh viễn tất cả các tập tin liên kết với các gói này.',
 
-'LBL_DEPLOY_IN_PROGRESS' => 'Deploying Package',
-'LBL_JS_VALIDATE_NAME'=>'Name - Must be alphanumeric with no spaces and starting with a letter',
-'LBL_JS_VALIDATE_KEY'=>'Key - Must be alphanumeric with no spaces and starting with a letter',
-'LBL_JS_VALIDATE_LABEL'=>'Please enter a label that will be used as the Display Name for this module',
-'LBL_JS_VALIDATE_TYPE'=>'Please select the type of module you wish to build from the list above',
-'LBL_JS_VALIDATE_REL_NAME'=>'Name - Must be alphanumeric with no spaces',
-'LBL_JS_VALIDATE_REL_LABEL'=>'Label - please add a label that will be displayed above the subpanel',
+'LBL_DEPLOY_IN_PROGRESS' => 'Hủy bỏ gói',
+'LBL_JS_VALIDATE_NAME'=>'Tên - Alphanumeric phải là không có dấu cách và bắt đầu với một văn bản',
+'LBL_JS_VALIDATE_KEY'=>'Khóa - Alphanumeric phải là không có dấu cách và bắt đầu với một văn bản',
+'LBL_JS_VALIDATE_LABEL'=>'Xin vui lòng nhập một nhãn sẽ được dùng như là hiển thị tên này dành cho module',
+'LBL_JS_VALIDATE_TYPE'=>'Xin vui lòng chọn kiểu module bạn muốn xây dựng từ danh sách phía trên',
+'LBL_JS_VALIDATE_REL_NAME'=>'Tên - Alphanumeric phải là không có dấu cách',
+'LBL_JS_VALIDATE_REL_LABEL'=>'Nhãn - xin vui lòng thêm vào một nhãn mà sẽ được hiển thị ở phía trên của subpanel',
 
 //CONFIRM
-'LBL_CONFIRM_FIELD_DELETE'=>'Deleting a custom field will delete all the data related to the custom field, and will remove the field from any layout you have added it to',
-'LBL_CONFIRM_RELATIONSHIP_DELETE'=>'Are you sure you wish to delete this relationship?',
-'LBL_CONFIRM_RELATIONSHIP_DEPLOY'=>'This will make this relationship permanent. Are you sure you wish to deploy this relationship?',
-'LBL_CONFIRM_DONT_SAVE' => 'Changes have been made since you last saved, would you like to save?',
-'LBL_CONFIRM_DONT_SAVE_TITLE' => 'Save Changes?',
+'LBL_CONFIRM_FIELD_DELETE'=>'Xóa một lĩnh vực sẽ xóa tất cả các dữ liệu liên quan đến các lĩnh vực tùy chỉnh, và sẽ loại bỏ các lĩnh vực từ bất cứ bố trí bạn đã được thêm vào nó để',
+'LBL_CONFIRM_RELATIONSHIP_DELETE'=>'Bạn có chăc muốn xóa mối quan hệ này?',
+'LBL_CONFIRM_RELATIONSHIP_DEPLOY'=>'Điều này sẽ làm cho mối quan hệ này luôn tồn tại. Bạn có chắc là bạn muốn triển khai mối quan hệ này?',
+'LBL_CONFIRM_DONT_SAVE' => 'Thay đổi đã được thực hiện từ lần cuối, bạn đã lưu, Bạn muốn lưu?',
+'LBL_CONFIRM_DONT_SAVE_TITLE' => 'Lưu thay đổi?',
 
 //POPUP HELP
-'LBL_POPHELP_FIELD_DATA_TYPE'=>'Select the appropriate data type based on the type of data that will be entered into the field.',
-'LBL_POPHELP_IMPORTABLE'=>'<b>Yes</b>: The field will be included in an import operation.<br>
-<b>No</b>: The field will not be included in an import.<br>
-<b>Required</b>: A value for the field must be provided in any import.',
-'LBL_POPHELP_DUPLICATE_MERGE'=>'<b>Enabled</b>: The field will appear in the Merge Duplicates feature, but will not be available to use for the filter conditions in the Find Duplicates feature.<br>
-<b>Disabled</b>: The field will not appear in the Merge Duplicates feature, and will not be available to use for the filter conditions in the Find Duplicates feature.'
+'LBL_POPHELP_FIELD_DATA_TYPE'=>'Chọn loại dữ liệu thích hợp dựa trên các kiểu dữ liệu mà sẽ được nhập vào trường.',
+'LBL_POPHELP_IMPORTABLE'=>'<b>Đúng</b>: Các lĩnh vực sẽ bao gồm trong khi nhập.<br>
+<b>Không</b>:Các lĩnh vực sẽ không được bao gồm trong khi nhập .<br>
+<b>Yêu cầu</b>: Một giá trị cho các lĩnh vực cần phải được cung cấp trong khi nhập.',
+'LBL_POPHELP_DUPLICATE_MERGE'=>'<b>Kích hoạt</b>:Các lĩnh vực sẽ xuất hiện trong hợp nhất bản Sao tính năng, nhưng sẽ không có sẵn để sử dụng cho các bộ lọc điều kiện trong các tính năng tìm bản Sao.<br>
+<b>Không kích hoạt</b>: Các lĩnh vực sẽ không xuất hiện trong bản Sao hợp nhất các tính năng, và sẽ không có sẵn để sử dụng cho các bộ lọc điều kiện trong các tính năng tìm bản Sao.'
 
 
 
