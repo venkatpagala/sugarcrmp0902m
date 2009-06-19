@@ -320,7 +320,7 @@ Nhấp vào <b> clone </ b> để tạo ra một lĩnh vực mới với cùng m
 <br>
 Trước tiên, cung cấp một gói phần mềm <b> Tên </ b>. Bạn có thể cung cấp cho <b> Tác giả </ b> và <b> Mô tả </ b> thông tin cho các gói phần mềm cũng như.<br>
 <br>
-Lựa chọn Modul (s) có chứa các tuỳ chỉnh mà bạn muốn xuất ra. Chỉ có Modul chứa tuỳ chỉnh sẽ xuất hiện để bạn lựa chọn. <br>
+Lựa chọn Modul (s) có chứa các tuỳ chỉnh mà bạn muốn xuất ra. Chỉ có Module chứa tuỳ chỉnh sẽ xuất hiện để bạn lựa chọn. <br>
 <br>
 Sau đó bấm vào <b> Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh.',
 	    'exportCustomBtn'=>'Nhấp vào <b>Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh mà bạn muốn xuất ra.',
@@ -496,75 +496,75 @@ Nếu bất cứ ngôn ngữ nào được cài đặt trong gói ứng dụng, 
 	'portalSync'=>array(
 	    'default' => 'Nhập các <b> Sugar Portal, URL </ b> của các cổng để cập nhật thông tin, và bấm vào <b>Go</ b>. <br</b>.<br>
 <br>
-Sau đó nhập đúng tên truy cập và mật khẩu và sau đó nhấp vào <b>Begin Sync</b>.<br>
+Sau đó nhập đúng tên truy cập và mật khẩu và sau đó nhấp vào <b>Băt đầu Sync</b>.<br>
 <br>
-The customizations made to the Sugar Portal <b>Layouts</b>, along with the <b>Style Sheet</b> if one was uploaded, will be transferred to specified the portal instance.',
+Các tuỳ chỉnh đã thực hiện ở cổng điện tử Sugar, <b> Trình bày </ b>, cùng với các <b>kiểu Sheet </ b> nếu đã được tải lên, sẽ được chuyển sang xác định các cổng điện tử cài đặt .',
 	),
 	'portalStyle'=>array(
-	    'default' => 'You can customize the look of the Sugar Portal by using a style sheet.<br>
+	    'default' => 'Bạn có thể tùy chỉnh giao diện của cổng điện tử Sugar, bằng cách sử dụng kiểu trang sheet.<br>
 <br>
-Select a <b>Style Sheet</b> to upload.<br>
+Lựa chọn một <b>kiểu trang Sheet</b> để tải lên.<br>
 <br>
-The style sheet will be implemented in the Sugar Portal the next time a sync is performed.',
+Kiểu cách trang sheet sẽ được thực hiện trong cổng điện tử, lần sau khi đồng bộ hoá là một performedsheet.',
 	),
 ),
 
 'assistantHelp'=>array(
 	'package'=>array(
 			//custom begin
-			'nopackages'=>'To get started on a project, click <b>New Package</b> to create a new package to house your custom module(s). <br/>
+			'nopackages'=>'Để bắt đầu một dự án trên, nhấp vào <b>gói mới</ b> để tạo ra một gói phần mềm mới để tuỳ chỉnh module của cá nhân. <br/>
 <br/>
-Each package can contain one or more modules.<br/>
+Mỗi gói có thể chứa một hay nhiều module.<br/>
 <br/>
-For instance, you might want to create a package containing one custom module that is related to the standard Accounts module. Or, you might want to create a package containing several new modules that work together as a project and that are related to each other and to other modules already in the application.',
-			'somepackages'=>'A <b>package</b> acts as a container for custom modules, all of which are part of one project. The package can contain one or more custom <b>modules</b> that can be related to each other or to other modules in the application.<br/>
+Ví dụ, bạn có thể muốn tạo ra một gói phần mềm có chứa một trong những tùy chỉnh module là liên quan tới các tiêu chuẩn của tài khoản module. Hoặc, bạn có thể tạo ra một gói phần mềm có chứa nhiều module mới mà làm việc cùng nhau như là một dự án và có liên quan đến nhau và cho những người khác đã có trong module ứng dụng.',
+			'somepackages'=>'Một <b> gói </ b> như là một hành vi chứa cho các tuỳ chỉnh module, tất cả đều là một phần của một trong những dự án. Các gói phần mềm có thể chứa một hoặc nhiều <b>module tuỳ chỉnh  </ b>, có thể liên quan đến nhau hoặc cho những người khác trong các ứng dụng module.<br/>
 <br/>
-After creating a package for your project, you can create modules for the package right away, or you can return to the Module Builder at a later time to complete the project.<br>
+Sau khi tạo ra một gói phần mềm cho các dự án của bạn, bạn có thể tạo module cho các gói phần mềm ngay lập tức, hoặc bạn có thể quay trở lại Module Builder tại sau một thời gian để hoàn thành dự án.<br>
 <br>
-When the project is complete, you can <b>Deploy</b> the package to install the custom modules within the application.',
-			'afterSave'=>'Your new package should contain at least one module. You can create one or more custom modules for the package.<br/>
+Khi dự án hoàn thành, bạn có thể <b> Triển khai </ b> các gói phần mềm để cài đặt hoặc tuỳ chỉnh trong các module ứng dụng.',
+			'afterSave'=>'Gói phần mềm mới của bạn nên có ít nhất một trong những module. Bạn có thể tạo một hoặc nhiều tùy chỉnh module cho các gói phần mềm.<br/>
 <br/>
-Click <b>New Module</b> to create a custom module for this package.<br/>
+Nhấp vào <b>module mới </ b> để tạo ra một module cho các gói này.<br/>
 <br/>
-After creating at least one module, you can publish or deploy the package to make it available for your instance and/or other users\' instances.<br/>
+Sau khi tạo ra ít nhất một trong những module, bạn có thể xuất ra hay triển khai các gói phần mềm để làm cho nó sẵn sàng cài đặt cho bạn hoặc những người dùng khác.<br/>
 <br/>
-To deploy the package in one step within your Sugar instance, click <b>Deploy</b>.<br>
+Để triển khai các gói phần mềm là một trong những bước đường của bạn trong vòng cài đặt, nhấp vào <b> Triển khai </ b>.<br>
 <br>
-Click <b>Publish</b> to save the package as a .zip file. After the .zip file is saved to your system, use the <b>Module Loader</b> to upload and install the package within your Sugar instance. <br/>
+Nhấp vào <b> Publish </ b> để lưu các gói phần mềm như là một. Zip file. Sau khi. Zip tập tin sẽ được lưu vào hệ thống của bạn, hãy sử dụng <b> Module tải </ b> để tải lên và cài đặt các gói phần mềm của bạn trong cài đặt Sugar. <br/>
 <br/>
-You can distribute the file to other users to upload and install within their own Sugar instances.',
-			'create'=>'A <b>package</b> acts as a container for custom modules, all of which are part of one project. The package can contain one or more custom <b>modules</b> that can be related to each other or to other modules in the application.<br/>
+Bạn có thể phân phối các tập tin cho những người dùng khác được đăng tải và cài đặt riêng của họ trong trường Sugar.',
+			'create'=>'Một<b> gói </ b> như là một biểu hiện chứa cho các module tuỳ chỉnh, tất cả đều là một phần của một trong những dự án. Các gói phần mềm có thể chứa một hoặc nhiều <b> module tuỳ chỉnh </ b>, có thể liên quan đến nhau hoặc cho những người khác trong các ,module ứng dụng.<br/>
 <br/>
-After creating a package for your project, you can create modules for the package right away, or you can return to the Module Builder at a later time to complete the project.',
+Sau khi tạo ra một gói phần mềm cho các dự án của bạn, bạn có thể tạo module cho các gói phần mềm ngay lập tức, hoặc bạn có thể quay trở lại Module Builder tại sau một thời gian để hoàn thành dự án.',
 			),
 	'main'=>array(
-		'welcome'=>'Use the <b>Developer Tools</b> to create and manage standard and custom modules and fields. <br/>
+		'welcome'=>'Sử dụng các <b> Công cụ phát triển</ b> để tạo và quản lý theo tiêu chuẩn và module tùy chỉnh và các lĩnh vực. <br/>
 <br/>
-To manage modules in the application, click <b>Studio</b>. <br/>
+Để quản lý trong các module ứng dụng, hãy nhấp vào <b> Studio </ b>. <br/>
 <br/>
-To create custom modules, click <b>Module Builder</b>.',
-		'studioWelcome'=>'All of the currently installed modules, including standard and module-loaded objects, are customizable within Studio.'
+Để tạo module tùy chỉnh, hãy nhấp vào <b> Module Builder </ b>.',
+		'studioWelcome'=>'Hiện tại tất cả các module cài đặt, bao gồm các tiêu chuẩn và module-nạp các đối tượng, được tùy chỉnh trong Studio.'
 	),
 	'module'=>array(
-		'somemodules'=>"Since the current package contains at least one module, you can <b>Deploy</b> the modules in the package within your Sugar instance or <b>Publish</b> the package to be installed in the current Sugar instance or another instance using the <b>Module Loader</b>.<br/>
+		'somemodules'=>"Kể từ khi gói phần mềm hiện nay có chứa ít nhất một trong những module, bạn có thể <b> Triển khai </ b> các module trong gói phần mềm của bạn trong Sugar hay <b>Publish </ b> các gói phần mềm được cài đặt trong hiện tại hay cài đặt Sugar khác dụ bằng cách sử dụng module tải <b> </ b>. <br/>
 <br/>
-To install the package directly within your Sugar instance, click <b>Deploy</b>.<br>
+Để cài đặt các gói phần mềm trực tiếp của bạn trong cài đặt Sugar, nhấp vào <b> Triển khai </ b>.<br>
 <br>
-To create a .zip file for the package that can be loaded and installed within the current Sugar instance and other instances using the <b>Module Loader</b>, click <b>Publish</b>.<br/>
+Để tạo một tập tin. Zip cho các gói phần mềm có thể được tải và cài đặt trong Sugar hiện tại và các trường bằng cách sử dụng <b> module tải </ b>, nhấp vào <b>Publish</ b>. <br/>
 <br/>
-You can build the modules for this package in stages, and publish or deploy when you are ready to do so. <br/>
+Bạn có thể xây dựng các module cho các gói phần mềm trong giai đoạn này, và chuẩn bị triển khai hoặc khi bạn đã sẵn sàng để làm như thế. <br/>
 <br/>
-After publishing or deploying a package, you can make changes to the package properties and customize the modules further.  Then re-publish or re-deploy the package to apply the changes." ,
-		'editView'=> 'Here you can edit the existing fields. You can remove any of the existing fields or add available fields in the left panel.',
-		'create'=>'When choosing the type of <b>Type</b> of module that you wish to create, keep in mind the types of fields you would like to have within the module. <br/>
+Sau khi công bố hoặc triển khai một gói, bạn có thể thực hiện thay đổi vào đặc tính của các gói phần mềm tùy chỉnh thêm module. Sau đó, tái xuất bản hoặc tái triển khai các gói phần mềm để áp dụng cho các thay đổi." ,
+		'editView'=> 'Tại đây bạn có thể chỉnh sửa các trường. Bạn có thể gỡ bỏ trường bất kỳ hoặc thêm trường có sẵn trong bảng điều khiển bên trái.',
+		'create'=>'Khi chọn <b> Loại </ b> của module mà bạn muốn tạo ra, hãy ghi nhớ các loại trường mà bạn muốn có trong các module. <br/>
 <br/>
-Each module template contains a set of fields pertaining to the type of module described by the title.<br/>
+Mỗi module mẫu có chứa một số các trường liên quan đến các loại module mô tả của tiêu đề.<br/>
 <br/>
-<b>Basic</b> - Provides basic fields that appear in standard modules, such as the Name, Assigned to, Team, Date Created and Description fields.<br/>
+<b>Cơ bản </ b> - Cung cấp trường cơ bản liên quan xuất hiện trong module tiêu chuẩn, chẳng hạn như tên, đội, ngày tạo mô tả và các trường.<br/>
 <br/>
-<b>Company</b> - Provides organization-specific fields, such as Company Name, Industry and Billing Address.  Use this template to create modules that are similar to the standard Accounts module.<br/>
+<b>Công ty </ b> - Cung cấp tổ chức trương cụ thể, chẳng hạn như công ty, công nghiệp và địa chỉ. Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn tài khoản module.<br/>
 <br/>
-<b>Person</b> - Provides individual-specific fields, such as Salutation, Title, Name, Address and Phone Number.  Use this template to create modules that are similar to the standard Contacts and Leads modules.<br/>
+<b> Người </ b> - Cung cấp từng lĩnh vực cụ thể, chẳng hạn như Salutation, tiêu đề, tên, địa chỉ và số điện thoại. Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn module. <br/>
 <br/>
 <b>Issue</b> - Provides case- and bug-specific fields, such as Number, Status, Priority and Description.  Use this template to create modules that are similar to the standard Cases and Bug Tracker modules.<br/>
 <br/>
@@ -1041,24 +1041,24 @@ Examples: You might want to create a package containing one custom module that i
 ,
 
 'fieldTypes' => array(
-				'varchar'=>'TextField', 
-				'int'=>'Integer', 
-				'float'=>'Decimal',
-				'bool'=>'Checkbox',
+				'varchar'=>'Kỹ tự', 
+				'int'=>'Số nguyên', 
+				'float'=>'Số thực',
+				'bool'=>'Ô lựa chọn',
 				'enum'=>'DropDown',
-				'multienum' => 'MultiSelect',
-                'date'=>'Date', 
-                'phone' => 'Phone', 
-                'currency' => 'Currency', 
+				'multienum' => 'Nhiều lựa chọn',
+                'date'=>'Ngày', 
+                'phone' => 'Điện thoại', 
+                'currency' => 'Tiền tệ', 
                 'html' => 'HTML', 
                 'radioenum' => 'Radio',
-                'relate' => 'Relate', 
-                'address' => 'Address', 
+                'relate' => 'Liên quan', 
+                'address' => 'Địa chỉ', 
                 'text' => 'TextArea', 
                 'url' => 'Link', 
                 'iframe' => 'IFrame', 
-                'encrypt'=>'Encrypt'
+                'encrypt'=>'Mật mã'
 ),
 
-'parent' => 'Flex Relate'
+'parent' => 'Liên quan Flex'
 ); 
