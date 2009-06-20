@@ -43,7 +43,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings = array (
-  'LBL_MODULE_NAME' => 'Trang',
+  'LBL_MODULE_NAME' => 'Trang chủ',
   'LBL_MODULES_TO_SEARCH' => 'Modules để tìm kiếm',
   'LBL_NEW_FORM_TITLE' => 'Liên hệ mới',
   'LBL_FIRST_NAME' => 'Họ:',
