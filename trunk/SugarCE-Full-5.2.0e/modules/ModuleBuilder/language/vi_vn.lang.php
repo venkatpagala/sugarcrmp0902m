@@ -65,15 +65,15 @@ Sử dụng <b>tải về Modul</b>để tải lên tập tin. zip và cài đ�
 			'duplicatebtn'=>'Nhấp vào<b>Duplicate</b>để sao chép nội dung của gói vào một gói phần mềm mới và để hiển thị các gói phần mềm mới. <br/>
 <br/>
 Cho gói mới,tên mới sẽ được tạo ra tự động của một số appending vào cuối tên của gói phần mềm được sử dụng để tạo mới .Bạn có thể đổi tên mới bằng cách nhập vào một gói phần mềm mới <b> Tên </ b> và nhấp vào Lưu <b> </ b>.',
-			'exportbtn'=>'Nhấp vào <b>Export</b>để tạo một tập tin. zip tập tin chứa các tuỳ chỉnh trong các gói phần mềm.<br>
+			'exportbtn'=>'Nhấp vào <b>Xuất ra</b>để tạo một tập tin. zip tập tin chứa các tuỳ chỉnh trong các gói phần mềm.<br>
 <br>
 Đã tạo ra không phải là một tập tin để cài phiên bản phần mềm.<br>
 <br>
-Sử dụng <b>Tải Modul</b>để nhập tập tin. zip và để có các gói phần mềm, bao gồm các tuỳ chỉnh, xuất hiện trong Module Builder.',
+Sử dụng <b>Tải Module</b>để nhập tập tin. zip và để có các gói phần mềm, bao gồm các tuỳ chỉnh, xuất hiện trong Module Builder.',
 			'deletebtn'=>'Nhấp vào <b>Delete</b>để xoá gói này và tất cả các tập tin liên quan đến các gói này.',
 			'savebtn'=>'Nhấp vào<b>Save</b>để lưu vào tất cả các dữ liệu liên quan tới các gói phần mềm.',
 			'existing_module'=>'Nhấp vào <b>Module</b>biểu tượng để chỉnh sửa các tài sản và tuỳ chỉnh các trường, các mối quan hệ và bố trí kết hợp với các mô-đun.',
-			'new_module'=>'Nhấp vào <b>New Module</b>để tạo ra một mô-đun mới cho các gói này.',
+			'new_module'=>'Nhấp vào <b>Module mới</b>để tạo ra một module mới cho các gói này.',
 			'key'=>'5-thư này, alphanumeric<b>Key</b> sẽ được sử dụng tiền tố cho tất cả các thư mục, tên lớp học và cơ sở dữ liệu cho tất cả các bảng biểu của các modul trong gói phần mềm hiện nay. <br>
 <br>
 Các phím được sử dụng trong một nỗ lực để đạt được bảng tên độc đáo.',
@@ -110,7 +110,7 @@ Nếu đội ngũ bảo mật được kích hoạt, các đội lựa chọn l�
 		'assignable'=>'Kiểm tra các hộp này sẽ cho phép ghi lại trong một module này sẽ được giao cho một người sử dụng lựa chọn.',
 		'has_tab'=>'Kiểm tra <b>Navigation Tab</b>sẽ cung cấp một thẻ chuyển hướng cho các module.',
 		'acl'=>'Kiểm tra các hộp này sẽ cho phép kiểm soát truy cập vào mô đun này, bao gồm cả cấp bậc lĩnh vực an ninh.',
-		'studio'=>'Kiểm tra các hộp này sẽ cho phép các quản trị viên này để tùy chỉnh mô-đun trong vòng Studio.',
+		'studio'=>'Kiểm tra các hộp này sẽ cho phép các quản trị viên này để tùy chỉnh module trong vòng Studio.',
 		'audit'=>'Kiểm tra các hộp này sẽ cho phép kiểm toán cho các module này. Thay đổi đối với một số lĩnh vực sẽ được ghi lại để các quản trị viên có thể xem xét việc thay đổi lịch sử.',
 		'viewfieldsbtn'=>'Nhấp vào <b>View Fields</b>để xem các trường liên kết với các mô-đun và để tạo và chỉnh sửa các tuỳ chỉnh lĩnh vực.',
 		'viewrelsbtn'=>'Nhấp vào <b> xem quan hệ </ b> để xem những mối quan hệ liên kết với các phân hệ này và để tạo ra các mối quan hệ mới.',
@@ -566,162 +566,166 @@ Mỗi module mẫu có chứa một số các trường liên quan đến các l
 <br/>
 <b> Người </ b> - Cung cấp từng lĩnh vực cụ thể, chẳng hạn như Salutation, tiêu đề, tên, địa chỉ và số điện thoại. Sử dụng mẫu này để tạo ra module được tương tự với những tiêu chuẩn module. <br/>
 <br/>
-<b>Issue</b> - Provides case- and bug-specific fields, such as Number, Status, Priority and Description.  Use this template to create modules that are similar to the standard Cases and Bug Tracker modules.<br/>
+<b>Issue</b> -Cung cấp cho trường hợp lỗi-và-lĩnh vực cụ thể, chẳng hạn như số, tình trạng, và mô tả. Sử dụng mẫu này để tạo ra module tương tự với những tiêu chuẩn module Bug Tracker.<br/>
 <br/>
-Note: After you create the module, you can edit the labels of the fields provided by the template, as well as create custom fields to add to the module layouts.',
-		'afterSave'=>'Customize the module to suit your needs by editing and creating fields, establishing relationships with other modules and arranging the fields within the layouts.<br/>
+Lưu ý: Sau khi bạn tạo các module, bạn có thể chỉnh sửa các nhãn của các trường được cung cấp bởi những bản mẫu, cũng như tạo các trường tùy chỉnh để thêm vào các module bố trí.',
+		'afterSave'=>'Module tùy chỉnh cho phù hợp với nhu cầu của bạn bằng cách chỉnh sửa và tạo các trường, thiết lập các mối quan hệ với các module và sắp xếp các trường trong bố trí.<br/>
 <br/>
-To view the template fields and manage custom fields within the module, click <b>View Fields</b>.<br/>
+Để xem các mẫu và các trường quản lý tuỳ chỉnh trong lĩnh vực module, hãy nhấp vào <b> Xem các trường</b>.<br/>
 <br/>
-To create and manage relationships between the module and other modules, whether modules already in the application or other custom modules within the same package, click <b>View Relationships</b>.<br/>
+Để tạo và quản lý các mối quan hệ giữa các module, cho dù đã có trong module ứng dụng hoặc các module tùy chỉnh trong cùng một gói phần mềm, bấm vào <b> Xem Quan hệ</b>.<br/>
 <br/>
-To edit the module layouts, click <b>View Layouts</b>. You can change the Detail View, Edit View and List View layouts for the module just as you would for modules already in the application within Studio.<br/>
+Để chỉnh sửa bố trí các module, hãy nhấp vào <b> Xem </ b>. Bạn có thể thay đổi xem chi tiết xem, xem và sửa đổi Danh sách xem bố trí cho các module cũng giống như bạn đã có trong module cho các ứng dụng trong vòng Studio.<br/>
 <br/>
-To create a module with the same properties as the current module, click <b>Duplicate</b>.  You can further customize the new module.',
-		'viewfields'=>'The fields in the module can be customized to suit your needs.<br/>
+Để tạo một module với cùng một thuộc tính như module hiện nay, hãy nhấp vào <b> trùng lặp </ b>. Bạn có thể tuỳ chỉnh thêm module mới.',
+		'viewfields'=>'Các lĩnh vực trong các module có thể được tùy chỉnh cho phù hợp với nhu cầu của bạn.<br/>
 <br/>
-You can not delete standard fields, but you can remove them from the appropriate layouts within the Layouts pages. <br/>
+Bạn không thể xoá các trường tiêu chuẩn , nhưng bạn có thể loại bỏ chúng khỏi những bố trí thích hợp trong trình bày trang. <br/>
 <br/>
-You can edit the labels of the standard fields. The other properties of the standard fields are not editable. However, you can quickly create new fields that have similar properties by clicking a field name and then clicking <b>Clone</b> in the <b>Properties</b> form.  Enter any new properties, and then click <b>Save</b>.<br/>
+Bạn có thể chỉnh sửa các nhãn của các lĩnh vực tiêu chuẩn. Việc các thuộc tính khác theo tiêu chuẩn của các trường là không thể hiệu chỉnh. Tuy nhiên, bạn có thể nhanh chóng tạo các trường mới có đặc tính tương tự bằng cách nhấp chuột vào một trường tên và sau đó nhấp vào <b> clone </ b> trong <b> Thuộc tính </ b> hình thức. Nhập bất cứ thuộc tính mới, và sau đó nhấp vào <b> Lưu </ b>.<br/>
 <br/>
-If you are customizing a new module, once the module has been installed, not all of the field properties can be edited.  Set all of the properties for the standard fields and custom fields before you publish and install the package containing the custom module.',
-		'viewrelationships'=>'You can create many-to-many relationships between the current module and other modules in the package, and/or between the current module and modules already installed in the application.<br>
+Nếu bạn là một module tùy biến, một khi các module đã được cài đặt, không phải tất cả các lĩnh vực bất động sản có thể được chỉnh sửa. Đặt tất cả các tài sản cho các lĩnh vực tiêu chuẩn và tùy chỉnh lĩnh vực trước khi bạn xuất bản và cài đặt các gói có chứa các tùy chỉnh module',
+		'viewrelationships'=>'Bạn có thể tạo ra rất nhiều đến các mối quan hệ giữa các phân hệ hiện tại và các module trong gói phần mềm, hoặc giữa các phân hệ hiện tại và các module đã được cài đặt trong ứng dụng.<br>
 <br>
-To create one-to-many and one-to-one relationships, create <b>Relate</b> and <b>Flex Relate</b> fields for the modules.',
-		'viewlayouts'=>'You can control what fields are available for capturing data within the <b>Edit View</b>.  You can also control what data displays within the <b>Detail View</b>.  The views do not have to match. <br/>
+Để tạo một-nhiều và một-một trong những mối quan hệ, tạo <b> liên quan </ b> và <b> Flex liên quan </ b> trường cho các module.',
+		'viewlayouts'=>'Bạn có thể kiểm soát được những lĩnh vực có sẵn cho capturing dữ liệu <b>Xem hiệu chỉnh </ b>. Bạn cũng có thể kiểm soát những gì sẽ hiển thị các trong dữ liệu <b> Xem chi tiết </ b>. Các quan điểm không cần phải phù hợp. <br/>
 <br/>
-The Quick Create form is displayed when the <b>Create</b> is clicked in a module subpanel. By default, the <b>Quick Create</b> form layout is the same as the default <b>Edit View</b> layout. You can customize the Quick Create form so that it contains less and/or different fields than the Edit View layout. <br>
+Tạo nhanh các mẫu đơn này sẽ được hiển thị khi <b> Tạo </ b> là bấm vào trong một modlule subpanel. Theo mặc định, <b> Tạo nhanh  </ b> hình thức bố trí tương tự như chỉnh sửa mặc định<b> Xem </ b> bố trí. Bạn có thể tùy chỉnh tạo mẫu nhanh để nó có chứa ít hơn các lĩnh vực khác nhau ,xem chỉnh sửa <br>
 <br>
-You can determine the module security using Layout customization along with <b>Role Management</b>.<br>
+Bạn có thể xác định mô-đun bảo mật bằng cách sử dụng Sơ đồ tuỳ biến cùng với vai trò quản lý </br>.<br>
 <br>
 ',
-		'existingModule' =>'After creating and customizing this module, you can create additional modules or return to the package to <b>Publish</b> or <b>Deploy</b> the package.<br>
+		'existingModule' =>'Sau khi tạo và tùy biến module này, bạn có thể tạo thêm các module, hoặc trả lại cho các gói phần mềm để <b>Publish</ b> hay <b> triển khai </ b> gói.<br>
 <br>
-To create additional modules, click <b>Duplicate</b> to create a module with the same properties as the current module, or navigate back to the package, and click <b>New Module</b>.<br>
+Để tạo thêm các module, hãy nhấp vào <b> trùng lặp </ b> để tạo ra một module với cùng một thuộc tính như module hiện nay, hoặc điều hướng quay trở lại phần mềm, và nhấp vào <b>Module mới </ b>.<br>
 <br>
-If you are ready to <b>Publish</b> or <b>Deploy</b> the package containing this module, navigate back to the package to perform these functions. You can publish and deploy packages containing at least one module.',
-		'labels'=> 'The labels of the standard fields as well as custom fields can be changed.  Changing field labels will not affect the data stored in the fields.',
+Nếu bạn đã sẵn sàng để <b>Publish </ b> hay <b> triển khai </ b> chứa các gói module này, điều hướng quay trở lại phần mềm để thực hiện các chức năng. Bạn có thể xuất bản và triển khai gói phần mềm có chứa ít nhất một trong những module.',
+		'labels'=> 'Các nhãn theo tiêu chuẩn của các trường cũng như các lĩnh vực tùy chỉnh có thể được thay đổi. Thay đổi trường nhãn sẽ không ảnh hưởng đến dữ liệu được lưu giữ trong các trường.',
 	),
 	'listViewEditor'=>array(
-		'modify'	=> 'There are three columns displayed to the left. The "Default" column contains the fields that are displayed in a list view by default, the "Available" column contains fields that a user can choose to use for creating a custom list view, and the "Hidden" column contains fields available for you as an admin to either add to the default or Available columns for use by users but are currently disabled.',
-		'savebtn'	=> 'Clicking <b>Save</b> will save all changes and make them active.',
-		'Hidden' 	=> 'Hidden fields are fields that are not currently available to users for use in list views.',
-		'Available' => 'Available fields are fields that are not shown by default, but can be enabled by users.',
-		'Default'	=> 'Default fields are displayed to users who have not created custom list view settings.'
+		'modify'	=> 'Hiện có ba cột hiển thị ở bên trái. Những "mặc định" cột chứa các lĩnh vực được hiển thị trong một danh sách xem theo mặc định, việc "loạn" cột chứa các lĩnh vực đó, một người sử dụng có thể chọn để sử dụng cho việc tạo một danh sách xem, và "Ẩn" cột chứa các lĩnh vực có sẵn cho bạn như là một admin để thêm vào hoặc là mặc định hoặc hiện có cho việc sử dụng các cột của người sử dụng, nhưng hiện đang bị vô hiệu hoá.',
+		'savebtn'	=> 'Bấm vào Lưu <b> </ b> sẽ lưu tất cả các thay đổi và hoạt động.',
+		'Hidden' 	=> 'Bấm vào Lưu <b> </ b> sẽ lưu tất cả các thay đổi và làm cho họ hoạt động.',
+		'Available' => 'Trường là lĩnh vực có sẵn mà không được hiển thị theo mặc định, nhưng có thể được kích hoạt bởi người sử dụng.',
+		'Default'	=> 'Mặc định lĩnh vực được hiển thị cho người sử dụng những người đã tạo ra không xem danh sách tùy chỉnh trong cài đặt.'
 	),
 
 	'searchViewEditor'=>array(
-		'modify'	=> 'There are two columns displayed to the left. The "Default" column contains the fields that will be displayed in the search view, and the "Hidden" column contains fields available for you as an admin to add to the view.',
-		'savebtn'	=> 'Clicking <b>Save & Deploy</b> will save all changes and make them active.',
-		'Hidden' 	=> 'Hidden fields are fields that will not be shown in the search view.',
-		'Default'	=> 'Default fields will be shown in the search view.'
+		'modify'	=> 'Có hai cột hiển thị ở bên trái. Những "mặc định" cột chứa các lĩnh vực mà sẽ được hiển thị trong khi tìm kiếm xem, và "Ẩn" cột chứa các lĩnh vực có sẵn cho bạn như là một admin để thêm vào xem.',
+		'savebtn'	=> 'Bấm vào Lưu & triển khai <b> </ b> sẽ lưu tất cả các thay đổi và hoạt động.',
+		'Hidden' 	=> 'Ẩn trường là lĩnh vực mà sẽ không được hiển thị trong quá trình tìm kiếm xem.',
+		'Default'	=> 'Mặc định lĩnh vực nào sẽ được hiển thị trong quá trình tìm kiếm xem.'
 	),
 	'layoutEditor'=>array(
-		'default'	=> 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/>
+		'default'	=> 'Có hai cột hiển thị ở bên trái. Cột bên tay phải, hiện tại có nhãn bố trí hoặc bố trí trước, là nơi bạn thay đổi bố trí các module. Cột bên tay trái, có chứa thành phần và các công cụ hữu ích cho việc sử dụng khi soạn thảo các bố trí. <br/>
 <br/>
-If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/>
+Nếu việc bố trí khu vực được bố trí có tiêu đề hiện tại thì bạn đang làm việc trên một bản sao của bố trí hiện tại đang được sử dụng bởi các module để hiển thị.<br/>
 <br/>
-If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
-		'saveBtn'	=> 'Clicking this button saves the layout so that you can preserve your changes. When you return to this module you will start from this changed layout. Your layout however will not be seen by users of the module until you click the Save and Publish button.',
-		'publishBtn'=> 'Click this button to deploy the layout. This means that this layout will immediately be seen by users of this module.',
-		'toolbox'	=> 'The toolbox contains a variety of useful features for editing layouts, including a trash area, a set of additional elements and a set of available fields. Any of these can be dragged and dropped onto the layout.',
-		'panels'	=> 'This area shows how your layout will look to users of this module when it is depolyed.<br/>
+Nếu nó là một tiêu đề bố cục trước sau đó bạn làm việc trên một bản sao tạo ra trước đó của một nhấp chuột lên nút Lưu, mà có thể đã bị thay đổi kể từ phiên bản xem bởi người sử dụng module này.',
+		'saveBtn'	=> 'Bấm vào nút này để bạn có thể lưu giữ các thay đổi của bạn. Khi bạn quay trở lại module này, bạn sẽ bắt đầu thay đổi bố trí. Tuy nhiên cách bố trí của bạn sẽ không được xem bởi người sử dụng module cho đến khi bạn nhấp chuột vào nút Lưu và Xuất bản.
+> hoán đổi
+		',
+		'publishBtn'=> 'Bấm vào nút này để triển khai việc bố trí. Điều này có nghĩa là bố trí này sẽ được hiển thị ngay lập tức của người sử dụng module này.',
+		'toolbox'	=> 'Các Công cụ chứa nhiều tính năng hữu ích cho việc hiệu chỉnh bố trí, bao gồm một thùng rác, khu vực tập hợp các yếu tố bổ sung và một bộ các trường có sẵn.Có thể được kéo lên tụt xuống và bố trí.',
+		'panels'	=> 'Khu vực này cho thấy cách bố trí của bạn sẽ xem xét cho những người sử dụng module này, khi nó được depolyed<br/>
 <br/>
-You can reposition elements such as fields, rows and panels by dragging and dropping them; delete elements by dragging and dropping them on the trash area in the toolbox, or add new elements by dragging them from the toolbox and dropping them on to the layout in the desired position.'
+Bạn có thể reposition yếu tố chẳng hạn như lĩnh vực, các hàng và bảng bằng cách kéo và thả chúng; xóa thành phần bằng cách kéo và thả chúng vào thùng rác trong khu vực đến đây, hoặc thêm thành phần mới bằng cách kéo chúng, bố trí trong các vị trí mong muốn.'
 	),
 	'dropdownEditor'=>array(
-		'default'	=> 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/>
+		'default'	=> 'Có hai cột hiển thị ở bên trái. Cột bên tay phải, hiện tại có nhãn bố trí hoặc bố trí trước, là nơi bạn thay đổi bố trí các mô-đun.Cột bên tay trái, có chứa thành phần và các công cụ hữu ích cho việc sử dụng khi soạn thảo các bố trí. <br/>
 <br/>
-If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/>
+Nếu việc bố trí khu vực được bố trí có tiêu đề hiện tại thì bạn đang làm việc trên một bản sao của bố trí hiện tại đang được sử dụng bởi các module để hiển thị.<br/>
 <br/>
-If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
-		'dropdownaddbtn'=> 'Clicking this button adds a new item to the dropdown.',
+Nếu nó là một tiêu đề Bố cục trước sau đó bạn làm việc trên một bản sao tạo ra trước đó của một nhấp chuột lên nút lưu, mà có thể đã bị thay đổi kể từ phiên bản xem bởi người sử dụng module này.',
+		'dropdownaddbtn'=> 'Bấm vào nút này cho biết thêm một mục mới vào dropdown.',
 
 	),
 	'exportcustom'=>array(
-	    'exportHelp'=>'Customizations made in Studio within this instance can be packaged and deployed in another instance. <br>
+	    'exportHelp'=>'Tuỳ chỉnh thực hiện trong vòng Studio này dụ có thể được đóng gói và triển khai trong dụ khác<br>
 <br>
-Provide a <b>Package Name</b>.  You can provide <b>Author</b> and <b>Description</b> information for package.<br>
+Cung cấp một <b> Tên trọn gói </ b>. Bạn có thể cung cấp cho <b> Tác giả </ b> và <b> Mô tả </ b> thông tin cho các gói phần mềm
+> hoán đổi
+		.<br>
 <br>
-Select the module(s) that contain the customizations to export. (Only modules containing customizations will appear for you to select.)<br>
+Lựa chọn module có chứa các tuỳ chỉnh để xuất khẩu. (Chỉ có module chứa tuỳ chỉnh sẽ xuất hiện để bạn lựa chọn.)<br>
 <br>
-Click <b>Export</b> to create a .zip file for the package containing the customizations.  The .zip file can be uploaded in another instance through <b>Module Loader</b>.',
-	    'exportCustomBtn'=>'Click <b>Export</b> to create a .zip file for the package containing the customizations that you wish to export.
+Nhấp vào <b>Xuất ra</ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh.Tập tin . Zip  có thể được tải lên trong dụ khác thông qua <b> Module tải </ b>.',
+	    'exportCustomBtn'=>'Nhấp vào <b>Xuất ra </ b> để tạo một tập tin. Zip tập tin cho các gói phần mềm có chứa các tuỳ chỉnh mà bạn muốn xuất ra.
 ',
-	    'name'=>'The <b>Name</b> of the package will be displayed in Module Loader after the package is uploaded for installation in Studio.',
-	    'author'=>'The <b>Author</b> is the name of the entity that created the package. The Author can be either an individual or a company.<br>
+	    'name'=>'<b> Tên </ b> của gói sẽ được hiển thị trong module tải sau khi được tải lên cho các gói phần mềm cài đặt trong Studio.',
+	    'author'=>'<b> Tác giả </ b> là tên của tổ chức đó tạo ra các gói phần mềm. Tác giả có thể được, hoặc một cá nhân hay một công ty. <br>
 <br>
-The Author will be displayed in Module Loader after the package is uploaded for installation in Studio.
+Tác giả sẽ được hiển thị trong module tải sau khi được tải lên cho các gói phần mềm cài đặt trong Studio.
 ',
-	    'description'=>'The <b>Description</b> of the package will be displayed in Module Loader after the package is uploaded for installation in Studio.',
+	    'description'=>'<b> Mô tả </ b> của gói sẽ được hiển thị trong module tải sau khi được tải lên cho các gói phần mềm cài đặt trong Studio.',
 	),
 	'studioWizard'=>array(
-		'mainHelp' 	=> 'Welcome to the <b>Developer Tools
+		'mainHelp' 	=> 'Chào mừng bạn đến với <b> Phát triển Công cụ
 </b1>
-area. <br/>
+khu vực. <br/>
 <br/>
-Use the tools within this area to create and manage standard and custom modules and fields.',
-		'studioBtn'	=> 'Use <b>Studio</b> to customize installed modules by changing the field arrangement, selecting what fields are available and creating custom data fields.',
-		'mbBtn'		=> 'Use <b>Module Builder</b> to create new modules.',
-		'appBtn' 	=> 'Use Application mode to customize various properties of the program, such as how many TPS reports are displayed on the homepage',
-		'backBtn'	=> 'Return to the previous step.',
-		'studioHelp'=> 'Use <b>Studio</b> to customize installed modules.',
-		'moduleBtn'	=> 'Click to edit this module.',
-		'moduleHelp'=> 'Select the module component that you would like to edit',
-		'fieldsBtn'	=> 'Edit what information is stored in the module by controlling the <b>Fields</b> in the module.<br/>
+Sử dụng các công cụ trong khu vực này để tạo và quản lý theo tiêu chuẩn và tùy chỉnh mô-đun và các lĩnh vực.',
+		'studioBtn'	=> 'Sử dụng <b> Studio </ b> để tùy chỉnh cài đặt module bằng cách thay đổi các trường sắp xếp, lựa chọn những trường có sẵn và tạo ra các dữ liệu lĩnh vực tùy chỉnh.',
+		'mbBtn'		=> 'Sử dụng <b> Module Builder </ b> để tạo ra module mới.',
+		'appBtn' 	=> 'Sử dụng ửng dụng để tùy chỉnh các chế độ thuộc tính của chương trình, chẳng hạn như có bao nhiêu TPS các báo cáo được hiển thị trên trang chủ',
+		'backBtn'	=> 'Quay trở lại bước trước.',
+		'studioHelp'=> 'Sử dụng <b> Studio </ b> để tùy chỉnh cài đặt module.',
+		'moduleBtn'	=> 'Nhấp vào để chỉnh sửa module này.',
+		'moduleHelp'=> 'Lựa chọn module thành phần mà bạn muốn chỉnh sửa',
+		'fieldsBtn'	=> 'Hiệu chỉnh những thông tin nào được lưu giữ trong các module kiểm tra, kiểm soát của các trường <b> </ b> trong các module. <br/>
 <br/>
-You can edit and create custom fields here.',
-		'labelsBtn' => 'Click <b>Save</b> to save your custom labels.'	,
-		'layoutsBtn'=> 'Customize the <b>Layouts</b> of the Edit, Detail, List and search views.',
-		'subpanelBtn'=> 'Edit what information is shown in this modules subpanels.',
-		'layoutsHelp'=> 'Select a <b>Layout to edit</b>.<br/<br/>
-To change the layout that contains data fields for entering data, click <b>Edit View</b>.<br/>
+Bạn có thể chỉnh sửa và tạo các lĩnh vực tùy chỉnh ở đây.',
+		'labelsBtn' => 'Nhấp vào Lưu <b> </ b> để lưu các tuỳ chỉnh của nhãn.'	,
+		'layoutsBtn'=> 'Tuỳ chỉnh <b>bố trí </ b> của các Chỉnh sửa, Xem chi tiết, danh sách và tìm kiếm xem.',
+		'subpanelBtn'=> 'Hiệu chỉnh những thông tin nào được hiển thị trong module này subpanels.',
+		'layoutsHelp'=> 'Chọn một <b> Bố cục để chỉnh sửa </ b>. <Br / <br/>
+Để thay đổi bố trí có chứa dữ liệu cho các lĩnh vực nhập dữ liệu, hãy nhấp vào Hiệu chỉnh <b> Xem </ b>.<br/>
 <br/>
-To change the layout that displays the data entered into the fields in the Edit View, click <b>Detail View</b>.<br/>
+Để thay đổi bố trí hiển thị các dữ liệu nhập vào trong các lĩnh vực Hiệu chỉnh Xem, hãy nhấp vào <b> Xem chi tiết</ b>. <br/>
 <br/>
-To change the columns which appear in the default list, click <b>List View</b>.<br/>
+Để thay đổi các cột trong đó xuất hiện trong danh sách mặc định, bấm vào Danh mục <b> Xem </ b>. <br/>
 <br/>
-To change the Basic and Advanced search form layouts, click <b>Search</b>.',
-		'subpanelHelp'=> 'Select a <b>Subpanel</b> to edit.',
-		'searchHelp' => 'Select a <b>Search</b> layout to edit.',
-		'labelsBtn'	=> 'Edit the <b>Labels</b> to display for values in this module.',
-        'newPackage'=>'Click <b>New Package</b> to create a new package.',
-        'mbHelp'    => '<b>Welcome to Module Builder.</b><br/>
+Để thay đổi cơ bản và nâng cao hình thức bố trí tìm kiếm, nhấp vào <b> Tìm kiếm </ b>. ',
+		'subpanelHelp'=> 'Chọn một <b> Subpanel </ b> để chỉnh sửa.',
+		'searchHelp' => 'Chọn một <b> Tìm kiếm </ b> bố trí để chỉnh sửa.',
+		'labelsBtn'	=> 'Hiệu chỉnh <b> Nhãn </ b> để hiển thị cho các giá trị trong module này.',
+        'newPackage'=>'Nhấp vào <b>trọn gói mới </ b> để tạo ra một gói phần mềm mới.',
+        'mbHelp'    => '<b>Chào mừng đến Module Builder.</b><br/>
 <br/>
-Use <b>Module Builder</b> to create packages containing custom modules based on standard or custom objects. <br/>
+Sử dụng <b> Module Builder </ b> để tạo ra các gói có chứa module tuỳ chỉnh dựa trên tiêu chuẩn hay tùy chỉnh các đối tượng. <br/>
 <br/>
-To begin, click <b>New Package</b> to create a new package, or select a package to edit.<br/>
+Để bắt đầu, nhấp vào <b>trọn gói mới </ b> để tạo ra một gói phần mềm mới, hoặc chọn một gói phần mềm để chỉnh sửa.<br/>
 <br/>
-A <b>package</b> acts as a container for custom modules, all of which are part of one project. The package can contain one or more custom modules that can be related to each other or to modules in the application. <br/>
+Một <b> gói </ b> như là một hành vi chứa cho các module tuỳ chỉnh, tất cả đều là một phần của một trong những dự án. Các gói phần mềm có thể chứa một hay nhiều tùy chỉnh module, có thể liên quan đến nhau hoặc để trong các ứng dụng module. <br/>
 <br/>
-Examples: You might want to create a package containing one custom module that is related to the standard Accounts module. Or, you might want to create a package containing several new modules that work together as a project and that are related to each other and to modules in the application.',
-        'exportBtn' => 'Click <b>Export Customizations</b> to create a package containing customizations made in Studio for specific modules.',
+Ví dụ: Bạn có thể muốn tạo ra một gói phần mềm có chứa một trong những tùy chỉnh mô-đun đó là liên quan tới các tiêu chuẩn tài khoản module. Hoặc, bạn có thể muốn tạo ra một gói phần mềm có chứa nhiều module mới mà làm việc cùng nhau như là một dự án và có liên quan với nhau và module trong các ứng dụng.',
+        'exportBtn' => 'Nhấp vào <b> hàng xuất khẩu tuỳ chỉnh </ b> để tạo ra một gói phần mềm có chứa tuỳ chỉnh thực hiện trong Studio cụ thể cho module',
 	),
 
 
 ),
 //HOME
-'LBL_HOME_EDIT_DROPDOWNS'=>'Dropdown Editor',
+'LBL_HOME_EDIT_DROPDOWNS'=>'Biên soạn Dropdown',
 
 //ASSISTANT
-'LBL_AS_SHOW' => 'Show Assistant in future.',
-'LBL_AS_IGNORE' => 'Ignore Assistant in future.',
-'LBL_AS_SAYS' => 'Assistant Says:',
+'LBL_AS_SHOW' => 'Hiển thị trợ lý trong tương lai.',
+'LBL_AS_IGNORE' => 'Bỏ qua trợ lý trong tương lai.',
+'LBL_AS_SAYS' => 'Trợ lý nói:',
 
 
 //STUDIO2
 'LBL_MODULEBUILDER'=>'Module Builder',
 'LBL_STUDIO' => 'Studio',
-'LBL_DROPDOWNEDITOR' => 'Dropdown Editor',
-'LBL_EDIT_DROPDOWN'=>'Edit Dropdown',
-'LBL_DEVELOPER_TOOLS' => 'Developer Tools',
-'LBL_SUGARPORTAL' => 'Sugar Portal Editor',
+'LBL_DROPDOWNEDITOR' => 'Biên soạn Dropdown',
+'LBL_EDIT_DROPDOWN'=>'Hiệu chỉnh Dropdown',
+'LBL_DEVELOPER_TOOLS' => 'Công cụ phát triển',
+'LBL_SUGARPORTAL' => 'Biên soạn Sugar Portal',
 'LBL_SYNCPORTAL' => 'Sync Portal',
-'LBL_PACKAGE_LIST' => 'Package List',
-'LBL_HOME' => 'Home',
+'LBL_PACKAGE_LIST' => 'Danh sách gói',
+'LBL_HOME' => 'Trang',
 'LBL_NONE'=>'-None-',
 
-'LBL_ADD_FIELDS'=>'Thêm một trườn tùy chỉnh',
+'LBL_ADD_FIELDS'=>'Thêm một trường tùy chỉnh',
 'LBL_AVAILABLE_SUBPANELS'=>'Có sẵn Subpanels',
 'LBL_ADVANCED'=>'Nâng cao',
 'LBL_ADVANCED_SEARCH'=>'TÌm kiếm nâng cao',
