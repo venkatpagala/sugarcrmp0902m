@@ -42,7 +42,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * Contributor(s): ______________________________________..
  ********************************************************************************/
 $mod_strings = array (
-'LBL_EXECUTE_TIME'			=> 'Execute Time',
+'LBL_EXECUTE_TIME'			=> 'Thời gian thực hiện',
 );
 
 ?>

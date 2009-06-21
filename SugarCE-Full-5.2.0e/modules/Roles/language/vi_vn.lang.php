@@ -38,22 +38,22 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 
 $mod_strings = array (
-	'LBL_ROLE' => 'Role: ',
-	'LBL_LANGUAGE' => 'Language: ',
-	'LBL_MODULE_NAME' => 'Roles',
-	'LBL_MODULE_TITLE' => 'Roles: Home',
-	'LBL_SEARCH_FORM_TITLE' => 'Role Search',
-	'LBL_LIST_FORM_TITLE' => 'Role List',
-	'LNK_NEW_ROLE' => 'Create Role',
-	'LNK_ROLES' => 'Roles',
-	'LBL_NAME' => 'Name: ',
-	'LBL_DESCRIPTION' => 'Description: ',
-	'LBL_ALLOWED_MODULES' => 'Allowed Modules: ',
-	'LBL_DISALLOWED_MODULES' => 'Disallowed Modules: ',
-	'LBL_ASSIGN_MODULES' => 'Edit Modules: ',
-	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
-	'LBL_USERS'=>'Users',
+	'LBL_ROLE' => 'Vai trò: ',
+	'LBL_LANGUAGE' => 'Ngôn ngữ: ',
+	'LBL_MODULE_NAME' => 'Vai trò',
+	'LBL_MODULE_TITLE' => 'Vai trò: Trang chủ',
+	'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm vai trò',
+	'LBL_LIST_FORM_TITLE' => 'Danh sách vai trò',
+	'LNK_NEW_ROLE' => 'Tạo vai trò',
+	'LNK_ROLES' => 'Vai trò',
+	'LBL_NAME' => 'Tên: ',
+	'LBL_DESCRIPTION' => 'Miêu tả: ',
+	'LBL_ALLOWED_MODULES' => 'Môđun được cho phép: ',
+	'LBL_DISALLOWED_MODULES' => 'Môđun không được cho phép: ',
+	'LBL_ASSIGN_MODULES' => 'Chỉnh sửa môđun: ',
+	'LBL_DEFAULT_SUBPANEL_TITLE' => 'Vai trò',
+	'LBL_USERS'=>'Người dùng',
 	
-	'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+	'LBL_USERS_SUBPANEL_TITLE' => 'Người dùng',
 );
 ?>
