@@ -142,7 +142,7 @@ $mod_strings = array (
 	'LBL_PUSH_BILLING' => 'Đẩy sang thanh toán',
 	'LBL_PUSH_CONTACTS_BUTTON_LABEL' => 'Sao chép vào Liên hệ',
 	'LBL_PUSH_CONTACTS_BUTTON_TITLE' => 'Sao chép...',
-	'LBL_PUSH_SHIPPING' => 'Push Shipping',
+	'LBL_PUSH_SHIPPING' => 'Đẩy sang vận chuyển',
 	'LBL_RATING' => 'Phân hạng:',
 	'LBL_SAVE_ACCOUNT' => 'Lưu Tài khoản',
 	'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm Tài khoản',
@@ -173,7 +173,7 @@ $mod_strings = array (
 	'LNK_NEW_ACCOUNT' => 'Tạo Tài khoản',
 
 	'MSG_DUPLICATE' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
-	'MSG_SHOW_DUPLICATES' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ   	tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
+	'MSG_SHOW_DUPLICATES' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
 	'NTC_COPY_BILLING_ADDRESS' => 'Sao chép địa chỉ thanh toán đến địa chỉ vận chuyển',
 	'NTC_COPY_BILLING_ADDRESS2' => 'Sao chép vào vận chuyển',
 	'NTC_COPY_SHIPPING_ADDRESS' => 'Sao chép địa chỉ vận chuyển đến địa chỉ thanh toán',

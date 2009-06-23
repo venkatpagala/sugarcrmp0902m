@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 09:26:53
+// created: 2009-06-23 15:21:14
 $GLOBALS["dictionary"]["vCal"] = array (
   'table' => 'vcals',
   'fields' => 
@@ -79,5 +79,6 @@ $GLOBALS["dictionary"]["vCal"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

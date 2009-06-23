@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 09:39:59
+// created: 2009-06-23 10:35:54
 $GLOBALS["dictionary"]["Call"] = array (
   'table' => 'calls',
   'comment' => 'A Call is an activity representing a phone call',
