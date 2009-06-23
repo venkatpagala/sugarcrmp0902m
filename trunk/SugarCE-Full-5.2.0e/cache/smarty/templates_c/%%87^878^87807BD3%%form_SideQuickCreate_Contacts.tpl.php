@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-12 10:35:58
+<?php /* Smarty version 2.6.11, created on 2009-06-23 09:38:14
          compiled from cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 33, false),array('function', 'counter', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 42, false),array('modifier', 'default', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 39, false),)), $this); ?>

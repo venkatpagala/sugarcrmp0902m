@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:21
+// created: 2009-06-23 09:26:52
 $GLOBALS["dictionary"]["EmailMan"] = array (
   'table' => 'emailman',
   'comment' => 'Email campaign queue',

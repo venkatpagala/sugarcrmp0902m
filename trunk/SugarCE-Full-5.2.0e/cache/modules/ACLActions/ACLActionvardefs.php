@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:45
+// created: 2009-06-23 09:27:11
 $GLOBALS["dictionary"]["ACLAction"] = array (
   'table' => 'acl_actions',
   'comment' => 'Determine the allowable actions available to users',
