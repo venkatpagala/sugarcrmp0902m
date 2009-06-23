@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:36:01
+// created: 2009-06-23 09:26:54
 $GLOBALS["dictionary"]["ProjectTask"] = array (
   'audited' => true,
   'table' => 'project_task',
@@ -522,6 +522,5 @@ $GLOBALS["dictionary"]["ProjectTask"] = array (
       'relationship_type' => 'one-to-many',
     ),
   ),
-  'custom_fields' => false,
 );
 ?>

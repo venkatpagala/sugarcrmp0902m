@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:17
+// created: 2009-06-23 09:26:51
 $sugar_config = array (
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -196,6 +196,7 @@ $sugar_config = array (
   'languages' => 
   array (
     'en_us' => 'English (US)',
+	'vi_vn' => 'Việt Nam',
   ),
   'large_scale_test' => false,
   'list_max_entries_per_page' => 20,
@@ -257,7 +258,7 @@ $sugar_config = array (
   'timef' => 'H:i',
   'tmp_dir' => 'cache/xml/',
   'translation_string_prefix' => false,
-  'unique_key' => '13c53cf817243ba7ff1e0abe6640d16e',
+  'unique_key' => 'd46e1c61838dec828b4e164716184550',
   'upload_badext' => 
   array (
     0 => 'php',

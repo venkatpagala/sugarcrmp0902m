@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:20
+// created: 2009-06-23 09:26:52
 $GLOBALS["dictionary"]["EmailTemplate"] = array (
   'table' => 'email_templates',
   'comment' => 'Templates used in email processing',

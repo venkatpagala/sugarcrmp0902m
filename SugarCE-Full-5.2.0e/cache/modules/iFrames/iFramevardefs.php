@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:36:01
+// created: 2009-06-23 09:27:11
 $GLOBALS["dictionary"]["iFrame"] = array (
   'table' => 'iframes',
   'fields' => 
