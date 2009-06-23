@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 09:26:54
+// created: 2009-06-23 15:25:29
 $GLOBALS["dictionary"]["Prospect"] = array (
   'table' => 'prospects',
   'fields' => 
@@ -709,5 +709,6 @@ $GLOBALS["dictionary"]["Prospect"] = array (
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );
 ?>
