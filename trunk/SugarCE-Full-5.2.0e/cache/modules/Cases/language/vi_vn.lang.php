@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 11:39:25
+// created: 2009-06-25 15:29:13
 $mod_strings = array (
   'ERR_DELETE_RECORD' => 'Bạn phải chỉ rõ số hồ sơ để xóa tài khoản.',
   'LBL_ACCOUNT_ID' => 'Mã tài khoản',
@@ -53,5 +53,13 @@ $mod_strings = array (
   'LBL_WORK_LOG' => 'Nhật ký công việc',
   'LBL_CREATED_USER' => 'Người sử dụng đã tạo',
   'LBL_MODIFIED_USER' => 'Người sử dụng đã chỉnh sửa',
+  'LBL_ASSIGNED_TO_ID' => 'Chỉ định cho:',
+  'LBL_CREATED' => 'Tạo bởi',
+  'LBL_CREATED_ID' => 'Tạo bởi Id',
+  'LBL_DATE_ENTERED' => 'Tạo vào ngày:',
+  'LBL_DATE_MODIFIED' => 'Chỉnh sửa vào ngày:',
+  'LBL_DELETED' => 'Đã xóa',
+  'LBL_MODIFIED_ID' => 'Chỉnh sửa bởi Id',
+  'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
 );
 ?>

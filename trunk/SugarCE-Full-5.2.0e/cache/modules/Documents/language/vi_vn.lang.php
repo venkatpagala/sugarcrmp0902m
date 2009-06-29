@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 12:24:40
+// created: 2009-06-25 15:30:25
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Tài liệu',
   'LBL_MODULE_TITLE' => 'Tài liệu: Trang chủ',
@@ -91,5 +91,8 @@ $mod_strings = array (
   'LBL_LAST_REV_CREATE_DATE' => 'Ngày cuối cùng tạo chỉnh sửa ',
   'LBL_CONTRACTS' => 'Hợp đồng',
   'LBL_CREATED_USER' => 'Nguời dùng đã tạo',
+  'LBL_CREATED_ID' => 'Tạo bởi Id',
+  'LBL_MODIFIED_ID' => 'Chỉnh sửa bởi Id',
+  'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
 );
 ?>

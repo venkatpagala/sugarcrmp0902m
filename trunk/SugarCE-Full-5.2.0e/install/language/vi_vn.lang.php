@@ -383,21 +383,21 @@ Bộ cài đặt đã được chạy một lần. Với tư cách là một bi�
 	'LBL_PERFORM_SUCCESS'				=> 'Thành công!',
 	'LBL_PERFORM_TABLES'				=> 'Sugar CRM tạo ra ứng dụng bảng biểu, bảng kiểm toán và mối quan hệ siêu dữ liệu',
 	'LBL_PERFORM_TITLE'					=> 'Thực hiện các thiết lập',
-	'LBL_PRINT'							=> 'Print',
+	'LBL_PRINT'							=> 'In',
 	'LBL_REG_CONF_1'					=> 'Please complete the short form below to receive product announcements, training news, special offers and special event invitations from SugarCRM. We do not sell, rent, share or otherwise distribute the information collected here to third parties.',
-	'LBL_REG_CONF_2'					=> 'Your name and email address are the only required fields for registration. All other fields are optional, but very helpful. We do not sell, rent, share, or otherwise distribute the information collected here to third parties.',
-	'LBL_REG_CONF_3'					=> 'Thank you for registering. Click on the Finish button to login to SugarCRM. You will need to log in for the first time using the username "admin" and the password you entered in step 2.',
-	'LBL_REG_TITLE'						=> 'Registration',
-    'LBL_REG_NO_THANKS'                 => 'No Thanks',
-    'LBL_REG_SKIP_THIS_STEP'            => 'Skip this Step',
-	'LBL_REQUIRED'						=> '* Required field',
+	'LBL_REG_CONF_2'					=> 'Tên và địa chỉ email của bạn là các trường bắt buộc duy nhất để đăng ký. Tất cả các trường khác là tùy chọn, nhưng rất có ích. Chúng tôi không bán, cho thuê, chia sẻ hay có bất kỳ hành động cung cấp thông tin thu thập được ở đây đối với bên thứ ba.',
+	'LBL_REG_CONF_3'					=> 'Cảm ơn bạn đã đăng ký. Nhấn vào nút Hoàn thành để đăng nhập vào SugarCRM. Bạn sẽ cần đăng nhập bằng tài khoản "admin" và mật khẩu nhập ở bước 2 trong lần đăng nhập đầu tiên.',
+	'LBL_REG_TITLE'						=> 'Đăng ký',
+    'LBL_REG_NO_THANKS'                 => 'Không, cảm ơn',
+    'LBL_REG_SKIP_THIS_STEP'            => 'Bỏ qua bước này',
+	'LBL_REQUIRED'						=> '* Trường bắt buộc',
 
-    'LBL_SITECFG_ADMIN_Name'            => 'Sugar Application Admin Name',
-	'LBL_SITECFG_ADMIN_PASS_2'			=> 'Re-enter Sugar Admin User Password',
-	'LBL_SITECFG_ADMIN_PASS_WARN'		=> 'Caution: This will override the admin password of any previous installation.',
-	'LBL_SITECFG_ADMIN_PASS'			=> 'Sugar Admin User Password',
-	'LBL_SITECFG_APP_ID'				=> 'Application ID',
-	'LBL_SITECFG_CUSTOM_ID_DIRECTIONS'	=> 'If selected, you must provide an application ID to override the auto-generated ID. The ID ensures that sessions of one Sugar instance are not used by other instances.  If you have a cluster of Sugar installations, they all must share the same application ID.',
+    'LBL_SITECFG_ADMIN_Name'            => 'Tên admin ứng dụng Sugar',
+	'LBL_SITECFG_ADMIN_PASS_2'			=> 'Nhập lại mật khẩu admin Sugar',
+	'LBL_SITECFG_ADMIN_PASS_WARN'		=> 'Chú ý: Sẽ ghi đè lên mật khẩu admin của các lần cài đặt trước.',
+	'LBL_SITECFG_ADMIN_PASS'			=> 'Mật khẩu admin Sugar',
+	'LBL_SITECFG_APP_ID'				=> 'Mã ứng dụng',
+	'LBL_SITECFG_CUSTOM_ID_DIRECTIONS'	=> 'Nếu lựa chọn, bạn phải cung cấp một mã ứng dụng để ghi đè lên mã tự sinh. Mã này đảm bảo cho các phiên làm việc của một thể hiện Sugar không bị sử dụng bởi các thể hiện khác.  Nếu bạn có một cụm cài đặt Sugar thì tất cả phải chia sẻ cùng mã ứng dụng.',
 	'LBL_SITECFG_CUSTOM_ID'				=> 'Provide Your Own Application ID',
 	'LBL_SITECFG_CUSTOM_LOG_DIRECTIONS'	=> 'If selected, you must specify a log directory to override the default directory for the Sugar log. Regardless of where the log file is located, access to it through a web browser will be restricted via an .htaccess redirect.',
 	'LBL_SITECFG_CUSTOM_LOG'			=> 'Use a Custom Log Directory',
@@ -405,43 +405,42 @@ Bộ cài đặt đã được chạy một lần. Với tư cách là một bi�
 	'LBL_SITECFG_CUSTOM_SESSION'		=> 'Use a Custom Session Directory for Sugar',
 	'LBL_SITECFG_DIRECTIONS'			=> 'Please enter your site configuration information below. If you are unsure of the fields, we suggest that you use the default values.',
 	'LBL_SITECFG_FIX_ERRORS'			=> '<b>Please fix the following errors before proceeding:</b>',
-	'LBL_SITECFG_LOG_DIR'				=> 'Log Directory',
+	'LBL_SITECFG_LOG_DIR'				=> 'Thư mục Log',
 	'LBL_SITECFG_SESSION_PATH'			=> 'Path to Session Directory<br>(must be writable)',
-	'LBL_SITECFG_SITE_SECURITY'			=> 'Select Security Options',
-	'LBL_SITECFG_SUGAR_UP_DIRECTIONS'	=> 'If selected, the system will periodically check for updated versions of the application.',
-	'LBL_SITECFG_SUGAR_UP'				=> 'Automatically Check For Updates?',
-	'LBL_SITECFG_SUGAR_UPDATES'			=> 'Sugar Updates Config',
-	'LBL_SITECFG_TITLE'					=> 'Site Configuration',
-    'LBL_SITECFG_TITLE2'                => 'Identify Your Sugar Instance',
-    'LBL_SITECFG_SECURITY_TITLE'        => 'Site Security',
-	'LBL_SITECFG_URL'					=> 'URL of Sugar Instance',
-	'LBL_SITECFG_USE_DEFAULTS'			=> 'Use Defaults?',
+	'LBL_SITECFG_SITE_SECURITY'			=> 'Lựa chọn các tùy chọn bảo mật',
+	'LBL_SITECFG_SUGAR_UP_DIRECTIONS'	=> 'Nếu lựa chọn, hệ thống sẽ kiểm tra các bản cập nhật cho ứng dụng theo định kỳ.',
+	'LBL_SITECFG_SUGAR_UP'				=> 'Tự động kiểm tra cập nhật?',
+	'LBL_SITECFG_SUGAR_UPDATES'			=> 'Cấu hình Sugar Update',
+	'LBL_SITECFG_TITLE'					=> 'Cấu hình Site',
+    'LBL_SITECFG_TITLE2'                => 'Xác định thể hiện Sugar của bạn',
+    'LBL_SITECFG_SECURITY_TITLE'        => 'Bảo mật Site',
+	'LBL_SITECFG_URL'					=> 'URL của thể hiện Sugar',
+	'LBL_SITECFG_USE_DEFAULTS'			=> 'Sử dụng mặc định?',
 	'LBL_SITECFG_ANONSTATS'             => 'Send Anonymous Usage Statistics?',
 	'LBL_SITECFG_ANONSTATS_DIRECTIONS'  => 'If selected, Sugar will send <b>anonymous</b> statistics about your installation to SugarCRM Inc. every time your system checks for new versions. This information will help us better understand how the application is used and guide improvements to the product.',
     'LBL_SITECFG_URL_MSG'               => 'Enter the URL that will be used to access the Sugar instance after installation. The URL will also be used as a base for the URLs in the Sugar application pages. The URL should include the web server or machine name or IP address.',
-    'LBL_SITECFG_SYS_NAME_MSG'          => 'Enter a name for your system.  This name will be displayed in the browser title bar when users visit the Sugar application.',
-    'LBL_SITECFG_PASSWORD_MSG'          => 'After installation, you will need to use the Sugar admin user (username = admin) to log in to the Sugar instance.  Enter a password for this administrator user. This password can be changed after the initial login.',
-    'LBL_SYSTEM_CREDS'                  => 'System Credentials',
-    'LBL_SYSTEM_ENV'                    => 'System Environment',
-	'LBL_START'							=> 'Start',
-    'LBL_SHOW_PASS'                     => 'Show Passwords',
-    'LBL_HIDE_PASS'                     => 'Hide Passwords',
-    'LBL_HIDDEN'                        => '<i>(hidden)</i>',
+    'LBL_SITECFG_SYS_NAME_MSG'          => 'Nhập vào tên cho hệ thống của bạn.  Tên này sẽ được hiển thị trong thanh tiêu đề của trình duyệt khi người sử dụng ghé thăm ứng dụng Sugar.',
+    'LBL_SITECFG_PASSWORD_MSG'          => 'Sau khi cài đặt, bạn cần sử dụng tài khoản admin Sugar (Tên người dùng = admin) để đăng nhập vào Sugar. Nhập vào mật khẩu cho tài khoản quản trị này. Mật khẩu này có thể thay đổi sau khi đăng nhập.',
+    'LBL_SYSTEM_CREDS'                  => 'Các chứng nhận hệ thống',
+    'LBL_SYSTEM_ENV'                    => 'Môi trường hệ thống',
+	'LBL_START'							=> 'Bắt đầu',
+    'LBL_SHOW_PASS'                     => 'Hiện mật khẩu',
+    'LBL_HIDE_PASS'                     => 'Ẩn mật khẩu',
+    'LBL_HIDDEN'                        => '<i>(ẩn)</i>',
 //	'LBL_NO_THANKS'						=> 'Continue to installer',
-	'LBL_CHOOSE_LANG'					=> '<b>Choose your language</b>',
-	'LBL_STEP'							=> 'Step',
-	'LBL_TITLE_WELCOME'					=> 'Welcome to the SugarCRM ',
-	'LBL_WELCOME_1'						=> 'This installer creates the SugarCRM database tables and sets the configuration variables that you need to start. The entire process should take about ten minutes.',
-	'LBL_WELCOME_2'						=> 'For installation documentation, please visit the <a href="http://www.sugarcrm.com/crm/installation" target="_blank">Sugar Wiki</a>.  <BR><BR> You can also find help from the Sugar Community in the <a href="http://www.sugarcrm.com/forums/" target="_blank">Sugar Forums</a>.',
+	'LBL_CHOOSE_LANG'					=> '<b>Lựa chọn ngôn ngữ</b>',
+	'LBL_STEP'							=> 'Bước',
+	'LBL_TITLE_WELCOME'					=> 'Chào mừng tới SugarCRM ',
+	'LBL_WELCOME_1'						=> 'Việc cài đặt này tạo ra các bảng cơ sở dữ liệu Sugar và thiết lập các biến cấu hình bạn cần để bắt đầu. Toàn bộ quá trình sẽ mất khoảng 10 phút.',
+	'LBL_WELCOME_2'						=> 'Để cài đặt tài liệu hướng dẫn, xin vui lòng tới <a href="http://www.sugarcrm.com/crm/installation" target="_blank">Sugar Wiki</a>.  <BR><BR> Bạn cũng có thể tìm thấy sự hỗ trợ từ cộng đồng Sugar ở <a href="http://www.sugarcrm.com/forums/" target="_blank">Sugar Forums</a>.',
     //welcome page variables
-    'LBL_TITLE_ARE_YOU_READY'            => 'Are you ready to install?',
+    'LBL_TITLE_ARE_YOU_READY'            => 'Bạn đã sẵn sàng cài đặt?',
     'REQUIRED_SYS_COMP' => 'Required System Components',
     'REQUIRED_SYS_COMP_MSG' =>
-                    'Before you begin, please be sure that you have the supported versions of the following system
-                      components:<br>
+                    'Trước khi bắt đầu, xin vui lòng đảm bảo rằng bạn có các phiên bản hỗ trợ các thành phần sau của hệ thống:<br>
                       <ul>
-                      <li> Database/Database Management System (Examples: MySQL, SQL Server, Oracle)</li>
-                      <li> Web Server (Apache, IIS)</li>
+                      <li> Cơ sở dữ liệu/Hệ quản trị cơ sở dữ liệu (Ví dụ: MySQL, SQL Server, Oracle)</li>
+                      <li> Máy chủ Web (Apache, IIS)</li>
                       </ul>
                       Consult the Compatibility Matrix in the Release Notes for
                       compatible system components for the Sugar version that you are installing.<br>',
@@ -452,8 +451,8 @@ Bộ cài đặt đã được chạy một lần. Với tư cách là một bi�
                       to successfully complete the installation. <br><br>
                       The system checks all of the following:<br>
                       <ul>
-                      <li><b>PHP version</b> &#8211; must be compatible
-                      with the application</li>
+                      <li><b>phiên bản PHP</b> &#8211; phải tương thích
+                      với ứng dụng</li>
                                         <li><b>Session Variables</b> &#8211; must be working properly</li>
                                             <li> <b>MB Strings</b> &#8211; must be installed and enabled in php.ini</li>
 
@@ -513,14 +512,14 @@ Bộ cài đặt đã được chạy một lần. Với tư cách là một bi�
                                   <li><b>Character Set</b> most commonly used in your locale.<br><br></li></ul>
                                   For more detailed information, please consult the Installation Guide.
                                 ',
-    'LBL_WELCOME_PLEASE_READ_BELOW' => 'Please read the following important information before proceeding with the installation.  The information will help you determine whether or not you are ready to install the application at this time.',
+    'LBL_WELCOME_PLEASE_READ_BELOW' => 'Xin vui lòng đọc thông tin quan trọng sau trước khi tiến hành cài đặt.  Thông tin này sẽ giúp bạn xác định đã sẵn sàng cài đặt ứng dụng vào thời điểm này hay chưa.',
 
 
 
 
-	'LBL_WELCOME_CHOOSE_LANGUAGE'		=> '<b>Choose your language</b>',
+	'LBL_WELCOME_CHOOSE_LANGUAGE'		=> '<b>Lựa chọn ngôn ngữ</b>',
 	'LBL_WELCOME_SETUP_WIZARD'			=> 'Setup Wizard',
-	'LBL_WELCOME_TITLE_WELCOME'			=> 'Welcome to the SugarCRM ',
+	'LBL_WELCOME_TITLE_WELCOME'			=> 'Chào mừng tới SugarCRM ',
 	'LBL_WELCOME_TITLE'					=> 'SugarCRM Setup Wizard',
 	'LBL_WIZARD_TITLE'					=> 'Sugar Setup Wizard: ',
 	'LBL_YES'							=> 'Yes',
@@ -541,22 +540,22 @@ Bộ cài đặt đã được chạy một lần. Với tư cách là một bi�
 
 
 
-    'LBL_PATCHES_TITLE'     => 'Install Latest Patches',
-    'LBL_MODULE_TITLE'      => 'Download & Install Language Packs',
-    'LBL_PATCH_1'           => 'If you would like to skip this step, click Next.',
-    'LBL_PATCH_TITLE'       => 'System Patch',
-    'LBL_PATCH_READY'       => 'The following patch(es) are ready to be installed:',
+    'LBL_PATCHES_TITLE'     => 'Cài đặt bản vá mới nhất',
+    'LBL_MODULE_TITLE'      => 'Tải về và cài đặt gói ngôn ngữ',
+    'LBL_PATCH_1'           => 'Nếu bạn muốn bỏ qua bước này, nhấn Tiếp tục.',
+    'LBL_PATCH_TITLE'       => 'Bản vá hệ thống',
+    'LBL_PATCH_READY'       => 'Các bản vá sau đã sãn sàng cài đặt:',
 	'LBL_SESSION_ERR_DESCRIPTION'		=> "SugarCRM relies upon PHP sessions to store important information while connected to this web server.  Your PHP installation does not have the Session information correctly configured.
 											<br><br>A common misconfiguration is that the <b>'session.save_path'</b> directive is not pointing to a valid directory.  <br>
-											<br> Please correct your <a target=_new href='http://us2.php.net/manual/en/ref.session.php'>PHP configuration</a> in the php.ini file located here below.",
+											<br> Xin vui lòng chỉnh sửa <a target=_new href='http://us2.php.net/manual/en/ref.session.php'>cấu hình PHP</a> của bạn trong file php.ini ở địa chỉ sau.",
 	'LBL_SESSION_ERR_TITLE'				=> 'PHP Sessions Configuration Error',
-	'LBL_SYSTEM_NAME'=>'System Name',
-	'LBL_REQUIRED_SYSTEM_NAME'=>'Provide a System Name for the Sugar instance.',
-	'LBL_PATCH_UPLOAD' => 'Select a patch file from your local computer',
-	'LBL_INCOMPATIBLE_PHP_VERSION' => 'Php version 5 or above is required.',
-	'LBL_MINIMUM_PHP_VERSION' => 'Minimum Php version required is 5.1.0. Recommended Php version is 5.2.x.',
-	'LBL_YOUR_PHP_VERSION' => '(Your current php version is ',
-	'LBL_RECOMMENDED_PHP_VERSION' =>' Recommended php version is 5.2.x)',
+	'LBL_SYSTEM_NAME'=>'Tên hệ thống',
+	'LBL_REQUIRED_SYSTEM_NAME'=>'Cung cấp tên hệ thống cho thể hiện Sugar.',
+	'LBL_PATCH_UPLOAD' => 'Lựa chọn bản vá từ máy của bạn',
+	'LBL_INCOMPATIBLE_PHP_VERSION' => 'Yêu cầu phiên bản PHP 5 hoặc cao hơn.',
+	'LBL_MINIMUM_PHP_VERSION' => 'Yêu cầu phiên bản PHP tối thiểu là 5.1.0. Đề nghị phiên bản PHP 5.2.x.',
+	'LBL_YOUR_PHP_VERSION' => '(Phiên bản PHP của bạn hiện tại là ',
+	'LBL_RECOMMENDED_PHP_VERSION' =>' Đề nghị phiên bản PHP là 5.2.x)',
 	'LBL_BACKWARD_COMPATIBILITY_ON' => 'Php Backward Compatibility mode is turned on. Set zend.ze1_compatibility_mode to Off for proceeding further',
 );
 
