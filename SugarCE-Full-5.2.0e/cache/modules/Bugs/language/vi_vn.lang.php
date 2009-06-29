@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 12:24:29
+// created: 2009-06-25 11:23:34
 $mod_strings = array (
   'LBL_MODULE_NAME' => 'Sai sót',
   'LBL_MODULE_TITLE' => 'Theo dõi sai sót: Trang chủ',
@@ -18,7 +18,7 @@ $mod_strings = array (
   'LBL_CONTACT_NAME' => 'Tên liên hệ:',
   'LBL_BUG_SUBJECT' => 'Tiêu đề sai sót:',
   'LBL_CONTACT_ROLE' => 'Vai trò:',
-  'LBL_LIST_NUMBER' => 'No.',
+  'LBL_LIST_NUMBER' => 'Số.',
   'LBL_LIST_SUBJECT' => 'Tiêu đề',
   'LBL_LIST_STATUS' => 'Trạng thái',
   'LBL_LIST_PRIORITY' => 'Quyền ưu tiên',
@@ -61,5 +61,14 @@ $mod_strings = array (
   'LBL_SYSTEM_ID' => 'Mã hệ thống',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Chỉ định cho người sử dụng',
   'LBL_ASSIGNED_TO_NAME' => 'Chỉ định cho',
+  'LBL_CREATED' => 'Tạo bởi',
+  'LBL_CREATED_ID' => 'Tạo bởi Id',
+  'LBL_CREATED_USER' => 'Tạo bởi người sử dụng',
+  'LBL_DATE_ENTERED' => 'Tạo vào ngày:',
+  'LBL_DATE_MODIFIED' => 'Chỉnh sửa vào ngày:',
+  'LBL_DELETED' => 'Đã xóa',
+  'LBL_MODIFIED_ID' => 'Chỉnh sửa bởi Id',
+  'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
+  'LBL_MODIFIED_USER' => 'Chỉnh sửa bởi Người dùng',
 );
 ?>

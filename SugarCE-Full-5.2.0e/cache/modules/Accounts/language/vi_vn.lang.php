@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 11:39:25
+// created: 2009-06-25 15:31:22
 $mod_strings = array (
   'db_name' => 'LBL_LIST_ACCOUNT_NAME',
   'db_website' => 'LBL_LIST_WEBSITE',
@@ -40,7 +40,7 @@ $mod_strings = array (
   'LBL_COUNTRY' => 'Quốc gia:',
   'LBL_DATE_ENTERED' => 'Ngày nhập:',
   'LBL_DATE_MODIFIED' => 'Ngày sửa đổi:',
-  'LBL_MODIFIED_ID' => 'Sủa đổi bởi Id',
+  'LBL_MODIFIED_ID' => 'Chỉnh sửa bởi Id',
   'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tài khoản',
   'LBL_DESCRIPTION_INFORMATION' => 'Thông tin Mô tả',
   'LBL_DESCRIPTION' => 'Mô tả:',
@@ -116,7 +116,7 @@ $mod_strings = array (
   'LNK_ACCOUNT_LIST' => 'Tài khoản',
   'LNK_NEW_ACCOUNT' => 'Tạo Tài khoản',
   'MSG_DUPLICATE' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
-  'MSG_SHOW_DUPLICATES' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ   	tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
+  'MSG_SHOW_DUPLICATES' => 'Hồ sơ tài khoản bạn tạo có thể là bản sao của một hồ sơ tài khoản đã tồn tại. Các hồ sơ tài khoản có cùng tên được liệt kê dưới đây.<br>Nhấn Lưu lại để tiếp tục tạo tài khoản mới này, hoặc nhấn Hủy bỏ để hủy tạo tài khoản mới và quay trở lại module.',
   'NTC_COPY_BILLING_ADDRESS' => 'Sao chép địa chỉ thanh toán đến địa chỉ vận chuyển',
   'NTC_COPY_BILLING_ADDRESS2' => 'Sao chép vào vận chuyển',
   'NTC_COPY_SHIPPING_ADDRESS' => 'Sao chép địa chỉ vận chuyển đến địa chỉ thanh toán',
@@ -125,5 +125,9 @@ $mod_strings = array (
   'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Bạn có chắc chắn muốn loại bỏ hồ sơ này?',
   'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Bạn có chắc chắn muốn di chuyển bản ghi này như một tổ chức thành viên?',
   'LBL_ASSIGNED_USER_NAME' => 'Chỉ định cho:',
+  'LBL_CREATED' => 'Tạo bởi',
+  'LBL_DELETED' => 'Đã xóa',
+  'LBL_MODIFIED' => 'Chỉnh sửa bởi',
+  'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
 );
 ?>

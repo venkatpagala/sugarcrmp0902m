@@ -79,7 +79,7 @@ $app_list_strings = array (
 
 
     'Activities' => 'Hoạt động',
-    'Bugs' => 'sai sót',
+    'Bugs' => 'Sai sót',
     'Feeds' => 'Lấy tin tự động',
     'iFrames'=>'Cổng điện tử',
     'TimePeriods'=>'Giai đoạn',
