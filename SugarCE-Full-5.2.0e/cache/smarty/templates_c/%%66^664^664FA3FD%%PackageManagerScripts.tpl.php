@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 15:55:55
+<?php /* Smarty version 2.6.11, created on 2009-06-30 14:27:29
          compiled from ModuleInstall/PackageManager/tpls/PackageManagerScripts.tpl */ ?>
 <?php echo '
 <script type="text/javascript" src="include/javascript/yui/container.js?s={$sugar_version}&c={$js_custom_version}"></script>

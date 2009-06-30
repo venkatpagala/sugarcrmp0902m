@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 09:38:14
+<?php /* Smarty version 2.6.11, created on 2009-06-30 18:13:20
          compiled from cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 33, false),array('function', 'counter', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 38, false),array('function', 'sugar_translate', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 42, false),array('modifier', 'default', 'cache/modules/Contacts/form_SideQuickCreate_Contacts.tpl', 39, false),)), $this); ?>
@@ -162,8 +162,8 @@ num_grp_sep = \',\';
 						 dec_sep = \'.\';
 addToValidate(\'form_SideQuickCreate_Contacts\', \'id\', \'id\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_ID','module' => 'Contacts'), $this); echo '\' );
 addToValidate(\'form_SideQuickCreate_Contacts\', \'name\', \'name\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_NAME','module' => 'Contacts'), $this); echo '\' );
-addToValidate(\'form_SideQuickCreate_Contacts\', \'date_entered_date\', \'date\', false,\'Date Created\' );
-addToValidate(\'form_SideQuickCreate_Contacts\', \'date_modified_date\', \'date\', false,\'Date Modified\' );
+addToValidate(\'form_SideQuickCreate_Contacts\', \'date_entered_date\', \'date\', false,\'Ngày tạo\' );
+addToValidate(\'form_SideQuickCreate_Contacts\', \'date_modified_date\', \'date\', false,\'Ngày chỉnh sửa\' );
 addToValidate(\'form_SideQuickCreate_Contacts\', \'modified_user_id\', \'assigned_user_name\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_MODIFIED_ID','module' => 'Contacts'), $this); echo '\' );
 addToValidate(\'form_SideQuickCreate_Contacts\', \'modified_by_name\', \'relate\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_MODIFIED_NAME','module' => 'Contacts'), $this); echo '\' );
 addToValidate(\'form_SideQuickCreate_Contacts\', \'created_by\', \'assigned_user_name\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_CREATED_ID','module' => 'Contacts'), $this); echo '\' );
@@ -225,4 +225,4 @@ addToValidate(\'form_SideQuickCreate_Contacts\', \'accept_status_id\', \'varchar
 addToValidate(\'form_SideQuickCreate_Contacts\', \'accept_status_name\', \'enum\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_LIST_ACCEPT_STATUS','module' => 'Contacts'), $this); echo '\' );
 addToValidate(\'form_SideQuickCreate_Contacts\', \'sync_contact\', \'bool\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_SYNC_CONTACT','module' => 'Contacts'), $this); echo '\' );
 addToValidateBinaryDependency(\'form_SideQuickCreate_Contacts\', \'assigned_user_name\', \'alpha\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'Contacts'), $this); echo '';  echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO','module' => 'Contacts'), $this); echo '\', \'assigned_user_id\' );
-</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'assigned_user_name\']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>'; ?>
+</script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'assigned_user_name\']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Kh\\u00f4ng h\\u1ee3p"};</script>'; ?>

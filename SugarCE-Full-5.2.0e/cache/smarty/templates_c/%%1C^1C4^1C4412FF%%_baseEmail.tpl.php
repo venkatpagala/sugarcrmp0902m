@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-24 12:18:03
+<?php /* Smarty version 2.6.11, created on 2009-06-30 15:59:33
          compiled from modules/Emails/templates/_baseEmail.tpl */ ?>
 <link rel="stylesheet" type="text/css" href="include/javascript/yui/assets/menu.css" />
 <link rel="stylesheet" type="text/css" href="include/javascript/ext-1.1.1/resources/css/ext-all.css" />

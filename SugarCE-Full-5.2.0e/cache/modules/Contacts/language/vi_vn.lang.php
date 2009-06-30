@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-23 11:39:24
+// created: 2009-06-30 14:38:04
 $mod_strings = array (
   'db_last_name' => 'LBL_LIST_LAST_NAME',
   'db_first_name' => 'LBL_LIST_FIRST_NAME',
@@ -70,7 +70,7 @@ $mod_strings = array (
   'LBL_INVALID_EMAIL' => 'Email không xác định:',
   'LBL_INVITEE' => 'Báo cáo trực tiếp',
   'LBL_LAST_NAME' => 'Họ:',
-  'LBL_LEAD_SOURCE' => 'Lead Source:',
+  'LBL_LEAD_SOURCE' => 'Ngu:',
   'LBL_LIST_ACCEPT_STATUS' => 'Accept Status',
   'LBL_LIST_ACCOUNT_NAME' => 'Tên tài khoản',
   'LBL_LIST_CONTACT_NAME' => 'Tên liên hệ',

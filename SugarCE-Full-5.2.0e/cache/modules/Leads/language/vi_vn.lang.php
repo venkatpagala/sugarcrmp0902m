@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-25 15:32:25
+// created: 2009-06-30 14:39:55
 $mod_strings = array (
   'db_last_name' => 'LBL_Danh sách tên',
   'db_first_name' => 'LBL_Danh sách họ',
@@ -122,7 +122,7 @@ $mod_strings = array (
   'LBL_REFERED_BY' => 'Giới thiệu bởi:',
   'LBL_REPORTS_TO_ID' => 'Báo cáo tới ID',
   'LBL_REPORTS_TO' => 'Báo cáo tới:',
-  'LBL_SALUTATION' => 'Salutation',
+  'LBL_SALUTATION' => 'Xưng hô',
   'LBL_MODIFIED' => 'Sửa đổi bằng cách',
   'LBL_MODIFIED_ID' => 'Sửa đổi bằng Id',
   'LBL_CREATED' => 'Tạo ra bởi',

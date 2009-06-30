@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-24 12:18:03
+<?php /* Smarty version 2.6.11, created on 2009-06-30 15:59:33
          compiled from modules/Emails/templates/addressSearch.tpl */ ?>
 <form id="searchForm" method="get" action="#">
     <table id="searchTable" class="tabForm" border="0" cellpadding="0" cellspacing="0" width="100%">

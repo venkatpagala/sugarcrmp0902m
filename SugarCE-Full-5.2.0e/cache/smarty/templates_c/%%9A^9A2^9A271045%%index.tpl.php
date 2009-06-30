@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 11:00:46
+<?php /* Smarty version 2.6.11, created on 2009-06-30 14:30:11
          compiled from modules/Administration/index.tpl */ ?>
 
 <?php echo $this->_tpl_vars['MY_FRAME']; ?>

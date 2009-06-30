@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-08 21:18:32
+// created: 2009-06-30 14:27:04
 $sugar_config = array (
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -140,7 +140,8 @@ $sugar_config = array (
       'iso4217' => 'USD',
       'symbol' => '$',
     ),
-	array (
+    0 => 
+    array (
       'name' => 'Việt Nam Đồng',
       'iso4217' => 'VND',
       'symbol' => 'vnd',
@@ -195,13 +196,13 @@ $sugar_config = array (
   'import_dir' => 'cache/import/',
   'import_max_execution_time' => 3600,
   'import_max_records_per_file' => '1000',
-  'installer_locked' => false,
+  'installer_locked' => true,
   'js_custom_version' => '',
   'js_lang_version' => 1,
   'languages' => 
   array (
     'en_us' => 'English (US)',
-	'vi_vn' => 'Vietnamese',
+    'vi_vn' => 'Vietnamese',
   ),
   'large_scale_test' => false,
   'list_max_entries_per_page' => 20,
@@ -263,7 +264,7 @@ $sugar_config = array (
   'timef' => 'H:i',
   'tmp_dir' => 'cache/xml/',
   'translation_string_prefix' => false,
-  'unique_key' => 'c894ba6203fa3ec2a9c5eb3be5b482cd',
+  'unique_key' => '6cc65edff2fa04f7b1fab1fae1be816c',
   'upload_badext' => 
   array (
     0 => 'php',

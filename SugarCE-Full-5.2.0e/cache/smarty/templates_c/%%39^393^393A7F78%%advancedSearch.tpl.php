@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-24 12:18:03
+<?php /* Smarty version 2.6.11, created on 2009-06-30 15:59:33
          compiled from modules/Emails/templates/advancedSearch.tpl */ ?>
 <form name="advancedSearchForm" id="advancedSearchForm">
 <table cellpadding="4" cellspacing="0" border="0">

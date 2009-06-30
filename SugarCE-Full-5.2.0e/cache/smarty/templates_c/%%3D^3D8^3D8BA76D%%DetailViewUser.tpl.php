@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 11:01:54
+<?php /* Smarty version 2.6.11, created on 2009-06-30 16:02:49
          compiled from modules/ACLRoles/DetailViewUser.tpl */ ?>
 
 
