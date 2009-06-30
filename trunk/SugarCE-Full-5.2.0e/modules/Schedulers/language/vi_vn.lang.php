@@ -148,8 +148,8 @@ $mod_strings = array (
 'LBL_CRON_WINDOWS_DESC' => 'Tạo một tệp bó với những lệnh sau: ',
 'LBL_NO_PHP_CLI' => 'Nếu máy chủ của bạn không có sẵn PHP nhị phân, bạn có thể sử dụng wget hoặc curl để bắt đầu chạy your Jobs.<br>cho wget: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;wget --quiet --non-verbose '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1</b><br>for curl: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;curl --silent '.$sugar_config['site_url'].'/cron.php > /dev/null 2>&1', 
 // Subpanels
-'LBL_JOBS_SUBPANEL_TITLE'	=> 'Job Log',
-'LBL_EXECUTE_TIME'			=> 'Execute Time',
+'LBL_JOBS_SUBPANEL_TITLE'	=> 'Báo cáo công việc',
+'LBL_EXECUTE_TIME'			=> 'Thời gian xử lý',
 );
 
 ?>
