@@ -1,0 +1,32 @@
+<?php
+// created: 2009-06-30 14:45:33
+$mod_strings = array (
+  'LBL_CONTACT' => 'Liên hệ:',
+  'LBL_CONTACT_ID' => 'ID liên hệ:',
+  'LBL_CONTACT_NAME' => 'Tên liên hệ',
+  'LBL_CONTACT_PHONE' => 'Điện thoại liên hệ:',
+  'LBL_DATE_DUE_FLAG' => 'Không đúng ngày',
+  'LBL_DATE_START_FLAG' => 'Không ngày bắt đầu',
+  'LBL_DESCRIPTION' => 'Mô tả:',
+  'LBL_DUE_DATE' => 'Đúng ngày:',
+  'LBL_DUE_DATE_AND_TIME' => 'Đúng ngày giờ:',
+  'LBL_DUE_TIME' => 'Đúng giờ:',
+  'LBL_EMAIL_ADDRESS' => 'Địa chỉ Email:',
+  'LBL_LIST_ASSIGNED_TO_NAME' => 'Người dùng chỉ định',
+  'LBL_LIST_CLOSE' => 'Đóng',
+  'LBL_LIST_CONTACT' => 'Liên hệ',
+  'LBL_LIST_DUE_DATE' => 'Đúng ngày',
+  'LBL_LIST_DUE_TIME' => 'Đúng giờ',
+  'LBL_LIST_RELATED_TO' => 'Liên quan tới',
+  'LBL_LIST_START_DATE' => 'Ngày bắt đầu',
+  'LBL_LIST_STATUS' => 'Trạng thái',
+  'LBL_LIST_SUBJECT' => 'Chủ đề',
+  'LBL_PARENT_ID' => 'ID gốc:',
+  'LBL_PARENT_NAME' => 'Dạng gốc:',
+  'LBL_PHONE' => 'Điện thoại:',
+  'LBL_PRIORITY' => 'Ưu tiên:',
+  'LBL_START_DATE' => 'Ngày bắt đầu:',
+  'LBL_STATUS' => 'Trạng thái:',
+  'LBL_SUBJECT' => 'Chủ đề:',
+);
+?>
