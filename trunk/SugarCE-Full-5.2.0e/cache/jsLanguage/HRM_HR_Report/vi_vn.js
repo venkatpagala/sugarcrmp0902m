@@ -1,0 +1,1 @@
+SUGAR.language.setLanguage('HRM_HR_Report', null);
