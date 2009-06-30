@@ -457,3 +457,232 @@
 2009-06-23 01:26:56...Creating default scheduler jobs
 2009-06-23 01:26:56...populating the db with seed data
 2009-06-23 01:26:56...Installation has completed *********
+2009-06-30 06:24:59...Begin System Check Process *************
+2009-06-30 06:24:59...Found at least one supported DB Type
+2009-06-30 06:24:59...XML Parsing Support Found
+2009-06-30 06:24:59...MBString Support Found
+2009-06-30 06:24:59...Session Save Path is c:/wamp/tmp
+2009-06-30 06:24:59.../custom directory and subdirectory check passed
+2009-06-30 06:24:59.../data/upoad directory and subdirectory check passed
+2009-06-30 06:24:59.../cache directory and subdirectory check passed
+2009-06-30 06:25:01.../module  directory and subdirectory check passed
+2009-06-30 06:25:01...php.ini location found. C:\wamp\bin\apache\Apache2.2.11\bin\php.ini
+2009-06-30 06:25:01...Outputting HTML for System check
+2009-06-30 06:25:01...No Errors were found *************
+2009-06-30 06:25:17...Begin DB Check Process *************
+2009-06-30 06:25:17...Basic form info is valid, continuing Process.
+2009-06-30 06:25:17...testing with mysql
+2009-06-30 06:25:17...MySQLI library detected
+2009-06-30 06:25:17...Connection made using  host: localhost, usr: root
+2009-06-30 06:25:17...Testing priviliged account...
+2009-06-30 06:25:17...Connection made for Privileged admin account using  host: localhost, usr: root
+2009-06-30 06:25:17...DB not selected, will create sugarcrm
+2009-06-30 06:25:17...Passed DB Version check, version is 5.1.33
+2009-06-30 06:25:17...SUCCESS:: no errors detected!
+2009-06-30 06:25:17...End DB Check Process *************
+2009-06-30 06:27:04...calling handleSugarConfig()
+2009-06-30 06:27:04...calling handleLog4Php()
+2009-06-30 06:27:04...calling handleHtaccess()
+2009-06-30 06:27:04...calling handleDbCreateDatabase()
+2009-06-30 06:27:05...looping through all the Beans and create their tables
+2009-06-30 06:27:05...processing table relationships
+2009-06-30 06:27:05...dropping table relationships
+2009-06-30 06:27:05...creating table relationships
+2009-06-30 06:27:05...creating Relationship Meta for Relationship
+2009-06-30 06:27:05...processing table acl_roles
+2009-06-30 06:27:05...dropping table acl_roles
+2009-06-30 06:27:05...creating table acl_roles
+2009-06-30 06:27:05...creating Relationship Meta for ACLRole
+2009-06-30 06:27:05...processing table acl_actions
+2009-06-30 06:27:05...dropping table acl_actions
+2009-06-30 06:27:05...creating table acl_actions
+2009-06-30 06:27:05...creating Relationship Meta for ACLAction
+2009-06-30 06:27:05...processing table leads
+2009-06-30 06:27:05...dropping table leads
+2009-06-30 06:27:05...creating table leads
+2009-06-30 06:27:05...creating Relationship Meta for Lead
+2009-06-30 06:27:05...processing table contacts
+2009-06-30 06:27:05...dropping table contacts
+2009-06-30 06:27:06...creating table contacts
+2009-06-30 06:27:06...creating Relationship Meta for Contact
+2009-06-30 06:27:06...processing table accounts
+2009-06-30 06:27:06...dropping table accounts
+2009-06-30 06:27:06...creating table accounts
+2009-06-30 06:27:06...creating Relationship Meta for Account
+2009-06-30 06:27:06...processing table opportunities
+2009-06-30 06:27:06...dropping table opportunities
+2009-06-30 06:27:06...creating table opportunities
+2009-06-30 06:27:06...creating Relationship Meta for Opportunity
+2009-06-30 06:27:06...processing table cases
+2009-06-30 06:27:06...dropping table cases
+2009-06-30 06:27:06...creating table cases
+2009-06-30 06:27:06...creating Relationship Meta for Case
+2009-06-30 06:27:06...processing table notes
+2009-06-30 06:27:06...dropping table notes
+2009-06-30 06:27:06...creating table notes
+2009-06-30 06:27:06...creating Relationship Meta for Note
+2009-06-30 06:27:06...processing table email_templates
+2009-06-30 06:27:06...dropping table email_templates
+2009-06-30 06:27:07...creating table email_templates
+2009-06-30 06:27:07...creating Relationship Meta for EmailTemplate
+2009-06-30 06:27:07...processing table emailman
+2009-06-30 06:27:07...dropping table emailman
+2009-06-30 06:27:07...creating table emailman
+2009-06-30 06:27:07...creating Relationship Meta for EmailMan
+2009-06-30 06:27:07...processing table calls
+2009-06-30 06:27:07...dropping table calls
+2009-06-30 06:27:07...creating table calls
+2009-06-30 06:27:07...creating Relationship Meta for Call
+2009-06-30 06:27:07...processing table emails
+2009-06-30 06:27:07...dropping table emails
+2009-06-30 06:27:07...creating table emails
+2009-06-30 06:27:07...creating Relationship Meta for Email
+2009-06-30 06:27:07...processing table meetings
+2009-06-30 06:27:07...dropping table meetings
+2009-06-30 06:27:07...creating table meetings
+2009-06-30 06:27:07...creating Relationship Meta for Meeting
+2009-06-30 06:27:07...processing table iframes
+2009-06-30 06:27:07...dropping table iframes
+2009-06-30 06:27:07...creating table iframes
+2009-06-30 06:27:07...creating Relationship Meta for iFrame
+2009-06-30 06:27:07...processing table tasks
+2009-06-30 06:27:07...dropping table tasks
+2009-06-30 06:27:07...creating table tasks
+2009-06-30 06:27:07...creating Relationship Meta for Task
+2009-06-30 06:27:07...processing table users
+2009-06-30 06:27:07...dropping table users
+2009-06-30 06:27:07...creating table users
+2009-06-30 06:27:07...creating Relationship Meta for User
+2009-06-30 06:27:07...processing table users
+2009-06-30 06:27:07...processing table currencies
+2009-06-30 06:27:07...dropping table currencies
+2009-06-30 06:27:07...creating table currencies
+2009-06-30 06:27:07...creating Relationship Meta for Currency
+2009-06-30 06:27:07...processing table tracker
+2009-06-30 06:27:07...dropping table tracker
+2009-06-30 06:27:07...creating table tracker
+2009-06-30 06:27:07...creating Relationship Meta for Tracker
+2009-06-30 06:27:07...processing table import_maps
+2009-06-30 06:27:08...dropping table import_maps
+2009-06-30 06:27:08...creating table import_maps
+2009-06-30 06:27:08...creating Relationship Meta for ImportMap
+2009-06-30 06:27:08...processing table users_last_import
+2009-06-30 06:27:08...dropping table users_last_import
+2009-06-30 06:27:08...creating table users_last_import
+2009-06-30 06:27:08...creating Relationship Meta for UsersLastImport
+2009-06-30 06:27:08...processing table config
+2009-06-30 06:27:08...dropping table config
+2009-06-30 06:27:08...creating table config
+2009-06-30 06:27:08...creating Relationship Meta for Administration
+2009-06-30 06:27:08...processing table upgrade_history
+2009-06-30 06:27:08...dropping table upgrade_history
+2009-06-30 06:27:08...creating table upgrade_history
+2009-06-30 06:27:08...creating Relationship Meta for UpgradeHistory
+2009-06-30 06:27:08...processing table vcals
+2009-06-30 06:27:08...dropping table vcals
+2009-06-30 06:27:08...creating table vcals
+2009-06-30 06:27:08...creating Relationship Meta for vCal
+2009-06-30 06:27:08...processing table bugs
+2009-06-30 06:27:08...dropping table bugs
+2009-06-30 06:27:08...creating table bugs
+2009-06-30 06:27:08...creating Relationship Meta for Bug
+2009-06-30 06:27:08...processing table versions
+2009-06-30 06:27:08...dropping table versions
+2009-06-30 06:27:08...creating table versions
+2009-06-30 06:27:08...creating Relationship Meta for Version
+2009-06-30 06:27:08...processing table releases
+2009-06-30 06:27:08...dropping table releases
+2009-06-30 06:27:08...creating table releases
+2009-06-30 06:27:08...creating Relationship Meta for Release
+2009-06-30 06:27:08...processing table feeds
+2009-06-30 06:27:08...dropping table feeds
+2009-06-30 06:27:09...creating table feeds
+2009-06-30 06:27:09...creating Relationship Meta for Feed
+2009-06-30 06:27:09...processing table project
+2009-06-30 06:27:09...dropping table project
+2009-06-30 06:27:09...creating table project
+2009-06-30 06:27:09...creating Relationship Meta for Project
+2009-06-30 06:27:09...processing table project_task
+2009-06-30 06:27:09...dropping table project_task
+2009-06-30 06:27:09...creating table project_task
+2009-06-30 06:27:09...creating Relationship Meta for ProjectTask
+2009-06-30 06:27:09...processing table roles
+2009-06-30 06:27:09...dropping table roles
+2009-06-30 06:27:09...creating table roles
+2009-06-30 06:27:09...creating Relationship Meta for Role
+2009-06-30 06:27:09...processing table email_marketing
+2009-06-30 06:27:09...dropping table email_marketing
+2009-06-30 06:27:09...creating table email_marketing
+2009-06-30 06:27:09...creating Relationship Meta for EmailMarketing
+2009-06-30 06:27:09...processing table campaigns
+2009-06-30 06:27:09...dropping table campaigns
+2009-06-30 06:27:09...creating table campaigns
+2009-06-30 06:27:09...creating Relationship Meta for Campaign
+2009-06-30 06:27:09...processing table prospect_lists
+2009-06-30 06:27:09...dropping table prospect_lists
+2009-06-30 06:27:09...creating table prospect_lists
+2009-06-30 06:27:09...creating Relationship Meta for ProspectList
+2009-06-30 06:27:10...processing table prospects
+2009-06-30 06:27:10...dropping table prospects
+2009-06-30 06:27:10...creating table prospects
+2009-06-30 06:27:10...creating Relationship Meta for Prospect
+2009-06-30 06:27:10...processing table documents
+2009-06-30 06:27:10...dropping table documents
+2009-06-30 06:27:10...creating table documents
+2009-06-30 06:27:10...creating Relationship Meta for Document
+2009-06-30 06:27:10...processing table document_revisions
+2009-06-30 06:27:10...dropping table document_revisions
+2009-06-30 06:27:10...creating table document_revisions
+2009-06-30 06:27:10...creating Relationship Meta for DocumentRevision
+2009-06-30 06:27:10...processing table fields_meta_data
+2009-06-30 06:27:10...dropping table fields_meta_data
+2009-06-30 06:27:10...creating table fields_meta_data
+2009-06-30 06:27:10...creating Relationship Meta for FieldsMetaData
+2009-06-30 06:27:10...processing table schedulers
+2009-06-30 06:27:10...dropping table schedulers
+2009-06-30 06:27:10...creating table schedulers
+2009-06-30 06:27:10...creating Relationship Meta for schedulers
+2009-06-30 06:27:10...processing table schedulers_times
+2009-06-30 06:27:10...dropping table schedulers_times
+2009-06-30 06:27:10...creating table schedulers_times
+2009-06-30 06:27:10...creating Relationship Meta for SchedulersJob
+2009-06-30 06:27:10...processing table inbound_email
+2009-06-30 06:27:10...dropping table inbound_email
+2009-06-30 06:27:10...creating table inbound_email
+2009-06-30 06:27:10...creating Relationship Meta for InboundEmail
+2009-06-30 06:27:10...processing table users
+2009-06-30 06:27:10...processing table campaign_log
+2009-06-30 06:27:10...dropping table campaign_log
+2009-06-30 06:27:10...creating table campaign_log
+2009-06-30 06:27:10...creating Relationship Meta for CampaignLog
+2009-06-30 06:27:10...processing table dashboards
+2009-06-30 06:27:10...dropping table dashboards
+2009-06-30 06:27:10...creating table dashboards
+2009-06-30 06:27:10...creating Relationship Meta for Dashboard
+2009-06-30 06:27:10...processing table campaign_trkrs
+2009-06-30 06:27:10...dropping table campaign_trkrs
+2009-06-30 06:27:10...creating table campaign_trkrs
+2009-06-30 06:27:10...creating Relationship Meta for CampaignTracker
+2009-06-30 06:27:11...processing table saved_search
+2009-06-30 06:27:11...dropping table saved_search
+2009-06-30 06:27:11...creating table saved_search
+2009-06-30 06:27:11...creating Relationship Meta for SavedSearch
+2009-06-30 06:27:11...processing table user_preferences
+2009-06-30 06:27:11...dropping table user_preferences
+2009-06-30 06:27:11...creating table user_preferences
+2009-06-30 06:27:11...creating Relationship Meta for UserPreference
+2009-06-30 06:27:11...processing table 
+2009-06-30 06:27:11...processing table email_addresses
+2009-06-30 06:27:11...dropping table email_addresses
+2009-06-30 06:27:11...creating table email_addresses
+2009-06-30 06:27:11...creating Relationship Meta for EmailAddress
+2009-06-30 06:27:11...processing table sugarfeed
+2009-06-30 06:27:11...dropping table sugarfeed
+2009-06-30 06:27:11...creating table sugarfeed
+2009-06-30 06:27:11...creating Relationship Meta for SugarFeed
+2009-06-30 06:27:14...Begin creating Defaults
+2009-06-30 06:27:14...insert defaults into config table
+2009-06-30 06:27:14...Creating default users
+2009-06-30 06:27:14...Creating default scheduler jobs
+2009-06-30 06:27:14...populating the db with seed data
+2009-06-30 06:27:14...Installation has completed *********

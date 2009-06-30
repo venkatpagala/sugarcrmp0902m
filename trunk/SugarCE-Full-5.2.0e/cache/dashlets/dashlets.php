@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:36:01
+// created: 2009-06-30 18:13:23
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -103,6 +103,76 @@ $dashletsFiles = array (
     'file' => 'modules/Home/Dashlets/JotPadDashlet/JotPadDashlet.php',
     'class' => 'JotPadDashlet',
     'meta' => 'modules/Home/Dashlets/JotPadDashlet/JotPadDashlet.meta.php',
+  ),
+  'HRM_BonusDashlet' => 
+  array (
+    'file' => 'modules/HRM_Bonus/Dashlets/HRM_BonusDashlet/HRM_BonusDashlet.php',
+    'class' => 'HRM_BonusDashlet',
+    'meta' => 'modules/HRM_Bonus/Dashlets/HRM_BonusDashlet/HRM_BonusDashlet.meta.php',
+    'module' => 'HRM_Bonus',
+  ),
+  'HRM_DiseaseDashlet' => 
+  array (
+    'file' => 'modules/HRM_Disease/Dashlets/HRM_DiseaseDashlet/HRM_DiseaseDashlet.php',
+    'class' => 'HRM_DiseaseDashlet',
+    'meta' => 'modules/HRM_Disease/Dashlets/HRM_DiseaseDashlet/HRM_DiseaseDashlet.meta.php',
+    'module' => 'HRM_Disease',
+  ),
+  'HRM_EmployeesDashlet' => 
+  array (
+    'file' => 'modules/HRM_Employees/Dashlets/HRM_EmployeesDashlet/HRM_EmployeesDashlet.php',
+    'class' => 'HRM_EmployeesDashlet',
+    'meta' => 'modules/HRM_Employees/Dashlets/HRM_EmployeesDashlet/HRM_EmployeesDashlet.meta.php',
+    'module' => 'HRM_Employees',
+  ),
+  'HRM_HolydaysDashlet' => 
+  array (
+    'file' => 'modules/HRM_Holydays/Dashlets/HRM_HolydaysDashlet/HRM_HolydaysDashlet.php',
+    'class' => 'HRM_HolydaysDashlet',
+    'meta' => 'modules/HRM_Holydays/Dashlets/HRM_HolydaysDashlet/HRM_HolydaysDashlet.meta.php',
+    'module' => 'HRM_Holydays',
+  ),
+  'HRM_HR_ReportDashlet' => 
+  array (
+    'file' => 'modules/HRM_HR_Report/Dashlets/HRM_HR_ReportDashlet/HRM_HR_ReportDashlet.php',
+    'class' => 'HRM_HR_ReportDashlet',
+    'meta' => 'modules/HRM_HR_Report/Dashlets/HRM_HR_ReportDashlet/HRM_HR_ReportDashlet.meta.php',
+    'module' => 'HRM_HR_Report',
+  ),
+  'HRM_IncomesDashlet' => 
+  array (
+    'file' => 'modules/HRM_Incomes/Dashlets/HRM_IncomesDashlet/HRM_IncomesDashlet.php',
+    'class' => 'HRM_IncomesDashlet',
+    'meta' => 'modules/HRM_Incomes/Dashlets/HRM_IncomesDashlet/HRM_IncomesDashlet.meta.php',
+    'module' => 'HRM_Incomes',
+  ),
+  'HRM_PaymentDashlet' => 
+  array (
+    'file' => 'modules/HRM_Payment/Dashlets/HRM_PaymentDashlet/HRM_PaymentDashlet.php',
+    'class' => 'HRM_PaymentDashlet',
+    'meta' => 'modules/HRM_Payment/Dashlets/HRM_PaymentDashlet/HRM_PaymentDashlet.meta.php',
+    'module' => 'HRM_Payment',
+  ),
+  'HRM_RTTDashlet' => 
+  array (
+    'file' => 'modules/HRM_RTT/Dashlets/HRM_RTTDashlet/HRM_RTTDashlet.php',
+    'class' => 'HRM_RTTDashlet',
+    'meta' => 'modules/HRM_RTT/Dashlets/HRM_RTTDashlet/HRM_RTTDashlet.meta.php',
+    'module' => 'HRM_RTT',
+  ),
+  'HRM_TicketrestoDashlet' => 
+  array (
+    'file' => 'modules/HRM_Ticketresto/Dashlets/HRM_TicketrestoDashlet/HRM_TicketrestoDashlet.php',
+    'class' => 'HRM_TicketrestoDashlet',
+    'meta' => 'modules/HRM_Ticketresto/Dashlets/HRM_TicketrestoDashlet/HRM_TicketrestoDashlet.meta.php',
+    'module' => 'HRM_Ticketresto',
+  ),
+  'HRM_TrainingDashlet' => 
+  array (
+    'file' => 'modules/HRM_Training/Dashlets/HRM_TrainingDashlet/HRM_TrainingDashlet.php',
+    'class' => 'HRM_TrainingDashlet',
+    'meta' => 'modules/HRM_Training/Dashlets/HRM_TrainingDashlet/HRM_TrainingDashlet.meta.php',
+    'module' => 'HRM_Training',
   ),
   'iFrameDashlet' => 
   array (

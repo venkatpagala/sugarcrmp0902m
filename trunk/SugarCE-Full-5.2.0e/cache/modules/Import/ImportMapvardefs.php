@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:22
+// created: 2009-06-30 18:12:47
 $GLOBALS["dictionary"]["ImportMap"] = array (
   'table' => 'import_maps',
   'comment' => 'Import mapping control table',

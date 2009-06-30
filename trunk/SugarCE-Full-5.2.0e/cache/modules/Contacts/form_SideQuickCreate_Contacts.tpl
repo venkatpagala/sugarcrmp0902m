@@ -114,8 +114,8 @@ num_grp_sep = ',';
 						 dec_sep = '.';
 addToValidate('form_SideQuickCreate_Contacts', 'id', 'id', false,'{/literal}{sugar_translate label='LBL_ID' module='Contacts'}{literal}' );
 addToValidate('form_SideQuickCreate_Contacts', 'name', 'name', false,'{/literal}{sugar_translate label='LBL_NAME' module='Contacts'}{literal}' );
-addToValidate('form_SideQuickCreate_Contacts', 'date_entered_date', 'date', false,'Date Created' );
-addToValidate('form_SideQuickCreate_Contacts', 'date_modified_date', 'date', false,'Date Modified' );
+addToValidate('form_SideQuickCreate_Contacts', 'date_entered_date', 'date', false,'Ngày tạo' );
+addToValidate('form_SideQuickCreate_Contacts', 'date_modified_date', 'date', false,'Ngày chỉnh sửa' );
 addToValidate('form_SideQuickCreate_Contacts', 'modified_user_id', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_MODIFIED_ID' module='Contacts'}{literal}' );
 addToValidate('form_SideQuickCreate_Contacts', 'modified_by_name', 'relate', false,'{/literal}{sugar_translate label='LBL_MODIFIED_NAME' module='Contacts'}{literal}' );
 addToValidate('form_SideQuickCreate_Contacts', 'created_by', 'assigned_user_name', false,'{/literal}{sugar_translate label='LBL_CREATED_ID' module='Contacts'}{literal}' );
@@ -177,4 +177,4 @@ addToValidate('form_SideQuickCreate_Contacts', 'accept_status_id', 'varchar', fa
 addToValidate('form_SideQuickCreate_Contacts', 'accept_status_name', 'enum', false,'{/literal}{sugar_translate label='LBL_LIST_ACCEPT_STATUS' module='Contacts'}{literal}' );
 addToValidate('form_SideQuickCreate_Contacts', 'sync_contact', 'bool', false,'{/literal}{sugar_translate label='LBL_SYNC_CONTACT' module='Contacts'}{literal}' );
 addToValidateBinaryDependency('form_SideQuickCreate_Contacts', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Contacts'}{literal}{/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Contacts'}{literal}', 'assigned_user_id' );
-</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['assigned_user_name']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>{/literal}
+</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['assigned_user_name']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Kh\u00f4ng h\u1ee3p"};</script>{/literal}

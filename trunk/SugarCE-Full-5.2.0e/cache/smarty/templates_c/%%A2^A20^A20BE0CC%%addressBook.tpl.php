@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-24 12:18:03
+<?php /* Smarty version 2.6.11, created on 2009-06-30 15:59:33
          compiled from modules/Emails/templates/addressBook.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'modules/Emails/templates/addressBook.tpl', 38, false),)), $this); ?>

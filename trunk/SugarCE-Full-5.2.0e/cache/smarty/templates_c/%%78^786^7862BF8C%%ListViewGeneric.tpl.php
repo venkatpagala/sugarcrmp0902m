@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 09:39:59
+<?php /* Smarty version 2.6.11, created on 2009-06-30 14:29:05
          compiled from include/ListView/ListViewGeneric.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'include/ListView/ListViewGeneric.tpl', 43, false),array('function', 'counter', 'include/ListView/ListViewGeneric.tpl', 57, false),array('function', 'sugar_translate', 'include/ListView/ListViewGeneric.tpl', 67, false),array('function', 'sugar_evalcolumn_old', 'include/ListView/ListViewGeneric.tpl', 117, false),array('function', 'sugar_currency_format', 'include/ListView/ListViewGeneric.tpl', 119, false),array('function', 'sugar_getimagepath', 'include/ListView/ListViewGeneric.tpl', 151, false),array('modifier', 'default', 'include/ListView/ListViewGeneric.tpl', 60, false),array('modifier', 'lower', 'include/ListView/ListViewGeneric.tpl', 63, false),array('modifier', 'upper', 'include/ListView/ListViewGeneric.tpl', 65, false),array('modifier', 'explode', 'include/ListView/ListViewGeneric.tpl', 135, false),)), $this); ?>

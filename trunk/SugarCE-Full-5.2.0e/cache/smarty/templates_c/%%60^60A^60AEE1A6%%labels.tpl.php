@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 11:20:05
+<?php /* Smarty version 2.6.11, created on 2009-06-30 14:30:25
          compiled from modules/ModuleBuilder/tpls/labels.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/ModuleBuilder/tpls/labels.tpl', 60, false),)), $this); ?>
