@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-12 10:34:19
+// created: 2009-06-30 18:22:06
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -98,7 +98,7 @@ $mod_strings = array (
   'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new contact by importing a vCard from your file system.',
   'LBL_INVALID_EMAIL' => 'Invalid Email:',
   'LBL_INVITEE' => 'Direct Reports',
-  'LBL_LEAD_SOURCE' => 'Lead Source:',
+  'LBL_LEAD_SOURCE' => 'Ngu:',
   'LBL_LIST_ACCEPT_STATUS' => 'Accept Status',
   'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
   'LBL_LIST_CONTACT_NAME' => 'Contact Name',
