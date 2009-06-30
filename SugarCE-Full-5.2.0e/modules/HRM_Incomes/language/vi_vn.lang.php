@@ -34,9 +34,9 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-  'LBL_LIST_ASSIGNED_USER' => 'User',
+  'LBL_ASSIGNED_TO_ID' => 'Id người dùng chỉ định',
+  'LBL_ASSIGNED_TO_NAME' => 'Chỉ định tới',
+  'LBL_LIST_ASSIGNED_USER' => 'Người dùng',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
