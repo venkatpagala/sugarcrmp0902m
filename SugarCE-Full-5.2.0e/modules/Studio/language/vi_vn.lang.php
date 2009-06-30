@@ -87,7 +87,7 @@ $mod_strings = array (
 'LBL_SW_RENAME_TABS'=>'Đổi tên Tab',
 'LBL_SW_EDIT_GROUPTABS'=>'Cấu hình nhóm Tabs',
 'LBL_SW_EDIT_PORTAL'=>'Chỉnh sửa cổng',
-'LBL_SW_EDIT_WORKFLOW'=>'Chỉnh sửa Workflow',
+'LBL_SW_EDIT_WORKFLOW'=>'Chỉnh sửa luồng công việc',
 'LBL_SW_REPAIR_CUSTOMFIELDS'=>'Sửa trường khách hàng',
 'LBL_SW_MIGRATE_CUSTOMFIELDS'=>'Di chuyển trường khách hàng',
 
