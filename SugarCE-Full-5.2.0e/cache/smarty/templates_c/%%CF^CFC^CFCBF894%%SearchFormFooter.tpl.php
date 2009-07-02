@@ -1,5 +1,5 @@
-<?php /* Smarty version 2.6.11, created on 2009-07-02 14:59:28
-         compiled from cache/modules/Accounts/SearchFormFooter.tpl */ ?>
+<?php /* Smarty version 2.6.11, created on 2009-07-02 14:53:18
+         compiled from cache/modules/Tasks/SearchFormFooter.tpl */ ?>
 
 <input tabindex='2' title='<?php echo $this->_tpl_vars['APP']['LBL_SEARCH_BUTTON_TITLE']; ?>
 ' accessKey='<?php echo $this->_tpl_vars['APP']['LBL_SEARCH_BUTTON_KEY']; ?>

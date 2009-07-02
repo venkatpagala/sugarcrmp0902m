@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-30 14:29:48
+<?php /* Smarty version 2.6.11, created on 2009-07-02 14:57:27
          compiled from cache/modules/Contacts/SearchFormFooter.tpl */ ?>
 
 <input tabindex='2' title='<?php echo $this->_tpl_vars['APP']['LBL_SEARCH_BUTTON_TITLE']; ?>

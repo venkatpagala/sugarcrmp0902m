@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2009-07-02 14:59:28
-         compiled from cache/modules/Accounts/SearchFormHeader.tpl */ ?>
+<?php /* Smarty version 2.6.11, created on 2009-07-02 14:53:18
+         compiled from cache/modules/Tasks/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Accounts/SearchFormHeader.tpl', 2, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Tasks/SearchFormHeader.tpl', 2, false),)), $this); ?>
 
 <script type="text/javascript" src="<?php echo smarty_function_sugar_getjspath(array('file' => 'include/javascript/popup_parent_helper.js'), $this);?>
 "></script>

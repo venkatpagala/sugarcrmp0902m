@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2009-07-02 14:50:41
-         compiled from cache/modules/Calls/SearchForm_basic.tpl */ ?>
+<?php /* Smarty version 2.6.11, created on 2009-07-02 14:53:18
+         compiled from cache/modules/Tasks/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Calls/SearchForm_basic.tpl', 11, false),array('function', 'math', 'cache/modules/Calls/SearchForm_basic.tpl', 12, false),array('function', 'sugar_translate', 'cache/modules/Calls/SearchForm_basic.tpl', 21, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Tasks/SearchForm_basic.tpl', 11, false),array('function', 'math', 'cache/modules/Tasks/SearchForm_basic.tpl', 12, false),array('function', 'sugar_translate', 'cache/modules/Tasks/SearchForm_basic.tpl', 21, false),)), $this); ?>
 
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-top: 0px none; margin-bottom: 4px" class="tabForm">
@@ -21,7 +21,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	<?php endif; ?>
 	
 	<td class="dataLabel" nowrap="nowrap" width='10%' >
-			<?php echo smarty_function_sugar_translate(array('label' => 'LBL_SUBJECT','module' => 'Calls'), $this);?>
+			<?php echo smarty_function_sugar_translate(array('label' => 'LBL_SUBJECT','module' => 'Tasks'), $this);?>
 
 		</td>
 	<td class="dataField" nowrap="nowrap" width='30%'>
@@ -53,7 +53,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	
 	<td class="dataLabel" nowrap="nowrap" width='10%' >
 		
-		<?php echo smarty_function_sugar_translate(array('label' => 'LBL_CONTACT_NAME','module' => 'Calls'), $this);?>
+		<?php echo smarty_function_sugar_translate(array('label' => 'LBL_CONTACT_NAME','module' => 'Tasks'), $this);?>
 
     	</td>
 	<td class="dataField" nowrap="nowrap" width='30%'>
@@ -61,7 +61,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 <?php if (strlen ( $this->_tpl_vars['fields']['contact_name_basic']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['contact_name_basic']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['contact_name_basic']['value']);  endif; ?>  
 <input type='text' name='<?php echo $this->_tpl_vars['fields']['contact_name_basic']['name']; ?>
 ' id='<?php echo $this->_tpl_vars['fields']['contact_name_basic']['name']; ?>
-' size='30' maxlength='36' value='<?php echo $this->_tpl_vars['value']; ?>
+' size='30' maxlength='510' value='<?php echo $this->_tpl_vars['value']; ?>
 ' title='' tabindex='' > 
    	
 
@@ -85,7 +85,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	
 	<td class="dataLabel" nowrap="nowrap" width='10%' >
 		
-		<?php echo smarty_function_sugar_translate(array('label' => 'LBL_CURRENT_USER_FILTER','module' => 'Calls'), $this);?>
+		<?php echo smarty_function_sugar_translate(array('label' => 'LBL_CURRENT_USER_FILTER','module' => 'Tasks'), $this);?>
 
     	</td>
 	<td class="dataField" nowrap="nowrap" width='30%'>
