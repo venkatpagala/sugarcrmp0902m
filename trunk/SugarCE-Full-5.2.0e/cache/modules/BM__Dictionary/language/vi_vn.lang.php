@@ -1,5 +1,5 @@
 <?php
-// created: 2009-07-02 12:11:45
+// created: 2009-07-02 14:32:46
 $mod_strings = array (
   'LBL_WORD_ID' => 'word id',
   'LBL_LIST_FORM_TITLE' => 'Từ điển Danh sách',
@@ -20,5 +20,10 @@ $mod_strings = array (
   'LBL_WORD_COMMENTS' => 'word comments',
   'LBL_PANEL1' => 'Bảng mới 1',
   'LBL_PANEL2' => 'Bảng mới 2',
+  'VALUE' => 'Thay đổi lần cuối:',
+  'LBL_DESCRIPTION' => 'Nghĩa',
+  'LBL_NAME' => 'Từ',
+  'LBL_DATE_ENTERED' => 'Ngày tạo:',
+  'LBL_DATE_MODIFIED' => 'Thay đổi lần cuối:',
 );
 ?>
