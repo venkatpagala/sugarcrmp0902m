@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-30 18:12:50
+// created: 2009-07-02 12:11:50
 $GLOBALS["dictionary"]["HRM_RTT"] = array (
   'table' => 'hrm_rtt',
   'audited' => true,

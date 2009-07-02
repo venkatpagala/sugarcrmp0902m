@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 15:27:39
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:30:12
          compiled from modules/ModuleBuilder/tpls/MBModule/field.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/ModuleBuilder/tpls/MBModule/field.tpl', 81, false),array('function', 'sugar_help', 'modules/ModuleBuilder/tpls/MBModule/field.tpl', 82, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 11:24:35
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:30:03
          compiled from modules/ModuleBuilder/tpls/MBModule/fields.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'modules/ModuleBuilder/tpls/MBModule/fields.tpl', 50, false),)), $this); ?>

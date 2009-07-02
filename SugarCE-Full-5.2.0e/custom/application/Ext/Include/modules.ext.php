@@ -3,6 +3,13 @@
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['BM__Dictionary'] = 'BM__Dictionary';
+$beanFiles['BM__Dictionary'] = 'modules/BM__Dictionary/BM__Dictionary.php';
+$moduleList[] = 'BM__Dictionary';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['HRM_Bonus'] = 'HRM_Bonus';
 $beanFiles['HRM_Bonus'] = 'modules/HRM_Bonus/HRM_Bonus.php';
 $moduleList[] = 'HRM_Bonus';

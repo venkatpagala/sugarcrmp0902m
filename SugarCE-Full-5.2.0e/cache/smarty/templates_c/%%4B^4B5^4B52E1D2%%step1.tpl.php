@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 15:22:34
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:57:33
          compiled from modules/Import/tpls/step1.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'overlib_includes', 'modules/Import/tpls/step1.tpl', 41, false),array('function', 'sugar_help', 'modules/Import/tpls/step1.tpl', 65, false),)), $this); ?>

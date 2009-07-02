@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 12:24:30
+<?php /* Smarty version 2.6.11, created on 2009-07-02 12:21:13
          compiled from include/MySugar/tpls/addDashletsDialog.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'include/MySugar/tpls/addDashletsDialog.tpl', 40, false),array('function', 'counter', 'include/MySugar/tpls/addDashletsDialog.tpl', 67, false),array('function', 'sugar_getimagepath', 'include/MySugar/tpls/addDashletsDialog.tpl', 84, false),)), $this); ?>

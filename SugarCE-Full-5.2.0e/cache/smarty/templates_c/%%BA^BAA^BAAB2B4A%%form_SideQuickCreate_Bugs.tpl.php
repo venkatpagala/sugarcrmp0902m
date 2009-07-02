@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-30 15:40:31
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:28:53
          compiled from cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl', 28, false),array('function', 'counter', 'cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl', 33, false),array('function', 'sugar_translate', 'cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl', 37, false),array('function', 'html_options', 'cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl', 57, false),array('modifier', 'default', 'cache/modules/Bugs/form_SideQuickCreate_Bugs.tpl', 34, false),)), $this); ?>
