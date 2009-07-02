@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-24 16:09:33
+<?php /* Smarty version 2.6.11, created on 2009-07-02 12:11:08
          compiled from modules/Home/TrainingPortal.tpl */ ?>
 
 

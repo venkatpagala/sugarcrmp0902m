@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 15:27:39
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:30:12
          compiled from modules/DynamicFields/templates/Fields/Forms/varchar.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'default', 'modules/DynamicFields/templates/Fields/Forms/varchar.tpl', 48, false),)), $this); ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-30 18:13:23
+// created: 2009-07-02 12:20:11
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -7,6 +7,13 @@ $dashletsFiles = array (
     'class' => 'MyAccountsDashlet',
     'meta' => 'modules/Accounts/Dashlets/MyAccountsDashlet/MyAccountsDashlet.meta.php',
     'module' => 'Accounts',
+  ),
+  'BM__DictionaryDashlet' => 
+  array (
+    'file' => 'modules/BM__Dictionary/Dashlets/BM__DictionaryDashlet/BM__DictionaryDashlet.php',
+    'class' => 'BM__DictionaryDashlet',
+    'meta' => 'modules/BM__Dictionary/Dashlets/BM__DictionaryDashlet/BM__DictionaryDashlet.meta.php',
+    'module' => 'BM__Dictionary',
   ),
   'MyBugsDashlet' => 
   array (

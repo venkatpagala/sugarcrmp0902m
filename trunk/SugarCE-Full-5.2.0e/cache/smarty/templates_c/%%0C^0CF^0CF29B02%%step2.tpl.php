@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 15:24:27
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:57:39
          compiled from modules/Import/tpls/step2.tpl */ ?>
 <p>
 <?php echo $this->_tpl_vars['MODULE_TITLE']; ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2009-06-30 14:38:04
+// created: 2009-07-02 10:22:25
 $mod_strings = array (
   'db_last_name' => 'LBL_LIST_LAST_NAME',
   'db_first_name' => 'LBL_LIST_FIRST_NAME',
@@ -46,11 +46,11 @@ $mod_strings = array (
   'LBL_CREATED_OPPORTUNITY' => 'Tạo một cơ hội mới',
   'LBL_DATE_MODIFIED' => 'Ngày chỉnh sửa:',
   'LBL_DEFAULT_SUBPANEL_TITLE' => 'Liên hệ',
-  'LBL_DEPARTMENT' => 'Department:',
+  'LBL_DEPARTMENT' => 'Ngành nghề:',
   'LBL_DESCRIPTION_INFORMATION' => 'Thông tin mô tả',
   'LBL_DESCRIPTION' => 'Mô tả:',
   'LBL_DIRECT_REPORTS_SUBPANEL_TITLE' => 'Báo cáo trực tiếp',
-  'LBL_DO_NOT_CALL' => 'Do Not Call:',
+  'LBL_DO_NOT_CALL' => 'Không gọi:',
   'LBL_DUPLICATE' => 'Các liên hệ có thể trùng lặp',
   'LBL_EMAIL_ADDRESS' => 'Email:',
   'LBL_EMAIL_OPT_OUT' => 'Email Opt Out:',
@@ -70,8 +70,8 @@ $mod_strings = array (
   'LBL_INVALID_EMAIL' => 'Email không xác định:',
   'LBL_INVITEE' => 'Báo cáo trực tiếp',
   'LBL_LAST_NAME' => 'Họ:',
-  'LBL_LEAD_SOURCE' => 'Ngu:',
-  'LBL_LIST_ACCEPT_STATUS' => 'Accept Status',
+  'LBL_LEAD_SOURCE' => 'Nguồn tiềm năng:',
+  'LBL_LIST_ACCEPT_STATUS' => 'Trạng thái chấp nhận',
   'LBL_LIST_ACCOUNT_NAME' => 'Tên tài khoản',
   'LBL_LIST_CONTACT_NAME' => 'Tên liên hệ',
   'LBL_LIST_CONTACT_ROLE' => 'Vai trò',
@@ -118,7 +118,7 @@ $mod_strings = array (
   'LBL_REPORTS_TO_ID' => 'Báo cáo tới ID:',
   'LBL_REPORTS_TO' => 'Báo cáo tới:',
   'LBL_RESOURCE_NAME' => 'Tên nguồn',
-  'LBL_SALUTATION' => 'Salutation:',
+  'LBL_SALUTATION' => 'Xưng hô:',
   'LBL_SAVE_CONTACT' => 'Lưu Liên hệ',
   'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm Liên hệ',
   'LBL_SELECT_CHECKED_BUTTON_LABEL' => 'Lựa chọn các liên hệ đã đánh dấu',

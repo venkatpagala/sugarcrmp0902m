@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 11:25:48
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:40:22
          compiled from modules/ModuleBuilder/tpls/listView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'modules/ModuleBuilder/tpls/listView.tpl', 63, false),array('function', 'math', 'modules/ModuleBuilder/tpls/listView.tpl', 67, false),array('function', 'sugar_translate', 'modules/ModuleBuilder/tpls/listView.tpl', 83, false),)), $this); ?>

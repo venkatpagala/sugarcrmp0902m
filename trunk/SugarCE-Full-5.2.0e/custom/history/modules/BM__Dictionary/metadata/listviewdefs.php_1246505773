@@ -1,0 +1,30 @@
+<?php
+$module_name = 'BM__Dictionary';
+$listViewDefs [$module_name] = 
+array (
+  'WORD_ID' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_WORD_ID',
+    'default' => true,
+  ),
+  'WORD_TITLE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_WORD_TITLE',
+    'default' => true,
+  ),
+  'DATE_CREATE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DATE_CREATE',
+    'default' => true,
+  ),
+  'CREATED_BY_NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_CREATED',
+    'default' => true,
+  ),
+);
+?>

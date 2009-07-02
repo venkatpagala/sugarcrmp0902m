@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 15:27:39
+<?php /* Smarty version 2.6.11, created on 2009-07-02 10:30:12
          compiled from modules/DynamicFields/templates/Fields/Forms/coreBottom.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/DynamicFields/templates/Fields/Forms/coreBottom.tpl', 60, false),array('function', 'sugar_help', 'modules/DynamicFields/templates/Fields/Forms/coreBottom.tpl', 61, false),)), $this); ?>
