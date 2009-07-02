@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-25 11:30:10
+<?php /* Smarty version 2.6.11, created on 2009-07-01 10:27:08
          compiled from modules/ModuleBuilder/tpls/MBModule/dropdowns.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'modules/ModuleBuilder/tpls/MBModule/dropdowns.tpl', 49, false),)), $this); ?>
