@@ -39,7 +39,7 @@ $mod_strings = array(
 'help'=>
 array(
 	'package'=>array(
-			'create'=>'Cung cấp một <b> tên </ b> cho các gói phần mềm. Tên bạn nhập vào phải được alphanumeric và không chứa các khoảng trắng. (Ví dụ: HR_Management)<br/>
+			'create'=>'Cung cấp một <b> tên </ b> cho các gói phần mềm. Tên bạn nhập vào phải là các ch và không chứa các khoảng trắng. (Ví dụ: HR_Management)<br/>
 <br/>
 Bạn có thể cung cấp<b>Tác giả</b> và <b>mô tả</b> thông tin cho gói. <br/>
 <br/>
