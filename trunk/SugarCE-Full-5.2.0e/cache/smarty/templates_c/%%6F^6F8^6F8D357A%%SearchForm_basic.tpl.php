@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-30 14:48:49
+<?php /* Smarty version 2.6.11, created on 2009-07-02 17:01:24
          compiled from cache/modules/Opportunities/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Opportunities/SearchForm_basic.tpl', 11, false),array('function', 'math', 'cache/modules/Opportunities/SearchForm_basic.tpl', 12, false),array('function', 'sugar_translate', 'cache/modules/Opportunities/SearchForm_basic.tpl', 21, false),array('function', 'html_options', 'cache/modules/Opportunities/SearchForm_basic.tpl', 57, false),)), $this); ?>

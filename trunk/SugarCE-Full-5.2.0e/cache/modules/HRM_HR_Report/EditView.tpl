@@ -36,44 +36,44 @@
 {counter name="panelFieldCount" start=0 print=false assign="panelFieldCount"}
 <table width="100%" border="0" cellspacing="1" cellpadding="0"  class="{$def.templateMeta.panelClass|default:tabForm}">
 <tr>
-<td valign="top" id='_label' width='12.5%' class="dataLabel">
+<td valign="top" id='created_by_name_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_CREATED' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
 </td>
-<td valign="top" width='37.5%' class='tabEditViewDF' colspan='3' NOWRAP>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+<input type="text" name="{$fields.created_by_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.created_by_name.name}" size="" value="{$fields.created_by_name.value}" title='' autocomplete="off"  >
+<input type="hidden" name="{$fields.created_by_name.id_name}" id="{$fields.created_by_name.id_name}" value="{$fields.created_by.value}">
+<input type="button" name="btn_{$fields.created_by_name.name}" tabindex="0" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button" value="{$APP.LBL_SELECT_BUTTON_LABEL}" onclick='open_popup("{$fields.created_by_name.module}", 600, 400, "", true, false, {literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"created_by","user_name":"created_by_name"}}{/literal}, "single", true);'>
+<input type="button" name="btn_clr_{$fields.created_by_name.name}" tabindex="0" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button" onclick="this.form.{$fields.created_by_name.name}.value = ''; this.form.{$fields.created_by_name.id_name}.value = '';" value="{$APP.LBL_CLEAR_BUTTON_LABEL}">
+<td valign="top" id='assigned_user_name_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_ASSIGNED_TO_NAME' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+<input type="text" name="{$fields.assigned_user_name.name}" class="sqsEnabled" tabindex="1" id="{$fields.assigned_user_name.name}" size="" value="{$fields.assigned_user_name.value}" title='' autocomplete="off"  >
+<input type="hidden" name="{$fields.assigned_user_name.id_name}" id="{$fields.assigned_user_name.id_name}" value="{$fields.assigned_user_id.value}">
+<input type="button" name="btn_{$fields.assigned_user_name.name}" tabindex="1" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button" value="{$APP.LBL_SELECT_BUTTON_LABEL}" onclick='open_popup("{$fields.assigned_user_name.module}", 600, 400, "", true, false, {literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"assigned_user_id","user_name":"assigned_user_name"}}{/literal}, "single", true);'>
+<input type="button" name="btn_clr_{$fields.assigned_user_name.name}" tabindex="1" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button" onclick="this.form.{$fields.assigned_user_name.name}.value = ''; this.form.{$fields.assigned_user_name.id_name}.value = '';" value="{$APP.LBL_CLEAR_BUTTON_LABEL}">
 </tr>
 <tr>
-<td valign="top" id='rep_mois_label' width='12.5%' class="dataLabel">
+<td valign="top" id='date_entered_label' width='12.5%' class="dataLabel">
 {capture name="label" assign="label}
-{sugar_translate label='LBL_REP_MOIS' module='HRM_HR_Report'}
+{sugar_translate label='LBL_DATE_ENTERED' module='HRM_HR_Report'}
 {/capture}
 {$label|strip_semicolon}:
-<span class="required">*</span>
 </td>
-<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+<td valign="top" width='37.5%' class='tabEditViewDF' colspan='3' NOWRAP>
 {counter name="panelFieldCount"}
 
-<select name="{$fields.rep_mois.name}" id="{$fields.rep_mois.name}" title='' tabindex="0"  >
-{if isset($fields.rep_mois.value) && $fields.rep_mois.value != ''}
-{html_options options=$fields.rep_mois.options selected=$fields.rep_mois.value}
-{else}
-{html_options options=$fields.rep_mois.options selected=$fields.rep_mois.default}
-{/if}
-</select>
-<td valign="top" id='rep_year_label' width='12.5%' class="dataLabel">
-{capture name="label" assign="label}
-{sugar_translate label='LBL_REP_YEAR' module='HRM_HR_Report'}
-{/capture}
-{$label|strip_semicolon}:
-<span class="required">*</span>
-</td>
-<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
-{counter name="panelFieldCount"}
-
-{if strlen($fields.rep_year.value) <= 0}
-{assign var="value" value=$fields.rep_year.default_value }
-{else}
-{assign var="value" value=$fields.rep_year.value }
-{/if}  
-<input type='text' name='{$fields.rep_year.name}' id='{$fields.rep_year.name}' size='30' maxlength='11' value='{$value}' title='' tabindex='1' > 
+{$fields.date_entered.value}
 </tr>
 <tr>
 <td valign="top" id='name_label' width='12.5%' class="dataLabel">
@@ -107,6 +107,70 @@
 {assign var="value" value=$fields.description.value }
 {/if}  
 <textarea id="{$fields.description.name}" name="{$fields.description.name}" rows="4" cols="60" title='' tabindex="1">{$value}</textarea>
+</tr>
+<tr>
+<td valign="top" id='hrr_income_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_HRR_INCOME' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+{if strlen($fields.hrr_income.value) <= 0}
+{assign var="value" value=$fields.hrr_income.default_value }
+{else}
+{assign var="value" value=$fields.hrr_income.value }
+{/if}  
+<input type='text' name='{$fields.hrr_income.name}' id='{$fields.hrr_income.name}' size='30'  value='{$value}' title='' tabindex='0' > 
+<td valign="top" id='hrr_inc_year_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_HRR_INC_YEAR' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+{if strlen($fields.hrr_inc_year.value) <= 0}
+{assign var="value" value=$fields.hrr_inc_year.default_value }
+{else}
+{assign var="value" value=$fields.hrr_inc_year.value }
+{/if}  
+<input type='text' name='{$fields.hrr_inc_year.name}' id='{$fields.hrr_inc_year.name}' size='30'  value='{$value}' title='' tabindex='1' > 
+</tr>
+<tr>
+<td valign="top" id='hrr_soc_year_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_HRR_SOC_YEAR' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+{if strlen($fields.hrr_soc_year.value) <= 0}
+{assign var="value" value=$fields.hrr_soc_year.default_value }
+{else}
+{assign var="value" value=$fields.hrr_soc_year.value }
+{/if}  
+<input type='text' name='{$fields.hrr_soc_year.name}' id='{$fields.hrr_soc_year.name}' size='30'  value='{$value}' title='' tabindex='0' > 
+<td valign="top" id='hrr_inc_tot_label' width='12.5%' class="dataLabel">
+{capture name="label" assign="label}
+{sugar_translate label='LBL_HRR_INC_TOT' module='HRM_HR_Report'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' class='tabEditViewDF'  NOWRAP>
+{counter name="panelFieldCount"}
+
+{if strlen($fields.hrr_inc_tot.value) <= 0}
+{assign var="value" value=$fields.hrr_inc_tot.default_value }
+{else}
+{assign var="value" value=$fields.hrr_inc_tot.value }
+{/if}  
+<input type='text' name='{$fields.hrr_inc_tot.name}' id='{$fields.hrr_inc_tot.name}' size='30'  value='{$value}' title='' tabindex='1' > 
 </tr>
 </table>
 </div>
@@ -145,4 +209,5 @@ addToValidate('EditView', 'hrr_inc_year', 'code', false,'{/literal}{sugar_transl
 addToValidate('EditView', 'hrr_soc_year', 'code', false,'{/literal}{sugar_translate label='LBL_HRR_SOC_YEAR' module='HRM_HR_Report'}{literal}' );
 addToValidate('EditView', 'hrr_inc_tot', 'code', false,'{/literal}{sugar_translate label='LBL_HRR_INC_TOT' module='HRM_HR_Report'}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='HRM_HR_Report'}{literal}{/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='HRM_HR_Report'}{literal}', 'assigned_user_id' );
-</script>{/literal}
+addToValidateBinaryDependency('EditView', 'created_by_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='HRM_HR_Report'}{literal}{/literal}{sugar_translate label='LBL_CREATED' module='HRM_HR_Report'}{literal}', 'created_by' );
+</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['created_by_name']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Kh\u00f4ng h\u1ee3p"};sqs_objects['assigned_user_name']={"method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"Kh\u00f4ng h\u1ee3p"};</script>{/literal}
