@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 14:37:20
+<?php /* Smarty version 2.6.11, created on 2009-07-01 10:21:28
          compiled from cache/modules/Contacts/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Contacts/EditView.tpl', 36, false),array('function', 'counter', 'cache/modules/Contacts/EditView.tpl', 41, false),array('function', 'sugar_translate', 'cache/modules/Contacts/EditView.tpl', 44, false),array('function', 'html_options', 'cache/modules/Contacts/EditView.tpl', 55, false),array('modifier', 'default', 'cache/modules/Contacts/EditView.tpl', 42, false),array('modifier', 'strip_semicolon', 'cache/modules/Contacts/EditView.tpl', 51, false),)), $this); ?>

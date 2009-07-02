@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2009-06-23 14:37:47
+<?php /* Smarty version 2.6.11, created on 2009-07-01 10:21:35
          compiled from include/SugarEmailAddress/templates/forWideFormBodyView.tpl */ ?>
 <tr>
     <td class="dataLabel"><?php echo $this->_tpl_vars['app_strings']['LBL_EMAIL_ADDRESSES']; ?>
